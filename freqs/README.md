@@ -8,7 +8,7 @@ Each file `freqs-N.tsv` contains columns:
 1. Token code, as in `words.tsv`,
 2. N-gram order,
 3. Token,
-4. Frequency of the N-gram consisting of the current token and the previous N-1 `word` tokens,
-5. Frequency of the (N-1)-gram consisting of the previous N-1 `word` tokens.
+4. Frequency of the N-gram consisting of the current token and the previous N-1 `word` tokens up to the nearest sentence boundary,
+5. Frequency of the (N-1)-gram consisting of the previous N-1 `word` tokens up to the nearest sentence boundary.
 
 The MLE estimate of the conditional N-gram probability of a token in its context can be found by dividing column 4 by column 5.
