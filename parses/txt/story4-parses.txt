@@ -1,0 +1,2455 @@
+egibson-2:stanford-parser-2010-11-30 egibson$ ./lexparser-more-mem.csh ../stories_jan26_2011_final/Story4_finalized.txt
+Loading parser from serialized file ./englishPCFG.ser.gz ... done [2.3 sec].
+../stories_jan26_2011_final/Story4_finalized.txt
+Parsing file: ../stories_jan26_2011_final/Story4_finalized.txt with 56 sentences.
+Parsing [sent. 1 len. 29]: [Once, upon, a, time, the, birds, took, it, into, their, heads, that, they, would, like, a, master, ,, and, that, one, of, their, number, must, be, chosen, king, .]
+(ROOT
+  (S
+    (ADVP (RB Once)
+      (PP (IN upon)
+        (NP (DT a) (NN time))))
+    (NP (DT the) (NNS birds))
+    (VP (VBD took)
+      (NP (PRP it))
+      (PP (IN into)
+        (NP (PRP$ their) (NNS heads)))
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (MD would)
+              (VP (VB like)
+                (NP (DT a) (NN master))))))
+        (, ,)
+        (CC and)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP (PRP$ their) (NN number))))
+            (VP (MD must)
+              (VP (VB be)
+                (VP (VBN chosen)
+                  (NP (NN king)))))))))
+    (. .)))
+
+advmod(took-7, Once-1)
+det(time-4, a-3)
+prep_upon(Once-1, time-4)
+det(birds-6, the-5)
+nsubj(took-7, birds-6)
+dobj(took-7, it-8)
+poss(heads-11, their-10)
+prep_into(took-7, heads-11)
+complm(like-15, that-12)
+nsubj(like-15, they-13)
+aux(like-15, would-14)
+ccomp(took-7, like-15)
+det(master-17, a-16)
+dobj(like-15, master-17)
+complm(chosen-27, that-20)
+nsubjpass(chosen-27, one-21)
+poss(number-24, their-23)
+prep_of(one-21, number-24)
+aux(chosen-27, must-25)
+auxpass(chosen-27, be-26)
+ccomp(took-7, chosen-27)
+conj_and(like-15, chosen-27)
+dobj(chosen-27, king-28)
+
+Parsing [sent. 2 len. 36]: [A, meeting, of, all, the, birds, was, called, and, though, they, understood, the, birds, who, were, from, the, most, distant, lands, would, be, unable, to, come, ,, many, birds, came, from, faraway, meadows, and, woods, .]
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT A) (NN meeting))
+        (PP (IN of)
+          (NP (PDT all) (DT the) (NNS birds))))
+      (VP (VBD was)
+        (VP (VBN called))))
+    (CC and)
+    (S
+      (SBAR (IN though)
+        (S
+          (NP (PRP they))
+          (VP (VBD understood)
+            (SBAR
+              (S
+                (NP
+                  (NP (DT the) (NNS birds))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBD were)
+                        (PP (IN from)
+                          (NP (DT the) (JJS most) (JJ distant) (NNS lands)))))))
+                (VP (MD would)
+                  (VP (VB be)
+                    (ADJP (JJ unable)
+                      (S
+                        (VP (TO to)
+                          (VP (VB come))))))))))))
+      (, ,)
+      (NP (JJ many) (NNS birds))
+      (VP (VBD came)
+        (PP (IN from)
+          (NP (JJ faraway) (NNS meadows)
+            (CC and)
+            (NNS woods)))))
+    (. .)))
+
+det(meeting-2, A-1)
+nsubjpass(called-8, meeting-2)
+predet(birds-6, all-4)
+det(birds-6, the-5)
+prep_of(meeting-2, birds-6)
+auxpass(called-8, was-7)
+mark(understood-12, though-10)
+nsubj(understood-12, they-11)
+advcl(came-30, understood-12)
+det(birds-14, the-13)
+nsubj(were-16, birds-14)
+nsubj(unable-24, birds-14)
+rcmod(birds-14, were-16)
+det(lands-21, the-18)
+amod(lands-21, most-19)
+amod(lands-21, distant-20)
+prep_from(were-16, lands-21)
+aux(unable-24, would-22)
+cop(unable-24, be-23)
+ccomp(understood-12, unable-24)
+aux(come-26, to-25)
+xcomp(unable-24, come-26)
+amod(birds-29, many-28)
+nsubj(came-30, birds-29)
+conj_and(called-8, came-30)
+amod(meadows-33, faraway-32)
+prep_from(came-30, meadows-33)
+prep_from(came-30, woods-35)
+conj_and(meadows-33, woods-35)
+
+Parsing [sent. 3 len. 16]: [The, eagle, ,, who, already, thought, himself, the, de, facto, king, ,, arrived, fashionably, late, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN eagle))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (ADVP (RB already))
+          (VP (VBD thought)
+            (S
+              (NP (PRP himself))
+              (NP (DT the)
+                (ADJP (FW de) (FW facto))
+                (NN king))))))
+      (, ,))
+    (VP (VBD arrived)
+      (ADJP (RB fashionably) (JJ late)))
+    (. .)))
+
+det(eagle-2, The-1)
+nsubj(thought-6, eagle-2)
+nsubj(arrived-13, eagle-2)
+advmod(thought-6, already-5)
+rcmod(eagle-2, thought-6)
+nsubj(king-11, himself-7)
+det(king-11, the-8)
+nn(facto-10, de-9)
+amod(king-11, facto-10)
+xcomp(thought-6, king-11)
+advmod(late-15, fashionably-14)
+acomp(arrived-13, late-15)
+
+Parsing [sent. 4 len. 21]: [It, was, a, hawk, who, was, most, excited, about, the, meeting, ,, because, he, was, the, dark, horse, for, king, .]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (NN hawk))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD was)
+              (ADJP (RBS most) (JJ excited)
+                (PP (IN about)
+                  (NP (DT the) (NN meeting))))
+              (, ,)
+              (SBAR (IN because)
+                (S
+                  (NP (PRP he))
+                  (VP (VBD was)
+                    (NP
+                      (NP (DT the) (JJ dark) (NN horse))
+                      (PP (IN for)
+                        (NP (NN king))))))))))))
+    (. .)))
+
+nsubj(hawk-4, It-1)
+cop(hawk-4, was-2)
+det(hawk-4, a-3)
+nsubj(excited-8, hawk-4)
+cop(excited-8, was-6)
+advmod(excited-8, most-7)
+rcmod(hawk-4, excited-8)
+det(meeting-11, the-10)
+prep_about(excited-8, meeting-11)
+mark(horse-18, because-13)
+nsubj(horse-18, he-14)
+cop(horse-18, was-15)
+det(horse-18, the-16)
+amod(horse-18, dark-17)
+advcl(excited-8, horse-18)
+prep_for(horse-18, king-20)
+
+Parsing [sent. 5 len. 42]: [The, small, fry, came, too, ,, and, the, robin, ,, the, bluebird, ,, the, owl, ,, the, lark, ,, and, the, sparrow, ,, who, had, only, a, chance, in, a, million, to, be, king, ,, were, all, present, at, the, meeting, .]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJ small) (NN fry))
+      (VP (VBD came)
+        (ADVP (RB too))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP
+          (NP (DT the) (NN robin))
+          (, ,)
+          (NP (DT the) (NN bluebird))
+          (, ,)
+          (NP (DT the) (NN owl))
+          (, ,)
+          (NP (DT the) (NN lark))
+          (, ,)
+          (CC and)
+          (NP (DT the) (NN sparrow)))
+        (, ,)
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD had)
+             (ADVP (RB only))
+             (NP
+                (NP (DT a) (NN chance))
+                (PP (IN in)
+                  (NP
+                    (QP (DT a) (CD million))))
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (NP (NN king))))))))
+        (, ,)))
+      (VP (VBD were) (RB all)
+        (ADJP (JJ present)
+          (PP (IN at)
+            (NP (DT the) (NN meeting))))))
+    (. .)))
+
+det(fry-3, The-1)
+amod(fry-3, small-2)
+nsubj(came-4, fry-3)
+advmod(came-4, too-5)
+det(robin-9, the-8)
+nsubj(had-25, robin-9)
+nsubj(present-38, robin-9)
+det(bluebird-12, the-11)
+conj_and(robin-9, bluebird-12)
+nsubj(had-25, bluebird-12)
+nsubj(present-38, bluebird-12)
+det(owl-15, the-14)
+conj_and(robin-9, owl-15)
+nsubj(had-25, owl-15)
+nsubj(present-38, owl-15)
+det(lark-18, the-17)
+conj_and(robin-9, lark-18)
+nsubj(had-25, lark-18)
+nsubj(present-38, lark-18)
+det(sparrow-22, the-21)
+conj_and(robin-9, sparrow-22)
+nsubj(had-25, sparrow-22)
+nsubj(present-38, sparrow-22)
+rcmod(robin-9, had-25)
+advmod(had-25, only-26)
+det(chance-28, a-27)
+dobj(had-26, chance-28)
+quantmod(million-31, a-30)
+prep_in(chance-28, million-31)
+aux(king-34, to-32)
+cop(king-34, be-33)
+xcomp(chance-28, king-34)
+cop(present-38, were-36)
+advmod(present-38, all-37)
+conj_and(came-4, present-38)
+det(meeting-41, the-40)
+prep_at(present-38, meeting-41)
+
+Parsing [sent. 6 len. 20]: [The, cuckoo, ,, who, was, almost, not, invited, because, his, call, so, annoyed, the, other, birds, ,, came, too, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN cuckoo))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD was)
+            (ADVP (RB almost) (RB not))
+            (VP (VBN invited)
+              (SBAR (IN because)
+                (S
+                  (NP (PRP$ his) (NN call))
+                  (ADVP (RB so))
+                  (VP (VBD annoyed)
+                    (NP (DT the) (JJ other) (NNS birds)))))))))
+      (, ,))
+    (VP (VBD came)
+      (ADVP (RB too)))
+    (. .)))
+
+det(cuckoo-2, The-1)
+nsubjpass(invited-8, cuckoo-2)
+nsubj(came-18, cuckoo-2)
+auxpass(invited-8, was-5)
+advmod(not-7, almost-6)
+neg(invited-8, not-7)
+rcmod(cuckoo-2, invited-8)
+mark(annoyed-13, because-9)
+poss(call-11, his-10)
+nsubj(annoyed-13, call-11)
+advmod(annoyed-13, so-12)
+advcl(invited-8, annoyed-13)
+det(birds-16, the-14)
+amod(birds-16, other-15)
+dobj(annoyed-13, birds-16)
+advmod(came-18, too-19)
+
+Parsing [sent. 7 len. 28]: [It, was, the, very, little, bird, who, had, no, name, at, all, ,, however, ,, that, would, end, up, overturning, the, balance, of, power, among, the, birds, .]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (DT the)
+          (ADJP (RB very) (JJ little))
+          (NN bird))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD had)
+              (NP (DT no) (NN name))
+              (ADVP (IN at) (DT all))
+              (, ,)
+              (ADVP (RB however)))))
+        (, ,)
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (MD would)
+              (VP (VB end)
+                (PRT (RP up))
+                (S
+                  (VP (VBG overturning)
+                    (NP
+                      (NP (DT the) (NN balance))
+                      (PP (IN of)
+                        (NP (NN power))))
+                    (PP (IN among)
+                      (NP (DT the) (NNS birds)))))))))))
+    (. .)))
+
+nsubj(bird-6, It-1)
+cop(bird-6, was-2)
+det(bird-6, the-3)
+advmod(little-5, very-4)
+amod(bird-6, little-5)
+nsubj(had-8, bird-6)
+rcmod(bird-6, had-8)
+det(name-10, no-9)
+dobj(had-8, name-10)
+advmod(had-8, at-11)
+pobj(at-11, all-12)
+advmod(was-2, however-14)
+nsubj(end-18, bird-6)
+aux(end-18, would-17)
+rcmod(bird-6, end-18)
+prt(end-18, up-19)
+xcomp(end-18, overturning-20)
+det(balance-22, the-21)
+dobj(overturning-20, balance-22)
+prep_of(balance-22, power-24)
+det(birds-27, the-26)
+prep_among(overturning-20, birds-27)
+
+Parsing [sent. 8 len. 29]: [That, there, would, be, great, confusion, and, noise, among, the, birds, at, the, meeting, was, to, be, expected, ,, given, the, sheer, numbers, of, birds, that, have, gathered, .]
+(ROOT
+  (S
+    (SBAR (IN That)
+      (S
+        (NP (EX there))
+        (VP (MD would)
+          (VP (VB be)
+            (NP (JJ great) (NN confusion)
+              (CC and)
+              (NN noise))
+            (PP (IN among)
+              (NP
+                (NP (DT the) (NNS birds))
+                (PP (IN at)
+                  (NP (DT the) (NN meeting)))))))))
+    (VP (VBD was)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBN expected) (, ,)
+              (PP (VBN given)
+                (NP
+                  (NP (DT the) (JJ sheer) (NNS numbers))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNS birds))
+                      (SBAR
+                        (WHNP (WDT that))
+                        (S
+                          (VP (VBP have)
+                            (VP (VBN gathered))))))))))))))
+    (. .)))
+
+complm(confusion-6, That-1)
+expl(confusion-6, there-2)
+expl(noise-8, there-2)
+aux(confusion-6, would-3)
+aux(noise-8, would-3)
+cop(confusion-6, be-4)
+cop(noise-8, be-4)
+amod(confusion-6, great-5)
+amod(noise-8, great-5)
+csubj(was-15, confusion-6)
+conj_and(confusion-6, noise-8)
+csubj(was-15, noise-8)
+det(birds-11, the-10)
+prep_among(confusion-6, birds-11)
+prep_among(noise-6, birds-11)
+det(meeting-14, the-13)
+prep_at(birds-11, meeting-14)
+aux(expected-18, to-16)
+auxpass(expected-18, be-17)
+xcomp(was-15, expected-18)
+prep(expected-18, given-20)
+det(numbers-23, the-21)
+amod(numbers-23, sheer-22)
+dep(given-20, numbers-23)
+prep_of(numbers-23, birds-25)
+nsubj(gathered-28, birds-25)
+aux(gathered-28, have-27)
+rcmod(birds-25, gathered-28)
+
+Parsing [sent. 9 len. 26]: [There, was, piping, ,, hissing, ,, and, clacking, ,, but, finally, it, was, decided, that, the, bird, that, could, fly, the, highest, should, be, king, .]
+(ROOT
+  (S
+    (S
+      (NP (EX There))
+      (VP (VBD was)
+        (VP
+          (VP (VBG piping))
+          (, ,)
+          (VP (VBG hissing))
+          (, ,)
+          (CC and)
+          (VP (VBG clacking)))))
+    (, ,)
+    (CC but)
+    (S
+      (ADVP (RB finally))
+      (NP (PRP it))
+      (VP (VBD was)
+        (VP (VBN decided)
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (DT the) (NN bird))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (MD could)
+                      (VP (VB fly)
+                        (NP (DT the) (JJS highest)))))))
+              (VP (MD should)
+                (VP (VB be)
+                  (NP (NN king)))))))))
+    (. .)))
+
+expl(was-2, There-1)
+dep(was-2, piping-3)
+dep(was-2, hissing-5)
+conj_and(piping-3, hissing-5)
+dep(was-2, clacking-8)
+conj_and(piping-3, clacking-8)
+advmod(decided-14, finally-11)
+nsubjpass(decided-14, it-12)
+auxpass(decided-14, was-13)
+conj_but(was-2, decided-14)
+complm(king-25, that-15)
+det(bird-17, the-16)
+nsubj(fly-20, bird-17)
+nsubj(king-25, bird-17)
+aux(fly-20, could-19)
+rcmod(bird-17, fly-20)
+det(highest-22, the-21)
+dobj(fly-20, highest-22)
+aux(king-25, should-23)
+cop(king-25, be-24)
+ccomp(decided-14, king-25)
+
+Parsing [sent. 10 len. 32]: [The, little, bird, lay, low, near, the, eagle, at, first, ,, but, the, eagle, did, not, notice, the, bird, hopping, onto, his, back, right, as, the, competition, was, about, to, commence, .]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJ little) (NN bird))
+      (VP (VBD lay)
+        (ADJP (JJ low))
+        (PP (IN near)
+            (NP (DT the) (NN eagle)))	
+        (PP (IN at)
+          (NP (JJ first)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT the) (NN eagle))
+      (VP (VBD did) (RB not)
+        (VP (VB notice)
+          (S
+            (NP (DT the) (NN bird))
+            (VP (VBG hopping)
+              (PP (IN onto)
+                (NP (PRP$ his) (NN back)))
+              (SBAR (RB right) (IN as)
+                (S
+                  (NP (DT the) (NN competition))
+                  (VP (VBD was)
+                      (S
+                    (ADVP (RB about))
+                        (VP (TO to)
+                          (VP (VB commence))))))))))))
+    (. .)))
+
+det(bird-3, The-1)
+amod(bird-3, little-2)
+nsubj(lay-4, bird-3)
+acomp(lay-4, low-5)
+det(eagle-8, the-7)
+prep_near(lay-4, eagle-8)
+prep_at(lay-4, first-10)
+det(eagle-14, the-13)
+nsubj(notice-17, eagle-14)
+aux(notice-17, did-15)
+neg(notice-17, not-16)
+conj_but(lay-4, notice-17)
+det(bird-19, the-18)
+ccomp(notice-17, hopping-20)
+nsubj(hopping-20, bird-19)
+poss(back-23, his-22)
+advmod(about-29, right-24)
+prep_onto(hopping-20, back-23)
+mark(was-28, as-25)
+det(competition-27, the-26)
+nsubj(was-28, competition-27)
+xsubj(commence-31, competition-27)
+ccomp(was-28, commence-31)
+advmod(commence-31, about-29)
+advcl(hopping-20, was-28)
+aux(commence-31, to-30)
+
+Parsing [sent. 11 len. 17]: [Into, the, air, in, a, great, flock, all, the, birds, flew, when, the, signal, was, given, .]
+(ROOT
+  (S
+    (PP (IN Into)
+        (NP (DT the) (NN air)))
+    (PP (IN in)
+         (NP (DT a) (JJ great) (NN flock)))
+    (NP (PDT all) (DT the) (NNS birds))
+    (VP (VBD flew)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (DT the) (NN signal))
+          (VP (VBD was)
+            (VP (VBN given))))))
+    (. .)))
+
+prep_Into(flew-11, air-3)
+det(air-3, the-2)
+det(flock-7, a-5)
+amod(flock-7, great-6)
+prep_in(flew-11, flock-7)
+predet(birds-10, all-8)
+det(birds-10, the-9)
+nsubj(flew-11, birds-10)
+advmod(given-16, when-12)
+det(signal-14, the-13)
+nsubjpass(given-16, signal-14)
+auxpass(given-16, was-15)
+advcl(flew-11, given-16)
+
+Parsing [sent. 12 len. 21]: [The, air, was, full, of, dust, ,, and, it, seemed, as, if, a, black, cloud, were, floating, over, the, field, .]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN air))
+      (VP (VBD was)
+        (ADJP (JJ full)
+          (PP (IN of)
+            (NP (NN dust))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBD seemed)
+        (SBAR (RB as) (IN if)
+          (S
+            (NP (DT a) (JJ black) (NN cloud))
+            (VP (VBD were)
+              (VP (VBG floating)
+                (PP (IN over)
+                  (NP (DT the) (NN field)))))))))
+    (. .)))
+
+det(air-2, The-1)
+nsubj(full-4, air-2)
+cop(full-4, was-3)
+prep_of(full-4, dust-6)
+nsubj(seemed-10, it-9)
+conj_and(full-4, seemed-10)
+advmod(floating-17, as-11)
+dep(floating-17, if-12)
+det(cloud-15, a-13)
+amod(cloud-15, black-14)
+nsubj(floating-17, cloud-15)
+aux(floating-17, were-16)
+ccomp(seemed-10, floating-17)
+det(field-20, the-19)
+prep_over(floating-17, field-20)
+
+Parsing [sent. 13 len. 15]: [You, could, hear, the, birds, chirping, and, flapping, from, fields, that, were, miles, away, .]
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD could)
+      (VP (VB hear)
+        (S
+          (NP (DT the) (NNS birds))
+          (VP
+            (VP (VBG chirping))
+            (CC and)
+            (VP (VBG flapping))))))
+              (PP (IN from)
+                (NP
+                  (NP (NNS fields))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBD were)
+                        (NP (NNS miles))
+                        (ADVP (RB away)))))))
+    (. .)))
+
+nsubj(hear-3, You-1)
+aux(hear-3, could-2)
+det(birds-5, the-4)
+nsubj(chirping-6, birds-5)
+nsubj(flapping-8, birds-5)
+ccomp(hear-3, chirping-6)
+ccomp(hear-3, flapping-8)
+conj_and(chirping-6, flapping-8)
+prep_from(hear-3, fields-10)
+nsubj(miles-13, fields-10)
+cop(miles-13, were-12)
+rcmod(fields-10, miles-13)
+advmod(miles-13, away-14)
+
+Parsing [sent. 14 len. 13]: [The, little, birds, that, soon, grew, tired, fell, back, quickly, to, earth, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ little) (NNS birds))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (ADVP (RB soon))
+          (VP (VBD grew)
+            (ADJP (JJ tired))))))
+    (VP (VBD fell)
+      (ADVP (RB back) (RB quickly))
+      (PP (TO to)
+        (NP (NN earth))))
+    (. .)))
+
+det(birds-3, The-1)
+amod(birds-3, little-2)
+nsubj(grew-6, birds-3)
+nsubj(fell-8, birds-3)
+advmod(grew-6, soon-5)
+rcmod(birds-3, grew-6)
+acomp(grew-6, tired-7)
+advmod(fell-8, back-9)
+advmod(fell-8, quickly-10)
+prep_to(fell-8, earth-12)
+
+Parsing [sent. 15 len. 28]: [The, fact, that, the, larger, ones, held, out, longer, ,, and, flew, higher, and, higher, ,, but, the, eagle, flew, highest, of, any, ,, surprised, no, one, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN fact))
+      (SBAR (IN that)
+        (S
+          (S
+            (NP (DT the) (JJR larger) (NNS ones))
+            (VP
+              (VP (VBD held)
+                (PRT (RP out))
+                (ADVP (RBR longer)))
+              (, ,)
+              (CC and)
+              (VP (VBD flew)
+                (NP
+                  (ADJP (JJR higher)
+                    (CC and)
+                    (JJR higher))))))
+          (, ,)
+          (CC but)
+          (S
+            (NP (DT the) (NN eagle))
+            (VP (VBD flew)
+              (NP
+                (NP (JJS highest))
+                (PP (IN of)
+                  (NP (DT any)))))))))
+    (, ,)
+    (VP (VBD surprised)
+      (NP (DT no) (NN one)))
+    (. .)))
+
+det(fact-2, The-1)
+nsubj(surprised-25, fact-2)
+complm(held-7, that-3)
+det(ones-6, the-4)
+amod(ones-6, larger-5)
+nsubj(held-7, ones-6)
+nsubj(flew-12, ones-6)
+dep(fact-2, held-7)
+prt(held-7, out-8)
+advmod(held-7, longer-9)
+dep(fact-2, flew-12)
+conj_and(held-7, flew-12)
+acomp(flew-12, higher-13)
+acomp(flew-12, higher-15)
+conj_and(higher-13, higher-15)
+det(eagle-19, the-18)
+nsubj(flew-20, eagle-19)
+dep(fact-2, flew-20)
+conj_but(held-7, flew-20)
+dobj(flew-20, highest-21)
+prep_of(highest-21, any-23)
+det(one-27, no-26)
+dobj(surprised-25, one-27)
+
+Parsing [sent. 16 len. 15]: [Could, anyone, stop, the, eagle, that, seemed, to, be, flying, straight, into, the, sun, ?]
+(ROOT
+  (SQ (MD Could)
+    (NP (NN anyone))
+    (VP (VB stop)
+      (NP
+        (NP (DT the) (NN eagle))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD seemed)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (VP (VBG flying)
+                      (ADVP (RB straight))
+                      (PP (IN into)
+                        (NP (DT the) (NN sun))))))))))))
+    (. ?)))
+
+aux(stop-3, Could-1)
+nsubj(stop-3, anyone-2)
+det(eagle-5, the-4)
+dobj(stop-3, eagle-5)
+nsubj(seemed-7, eagle-5)
+rcmod(eagle-5, seemed-7)
+aux(flying-10, to-8)
+aux(flying-10, be-9)
+xcomp(seemed-7, flying-10)
+advmod(flying-10, straight-11)
+det(sun-14, the-13)
+prep_into(flying-10, sun-14)
+
+Parsing [sent. 17 len. 27]: [The, other, birds, gave, out, one, by, one, and, when, the, eagle, saw, this, he, thought, ,, ``, What, is, the, use, of, flying, any, higher, ?]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJ other) (NNS birds))
+      (VP (VBD gave)
+        (PRT (RP out))
+        (ADVP (NP (CD one))
+        (PP (IN by)
+          (NP (CD one))))))
+    (CC and)
+    (S
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (DT the) (NN eagle))
+          (VP (VBD saw)
+              (NP (DT this)))))
+     (NP (PRP he))
+     (VP (VBD thought)
+      (, ,) (`` ``)
+   (S
+      (NP (WP What))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (NN use))
+          (PP (IN of)
+            (S
+              (VP (VBG flying)
+                (ADVP (DT any) (JJR higher))))))))))
+    (. ?)))
+
+det(birds-3, The-1)
+amod(birds-3, other-2)
+nsubj(gave-4, birds-3)
+prt(gave-4, out-5)
+advmod(gave-4, one-6)
+prep_by(one-6, one-8)
+mark(saw-13, when-10)
+det(eagle-12, the-11)
+nsubj(saw-13, eagle-12)
+advcl(thought-16, saw-13)
+dobj(saw-13, this-14)
+nsubj(thought-16, he-15)
+ccomp(thought-16, use-22)
+nsubj(use-22, What-19)
+cop(use-22, is-20)
+det(use-22, the-21)
+conj_and(gave-4, thought-16)
+prepc_of(use-22, flying-24)
+dep(higher-26, any-25)
+advmod(flying-24, higher-26)
+
+Parsing [sent. 18 len. 12]: [This, victory, is, in, the, bag, and, I, am, king, !, '']
+(ROOT
+  (S
+    (S
+      (NP (DT This) (NN victory))
+      (VP (VBZ is)
+        (PP (IN in)
+          (NP (DT the) (NN bag)))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP am)
+        (NP (NN king))))
+    (. !) ('' '')))
+
+det(victory-2, This-1)
+nsubj(is-3, victory-2)
+det(bag-6, the-5)
+prep_in(is-3, bag-6)
+nsubj(king-10, I-8)
+cop(king-10, am-9)
+conj_and(is-3, king-10)
+
+Parsing [sent. 19 len. 16]: [Then, the, birds, below, called, with, one, accord, ,, ``, Come, back, ,, come, back, !]
+(ROOT
+  (S (RB Then)
+        (NP (DT the) (NNS birds))
+          (ADVP (RB below))
+        (VP
+          (VBD called)
+          (PP (IN with)
+            (NP (CD one) (NN accord)))
+          (, ,)
+          (S
+            (VP (`` ``) (VB Come)
+              (ADVP (RB back)))
+      (, ,)
+    (VP (VB come)
+      (ADVP (RB back)))))
+    (. !)))
+
+advmod(called-5, Then-1)
+det(birds-3, the-2)
+nsubj(called-5, birds-3)
+advmod(birds-3, below-4)
+num(accord-8, one-7)
+prep_with(called-5, accord-8)
+ccomp(called-5, Come-11)
+ccomp(called-5, come-14)
+advmod(Come-11, back-12)
+advmod(come-14, back-15)
+
+Parsing [sent. 20 len. 19]: [It, is, you, who, must, be, our, king, because, no, one, can, fly, as, high, as, you, ., '']
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (PRP you))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (MD must)
+              (VP (VB be)
+                (NP (PRP$ our) (NN king))))))))
+                (SBAR (IN because)
+                  (S
+                    (NP (DT no) (NN one))
+                    (VP (MD can)
+                      (VP (VB fly)
+                        (ADJP (RB as) (JJ high))
+                        (PP (IN as)
+                          (NP (PRP you)))))))
+    (. .) ('' '')))
+
+nsubj(you-3, It-1)
+cop(you-3, is-2)
+nsubj(king-8, you-3)
+aux(king-8, must-5)
+cop(king-8, be-6)
+poss(king-8, our-7)
+rcmod(you-3, king-8)
+mark(fly-13, because-9)
+det(one-11, no-10)
+nsubj(fly-13, one-11)
+aux(fly-13, can-12)
+advcl(is-2, fly-13)
+advmod(high-15, as-14)
+acomp(fly-13, high-15)
+prep_as(fly-13, you-17)
+
+Parsing [sent. 21 len. 5]: [``, Except, me, !, '']
+(ROOT
+  (FRAG (`` ``)
+    (PP (IN Except)
+      (NP (PRP me)))
+    (. !) ('' '')))
+
+pobj(Except-2, me-3)
+
+Parsing [sent. 22 len. 34]: [cried, a, shrill, ,, shrill, voice, ,, and, out, of, the, blue, the, little, bird, without, a, name, rose, from, the, eagle, 's, back, ,, where, he, had, lain, hidden, in, the, feathers, .]
+(ROOT
+  (S
+    (SINV
+      (VP (VBN cried))
+      (NP (DT a) (JJ shrill) (, ,) (JJ shrill) (NN voice)))
+          (, ,)
+     (CC and)
+     (S
+          (ADVP (IN out)
+            (PP (IN of)
+              (NP (DT the) (NN blue))))
+         (NP  
+            (NP (DT the) (JJ little) (NN bird))
+            (PP (IN without)
+                (NP (DT a) (NN name))))
+    (VP (VBD rose)
+      (PP (IN from)
+        (NP
+         (NP
+          (NP (DT the) (NN eagle) (POS 's))
+          (NN back))
+      (, ,)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP he))
+          (VP (VBD had)
+            (VP (VBN lain))
+         (S
+            (VP (VBN hidden)
+              (PP (IN in)
+                (NP (DT the) (NNS feathers))))))))))))
+    (. .)))
+
+nsubj(cried-1, voice-6)
+det(voice-6, a-2)
+amod(voice-6, shrill-3)
+amod(voice-6, shrill-5)
+dobj(cried-1, voice-6)
+conj_and(cried-1, rose-19)
+det(blue-12, the-11)
+prep_out_of(rose-19, blue-12)
+det(bird-15, the-13)
+amod(bird-15, little-14)
+det(name-18, a-17)
+prep_without(bird-15, name-18)
+det(eagle-22, the-21)
+poss(back-24, eagle-22)
+prep_from(rose-19, back-24)
+advmod(lain-29, where-26)
+nsubj(lain-29, he-27)
+aux(lain-29, had-28)
+partmod(he-27, hidden-30)
+advcl(back-24, lain-29)
+det(feathers-33, the-32)
+prep_in(hidden-30, feathers-33)
+
+Parsing [sent. 23 len. 26]: [His, guile, was, the, ace, up, his, sleeve, ,, and, he, laughed, to, himself, at, how, easy, it, had, been, to, outwit, the, other, birds, .]
+(ROOT
+  (S
+    (S
+      (NP (PRP$ His) (NN guile))
+      (VP (VBD was)
+          (NP
+          (NP (DT the) (NN ace))
+          (PP (IN up)
+           (NP (PRP$ his) (NN sleeve))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBD laughed)
+        (PP (TO to)
+          (NP (PRP himself)))
+        (PP (IN at)
+          (SBAR
+            (WHADJP (WRB how)
+              (ADJP (JJ easy)))
+            (S
+              (NP (PRP it))
+              (VP (VBD had)
+                (VP (VBN been)
+                  (S
+                    (VP (TO to)
+                      (VP (VB outwit)
+                        (NP (DT the) (JJ other) (NNS birds))))))))))))
+    (. .)))
+
+poss(guile-2, His-1)
+nsubj(ace-5, guile-2)
+cop(ace-5, was-3)
+det(ace-5, the-4)
+prep_up(ace-5, sleeve-8)
+poss(sleeve-8, his-7)
+nsubj(laughed-12, he-11)
+conj_and(ace-5, laughed-12)
+prep_to(laughed-12, himself-14)
+advmod(easy-17, how-16)
+dep(been-20, easy-17)
+nsubj(been-20, it-18)
+xsubj(outwit-22, it-18)
+aux(been-20, had-19)
+prepc_at(laughed-12, been-20)
+aux(outwit-22, to-21)
+xcomp(been-20, outwit-22)
+det(birds-25, the-23)
+amod(birds-25, other-24)
+dobj(outwit-22, birds-25)
+
+Parsing [sent. 24 len. 37]: [Higher, and, higher, he, mounted, ,, until, he, was, lost, to, sight, ,, and, then, folding, his, wings, together, ,, he, sank, to, earth, crying, shrilly, ,, ``, I, am, king, ,, I, am, king, !, '']
+(ROOT
+  (S
+  (S
+      (NP (JJR Higher)
+        (CC and)
+        (JJR higher))
+          (NP (PRP he))
+          (VP (VBD mounted) (, ,)
+            (SBAR (IN until)
+              (S
+                (NP (PRP he))
+                  (VP (VBD was)
+                    (VP (VBN lost)
+                      (PP (TO to)
+                        (NP (NN sight)))))))))
+                  (, ,)
+                  (CC and)
+(S
+                    (ADVP (RB then))
+                 (S
+                    (VBG folding)
+                    (NP (PRP$ his) (NNS wings))
+                    (PRT (RP together)))
+     (, ,)
+        (NP (PRP he))
+        (VP (VBD sank)
+          (PP (TO to)
+              (NP (NN earth)))
+          (S
+            (VP (VBG crying)
+                (ADVP (RB shrilly))
+      (, ,))
+    (`` ``)
+ (S   (NP (PRP I))
+    (VP (VBP am)
+        (NP (NN king))))
+        (, ,)
+           (S
+            (NP (PRP I))
+            (VP (VBP am)
+              (NP (NN king)))))))
+    (. !) ('' '')))
+
+npvadvmod(mounted-5, Higher-1)
+conj_and(Higher-1, higher-3)
+nsubj(mounted-5, he-4)
+mark(lost-10, until-7)
+nsubjpass(lost-10, he-8)
+nsubj(folding-16, he-8)
+auxpass(lost-10, was-9)
+advcl(mounted-5, lost-10)
+prep_to(lost-10, sight-12)
+advmod(folding-16, then-15)
+partmod(he-21, folding-16)
+conj_and(mounted-5, sank-22)
+poss(wings-18, his-17)
+dobj(folding-16, wings-18)
+prt(folding-16, together-19)
+nsubj(sank-22, he-21)
+prep_to(sank-22, earth-24)
+partmod(he-21, crying-25)
+advmod(crying-25, shrilly-26)
+nsubj(king-31, I-29)
+cop(king-31, am-30)
+nsubj(king-35, I-33)
+cop(king-35, am-34)
+ccomp(crying-25, king-31)
+ccomp(crying-25, king-35)
+
+Parsing [sent. 25 len. 31]: [The, eagle, tricked, by, the, little, bird, had, not, sensed, the, bird, in, his, feathers, and, so, had, not, at, all, expected, the, bird, to, come, flying, out, like, that, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN eagle))
+      (VP (VBN tricked)
+        (PP (IN by)
+          (NP (DT the) (JJ little) (NN bird)))))
+    (VP
+      (VP (VBD had) (RB not)
+        (VP (VBN sensed)
+          (NP
+            (NP (DT the) (NN bird))
+            (PP (IN in)
+              (NP (PRP$ his) (NNS feathers))))))
+      (CC and)
+      (ADVP (RB so))
+      (VP (VBD had) (RB not)
+        (ADVP (IN at) (DT all))
+        (VP (VBN expected)
+          (S
+            (NP (DT the) (NN bird)
+            (VP (TO to)
+                (VP (VB come)
+                  (S
+                    (VP (VBG flying)
+                      (PRT (RP out))
+                      (PP (IN like)
+                        (NP (DT that))))))))))))
+    (. .)))
+
+det(eagle-2, The-1)
+nsubj(sensed-10, eagle-2)
+nsubj(expected-22, eagle-2)
+partmod(eagle-2, tricked-3)
+det(bird-7, the-5)
+amod(bird-7, little-6)
+agent(tricked-3, bird-7)
+aux(sensed-10, had-8)
+neg(sensed-10, not-9)
+det(bird-12, the-11)
+dobj(sensed-10, bird-12)
+poss(feathers-15, his-14)
+prep_in(bird-12, feathers-15)
+advmod(expected-22, so-17)
+aux(expected-22, had-18)
+neg(expected-22, not-19)
+advmod(expected-22, at-20)
+pobj(at-20, all-21)
+conj_and(sensed-10, expected-22)
+det(bird-24, the-23)
+ccomp(expected-22, come-26)
+aux(come-26, to-25)
+nsubj(come-26, bird-24)
+xsubj(flying-27, bird-24)
+xcomp(come-26, flying-27)
+prt(flying-27, out-28)
+prep_like(flying-27, that-30)
+
+Parsing [sent. 26 len. 11]: [The, birds, back, on, earth, were, all, up, in, arms, .]
+(ROOT
+  (S
+    (NP (DT The) (NNS birds))
+    (ADVP (RB back)
+      (PP (IN on)
+        (NP (NN earth))))
+    (VP (VBD were)
+      (ADVP (DT all) (RB up))
+      (PP (IN in)
+        (NP (NNS arms))))
+    (. .)))
+
+det(birds-2, The-1)
+nsubj(were-6, birds-2)
+advmod(birds-2, back-3)
+prep_on(back-3, earth-5)
+dep(up-8, all-7)
+advmod(were-6, up-8)
+prep_in(were-6, arms-10)
+
+Parsing [sent. 27 len. 12]: [``, You, ,, and, not, the, eagle, ,, our, king, ?, '']
+(ROOT
+  (FRAG (`` ``)
+    (NP
+    (NP (PRP You))
+    (, ,)
+      (CC and)
+      (NP (RB not) (DT the) (NN eagle)))
+    (, ,)
+    (VP (NP (PRP$ our) (NN king)))
+    (. ?) ('' '')))
+
+conj_and(You-2, eagle-7)
+neg(eagle-7, not-5)
+det(eagle-7, the-6)
+poss(king-10, our-9)
+nsubj(You-2, king-10)
+
+Parsing [sent. 28 len. 8]: [the, birds, cried, ,, fuming, with, anger, .]
+(ROOT
+  (S
+    (NP (DT the) (NNS birds))
+    (VP (VBD cried) (, ,)
+      (S
+        (VP (VBG fuming)
+          (PP (IN with)
+            (NP (NN anger))))))
+    (. .)))
+
+det(birds-2, the-1)
+nsubj(cried-3, birds-2)
+partmod(birds-2, fuming-5)
+prep_with(fuming-5, anger-7)
+
+Parsing [sent. 29 len. 33]: [``, You, have, done, this, by, breaking, every, rule, in, the, book, ,, so, we, will, not, have, you, ,, who, are, simply, tricky, and, cunning, ,, to, reign, over, us, ., '']
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP You))
+      (VP (VBP have)
+        (VP (VBN done)
+          (NP (DT this))
+          (PP (IN by)
+            (S
+              (VP (VBG breaking)
+                (NP
+                  (NP (DT every) (NN rule))
+                  (PP (IN in)
+                    (NP (DT the) (NN book))))))))))
+    (, ,) (IN so)
+    (S
+      (NP (PRP we))
+      (VP (MD will) (RB not)
+        (VP (VB have)
+          (S
+            (NP
+              (NP (PRP you))
+              (, ,)
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP are)
+                    (ADVP (RB simply))
+                    (ADJP (JJ tricky)
+                      (CC and)
+                      (JJ cunning)))))
+              (, ,))
+            (VP (TO to)
+              (VP (VB reign)
+                (PP (IN over)
+                (NP (PRP us)))))))))
+    (. .) ('' '')))
+
+nsubj(done-4, You-2)
+aux(done-4, have-3)
+dobj(done-4, this-5)
+prepc_by(done-4, breaking-7)
+det(rule-9, every-8)
+dobj(breaking-7, rule-9)
+det(book-12, the-11)
+prep_in(rule-9, book-12)
+dep(done-4, so-14)
+nsubj(have-18, we-15)
+aux(have-18, will-16)
+neg(have-18, not-17)
+nsubj(tricky-24, you-19)
+nsubj(cunning-26, you-19)
+nsubj(reign-29, you-19)
+cop(tricky-24, are-22)
+cop(cunning-26, are-22)
+advmod(tricky-24, simply-23)
+rcmod(you-19, tricky-24)
+rcmod(you-19, cunning-26)
+conj_and(tricky-24, cunning-26)
+aux(reign-29, to-28)
+ccomp(have-18, reign-29)
+prep_over(reign-29, us-31)
+
+Parsing [sent. 30 len. 30]: [The, bird, without, a, name, then, decided, to, clear, the, air, and, said, ,, ``, Then, let, everyone, start, with, a, clean, slate, and, perform, a, new, challenging, task, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN bird))
+      (PP (IN without)
+        (NP (DT a) (NN name))))
+    (ADVP (RB then))
+    (VP
+      (VP (VBD decided)
+        (S
+          (VP (TO to)
+            (VP (VB clear)
+              (NP (DT the) (NN air))))))
+      (CC and)
+      (VP (VBD said) (, ,) (`` ``)
+        (S (RB Then)
+            (VP (VB let)
+             (S (NP (NN everyone))	
+                  (VP (VB start)
+              (PP (IN with)
+                (NP (DT a) (JJ clean) (NN slate))))
+            (CC and)
+            (VP (VB perform)
+              (NP (DT a) (JJ new) (VBG challenging) (NN task))))))))
+    (. .)))
+
+det(bird-2, The-1)
+nsubj(decided-7, bird-2)
+xsubj(clear-9, bird-2)
+nsubj(said-13, bird-2)
+det(name-5, a-4)
+prep_without(bird-2, name-5)
+advmod(decided-7, then-6)
+aux(clear-9, to-8)
+xcomp(decided-7, clear-9)
+det(air-11, the-10)
+dobj(clear-9, air-11)
+conj_and(decided-7, said-13)
+advmod(let-17, Then-16)
+ccomp(said-13, let-17)
+nsubj(start-19, everyone-18)
+nsubj(perform-25 , everyone-18)
+ccomp(let-17, start-19)
+ccomp(let-17, perform-25)
+det(slate-23, a-21)
+amod(slate-23, clean-22)
+prep_with(start-19, slate-23)
+conj_and(start-19, perform-25)
+det(task-29, a-26)
+amod(task-29, new-27)
+amod(task-29, challenging-28)
+dobj(perform-25, task-29)
+
+Parsing [sent. 31 len. 12]: [Then, we, can, decide, who, should, be, the, real, king, ., '']
+(ROOT
+  (S (RB Then)
+    (NP (PRP we))
+    (VP (MD can)
+      (VP (VB decide)
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (MD should)
+              (VP (VB be)
+                (NP (DT the) (JJ real) (NN king))))))))
+    (. .) ('' '')))
+
+advmod(decide-4, Then-1)
+nsubj(decide-4, we-2)
+aux(decide-4, can-3)
+nsubj(king-10, who-5)
+aux(king-10, should-6)
+cop(king-10, be-7)
+det(king-10, the-8)
+amod(king-10, real-9)
+ccomp(decide-4, king-10)
+
+Parsing [sent. 32 len. 35]: [Then, the, birds, gathered, together, again, and, decided, the, case, would, be, resolved, by, making, a, new, condition, ,, which, was, that, he, should, be, king, who, could, go, the, deepest, into, the, earth, .]
+(ROOT
+  (S (RB Then)
+    (NP (DT the) (NNS birds))
+    (VP
+      (VP (VBD gathered)
+        (ADVP (RB together))
+        (ADVP (RB again)))
+      (CC and)
+      (VP (VBD decided)
+        (SBAR
+          (S
+            (NP (DT the) (NN case))
+            (VP (MD would)
+              (VP (VB be)
+                (VP (VBN resolved)
+                  (PP (IN by)
+                    (S
+                      (VP (VBG making)
+                        (NP
+                          (NP (DT a) (JJ new) (NN condition))
+                          (, ,)
+                          (SBAR
+                            (WHNP (WDT which))
+                            (S
+                              (VP (VBD was)
+                                (SBAR (IN that)
+                                  (S
+                                    (NP (PRP he))
+                                    (VP (MD should)
+                                      (VP (VB be)
+                                        (NP
+                                          (NP (NN king))
+                                          (SBAR
+                                            (WHNP (WP who))
+                                            (S
+                                              (VP (MD could)
+                                                (VP (VB go)
+                                                  (NP (DT the) (JJS deepest))
+                                                  (PP (IN into)
+                                                    (NP (DT the) (NN earth))))))))))))))))))))))))))
+    (. .)))
+
+advmod(gathered-4, Then-1)
+det(birds-3, the-2)
+nsubj(gathered-4, birds-3)
+nsubj(decided-8, birds-3)
+advmod(gathered-4, together-5)
+advmod(gathered-4, again-6)
+conj_and(gathered-4, decided-8)
+det(case-10, the-9)
+nsubjpass(resolved-13, case-10)
+aux(resolved-13, would-11)
+auxpass(resolved-13, be-12)
+ccomp(decided-8, resolved-13)
+agent(resolved-13, making-15)
+det(condition-18, a-16)
+amod(condition-18, new-17)
+dobj(making-15, condition-18)
+nsubj(was-21, condition-18)
+rcmod(condition-18, was-21)
+complm(king-26, that-22)
+nsubj(king-26, he-23)
+aux(king-26, should-24)
+cop(king-26, be-25)
+ccomp(was-21, king-26)
+nsubj(go-29, king-26)
+aux(go-29, could-28)
+rcmod(king-26, go-29)
+det(deepest-31, the-30)
+dobj(go-29, deepest-31)
+det(earth-34, the-33)
+prep_into(go-29, earth-34)
+
+Parsing [sent. 33 len. 16]: [So, the, little, bird, who, the, other, birds, despised, was, now, back, to, square, one, .]
+(ROOT
+  (S (IN So)
+    (NP
+      (NP (DT the) (JJ little) (NN bird))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (NP (DT the) (JJ other) (NNS birds))
+          (VP (VBN despised)))))
+    (VP (VBD was)
+      (ADVP (RB now) (RB back))
+      (PP (TO to)
+        (NP (JJ square) (CD one))))
+    (. .)))
+
+dep(was-10, So-1)
+det(bird-4, the-2)
+amod(bird-4, little-3)
+dobj(despised-9, bird-4)
+nsubj(was-10, bird-4)
+rel(despised-9, who-5)
+det(birds-8, the-6)
+amod(birds-8, other-7)
+nsubj(despised-9, birds-8)
+rcmod(bird-4, despised-9)
+advmod(back-12, now-11)
+advmod(was-10, back-12)
+amod(one-15, square-14)
+prep_to(was-10, one-15)
+
+Parsing [sent. 34 len. 20]: [Confident, ,, he, remained, ,, however, ,, that, if, he, played, his, cards, right, ,, he, could, be, king, .]
+(ROOT
+  (S
+    (S
+      (ADJP (JJ Confident)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD remained) (, ,)
+      (ADVP (RB however))
+      (, ,)
+      (SBAR (IN that)
+        (S
+          (SBAR (IN if)
+            (S
+              (NP (PRP he))
+              (VP (VBD played)
+                (NP (PRP$ his) (NNS cards))
+                (ADVP (RB right)))))
+          (, ,)
+          (NP (PRP he))
+          (VP (MD could)
+            (VP (VB be)
+              (NP (NN king)))))))
+    (. .)))
+
+acomp(remained-4, Confident-1)
+nsubj(remained-4, he-3)
+advmod(remained-4, however-6)
+complm(king-19, that-8)
+mark(played-11, if-9)
+nsubj(played-11, he-10)
+advcl(king-19, played-11)
+poss(cards-13, his-12)
+dobj(played-11, cards-13)
+advmod(played-11, right-14)
+nsubj(king-19, he-16)
+aux(king-19, could-17)
+cop(king-19, be-18)
+ccomp(remained-4, king-19)
+
+Parsing [sent. 35 len. 21]: [How, the, goose, wallowed, in, the, sand, ,, and, the, duck, strove, to, dig, a, hole, for, the, new, task, !]
+(ROOT
+  (FRAG
+    (SBAR
+      (WHADVP (WRB How))
+      (S
+        (S
+          (NP (DT the) (NN goose))
+          (VP (VBD wallowed)
+            (PP (IN in)
+              (NP (DT the) (NN sand)))))
+        (, ,)
+        (CC and)
+        (S
+          (NP (DT the) (NN duck))
+          (VP (VBD strove)
+            (S
+              (VP (TO to)
+                (VP (VB dig)
+                  (NP
+                    (NP (DT a) (NN hole))
+                    (PP (IN for)
+                      (NP (DT the) (JJ new) (NN task)))))))))))
+    (. !)))
+
+advmod(wallowed-4, How-1)
+det(goose-3, the-2)
+nsubj(wallowed-4, goose-3)
+det(sand-7, the-6)
+prep_in(wallowed-4, sand-7)
+det(duck-11, the-10)
+nsubj(strove-12, duck-11)
+xsubj(dig-14, duck-11)
+conj_and(wallowed-4, strove-12)
+aux(dig-14, to-13)
+xcomp(strove-12, dig-14)
+det(hole-16, a-15)
+dobj(dig-14, hole-16)
+det(task-20, the-18)
+amod(task-20, new-19)
+prep_for(hole-16, task-20)
+
+Parsing [sent. 36 len. 23]: [All, the, other, birds, tried, to, hide, themselves, in, the, ground, ,, too, ,, until, they, were, practically, blue, in, the, face, .]
+(ROOT
+  (S
+    (NP (PDT All) (DT the) (JJ other) (NNS birds))
+    (VP (VBD tried)
+      (S
+        (VP (TO to)
+          (VP (VB hide)
+            (NP (PRP themselves))
+            (PP (IN in)
+              (NP (DT the) (NN ground)))
+            (, ,)
+            (ADVP (RB too))
+            (, ,)
+            (SBAR (IN until)
+              (S
+                (NP (PRP they))
+                (VP (VBD were)
+                  (ADJP (RB practically) (JJ blue)
+                    (PP (IN in)
+                      (NP (DT the) (NN face)))))))))))
+    (. .)))
+
+predet(birds-4, All-1)
+det(birds-4, the-2)
+amod(birds-4, other-3)
+nsubj(tried-5, birds-4)
+xsubj(hide-7, birds-4)
+aux(hide-7, to-6)
+xcomp(tried-5, hide-7)
+dobj(hide-7, themselves-8)
+det(ground-11, the-10)
+prep_in(hide-7, ground-11)
+advmod(hide-7, too-13)
+mark(blue-19, until-15)
+nsubj(blue-19, they-16)
+cop(blue-19, were-17)
+advmod(blue-19, practically-18)
+advcl(hide-7, blue-19)
+det(face-22, the-21)
+prep_in(blue-19, face-22)
+
+Parsing [sent. 37 len. 33]: [The, nameless, little, bird, that, was, as, bold, as, brass, found, a, pitch, dark, mouse, 's, hole, ,, and, creeping, in, cried, ,, ``, I, am, king, ,, I, am, king, !, '']
+(ROOT
+  (S
+      (NP
+          (NP (DT The) (JJ nameless) (JJ little) (NN bird))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBD was)
+                (ADJP (RB as) (JJ bold)
+                  (PP (IN as)
+                    (NP (NN brass))))))))
+      (VP
+          (VP (VBD found)
+          (NP (DT a)
+            (ADJP (NN pitch) (JJ dark))
+            (NP (NN mouse) (POS 's))
+            (NN hole)))
+      (, ,)
+      (CC and)
+      (S
+          (VP (VBG creeping)	
+            (ADVP (RB in))))
+      (VP (VBD cried)
+        (, ,) (`` ``)
+        (S 
+         (NP (PRP I))
+        (VP (VBP am)
+          (NP (NN king))))
+    (, ,)
+ (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (NP (NN king))))))
+    (. !) ('' '')))
+
+det(bird-4, The-1)
+amod(bird-4, nameless-2)
+amod(bird-4, little-3)
+nsubj(bold-8, bird-4)
+nsubj(found-11, bird-4)
+cop(bold-8, was-6)
+advmod(bold-8, as-7)
+rcmod(bird-4, bold-8)
+prep_as(bold-8, brass-10)
+det(hole-17, a-12)
+npadvmod(dark-14, pitch-13)
+amod(hole-17, dark-14)
+poss(hole-17, mouse-15)
+dobj(found-11, hole-17)
+partmod(bird-4, creeping-20)
+advmod(creeping-20, in-21)
+nsubj(king-27, I-25)
+cop(king-27, am-26)
+nsubj(cried-22, bird-4)
+conj_and(found-11, cried-22)
+ccomp(cried-22, king-31)
+ccomp(cried-22, king-27)
+nsubj(king-31, I-29)
+cop(king-31, am-30)
+
+Parsing [sent. 38 len. 7]: [but, it, was, of, no, avail, .]
+(ROOT
+  (S (CC but)
+    (NP (PRP it))
+    (VP (VBD was)
+      (PP (IN of)
+        (NP (DT no) (NN avail))))
+    (. .)))
+
+cc(was-3, but-1)
+nsubj(was-3, it-2)
+det(avail-6, no-5)
+prep_of(was-3, avail-6)
+
+Parsing [sent. 39 len. 7]: [``, You, ,, our, king, ?, '']
+(ROOT
+  (FRAG (`` ``)
+    (NP (PRP You))
+    (, ,)
+    (NP (PRP$ our) (NN king))
+    (. ?) ('' '')))
+
+poss(king-5, our-4)
+dep(You-2, king-5)
+
+Parsing [sent. 40 len. 19]: [all, the, remaining, birds, who, the, littlest, bird, had, outwitted, cried, again, ,, even, more, angrily, than, before, .]
+(ROOT
+  (S
+    (NP
+      (NP (PDT all) (DT the) (JJ remaining) (NNS birds))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (NP (DT the) (JJ littlest) (NN bird))
+          (VP (VBD had)
+            (VP (VBN outwitted))))))
+    (VP (VBD cried)
+      (ADVP (RB again))
+      (ADVP(, ,) (ADVP (RB even) (RBR more))
+                           (ADVP (RB angrily))	
+                           (PP (IN than)
+                                   (ADVP (RB before)))))
+    (. .)))
+
+predet(birds-4, all-1)
+det(birds-4, the-2)
+amod(birds-4, remaining-3)
+dobj(outwitted-10, birds-4)
+nsubj(cried-11, birds-4)
+rel(outwitted-10, who-5)
+det(bird-8, the-6)
+amod(bird-8, littlest-7)
+nsubj(outwitted-10, bird-8)
+aux(outwitted-10, had-9)
+rcmod(birds-4, outwitted-10)
+advmod(cried-11, again-12)
+advmod(more-15, even-14)
+advmod(angrily-16, more-15)
+advmod(cried-11, angrily-16)
+prep(angrily-16, than-17)
+pcomp(than-17, before-18)
+
+Parsing [sent. 41 len. 13]: [``, Do, you, think, we, would, reward, your, cunning, in, this, way, ?]
+(ROOT
+  (SQ (`` ``) (VBP Do)
+    (NP (PRP you))
+    (VP (VB think)
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (MD would)
+            (VP (VB reward)
+              (NP (PRP$ your) (NN cunning))
+              (PP (IN in)
+                (NP (DT this) (NN way))))))))
+    (. ?)))
+
+aux(think-4, Do-2)
+nsubj(think-4, you-3)
+nsubj(reward-7, we-5)
+aux(reward-7, would-6)
+ccomp(think-4, reward-7)
+poss(cunning-9, your-8)
+dobj(reward-7, cunning-9)
+det(way-12, this-11)
+prep_in(reward-7, way-12)
+
+Parsing [sent. 42 len. 4]: [No, ,, no, !]
+(ROOT
+  (INTJ
+    (INTJ (UH No))
+    (, ,)
+    (INTJ (UH no) (. !))))
+
+dep(No-1, no-3)
+
+Parsing [sent. 43 len. 13]: [You, shall, stay, in, the, earth, till, you, die, of, hunger, !, '']
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD shall)
+      (VP (VB stay)
+        (PP (IN in)
+          (NP (DT the) (NN earth)))
+        (SBAR (IN till)
+          (S
+            (NP (PRP you))
+            (VP (VBP die)
+              (PP (IN of)
+                (NP (NN hunger))))))))
+    (. !) ('' '')))
+
+nsubj(stay-3, You-1)
+aux(stay-3, shall-2)
+det(earth-6, the-5)
+prep_in(stay-3, earth-6)
+mark(die-9, till-7)
+nsubj(die-9, you-8)
+advcl(stay-3, die-9)
+prep_of(die-9, hunger-11)
+
+Parsing [sent. 44 len. 31]: [So, they, shut, up, the, little, bird, in, the, mouse, 's, hole, that, the, mouse, gave, up, most, unwillingly, ,, and, bade, the, owl, watch, him, carefully, night, and, day, .]
+(ROOT
+  (S (IN So)
+    (S
+      (NP (PRP they))
+      (VP (VBD shut)
+        (PRT (RP up))
+        (NP
+          (NP (DT the) (JJ little) (NN bird))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN mouse) (POS 's))
+              (NN hole))))
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN mouse))
+            (VP (VBD gave)
+              (PRT (RP up))
+                (ADJP (RBS most) (RB unwillingly)))))))
+    (, ,)
+    (CC and)
+    (S
+      (VP (VB bade)
+        (NP (DT the) (NN owl))
+        (VP (VB watch)
+          (NP (PRP him))
+          (ADVP (RB carefully))
+          (NP (NN night)
+            (CC and)
+            (NN day)))))
+    (. .)))
+
+dep(shut-3, So-1)
+nsubj(shut-3, they-2)
+nsubj(bade-22, they-2)
+prt(shut-3, up-4)
+det(bird-7, the-5)
+amod(bird-7, little-6)
+dobj(shut-3, bird-7)
+det(mouse-10, the-9)
+poss(hole-12, mouse-10)
+prep_in(bird-7, hole-12)
+complm(gave-16, that-13)
+det(mouse-15, the-14)
+nsubj(gave-16, mouse-15)
+rcmod(hole-12, gave-16)
+prt(gave-16, up-17)
+advmod(unwillingly-19, most-18)
+advmod(gave-16, unwillingly-19)
+conj_and(shut-3, bade-22)
+det(owl-24, the-23)
+dobj(bade-22, owl-24)
+dep(bade-22, watch-25)
+dobj(watch-25, him-26)
+advmod(watch-25, carefully-27)
+tmod(watch-25, night-28)
+tmod(watch-25, day-30)
+conj_and(night-28, day-30)
+
+Parsing [sent. 45 len. 45]: [Then, all, the, birds, went, home, to, bed, ,, for, they, were, very, tired, ,, but, the, owl, assigned, by, the, birds, to, stand, guard, found, his, job, was, lonely, and, wearisome, because, he, was, just, sitting, alone, staring, at, the, mouse, 's, hole, .]
+(ROOT
+  (S
+    (S
+      (ADVP (RB Then))
+      (NP (PDT all) (DT the) (NNS birds))
+      (VP (VBD went)
+        (NP (NN home))
+        (PP (TO to)
+          (NP (NN bed)))
+        (, ,)
+        (SBAR (IN for)
+          (S
+            (NP (PRP they))
+            (VP (VBD were)
+              (ADJP (RB very) (JJ tired)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (DT the) (NN owl))
+        (VP (VBN assigned)
+          (PP (IN by)
+            (NP (DT the) (NNS birds)))
+          (S
+            (VP (TO to)
+              (VP (VB stand)
+                (NP (NN guard)))))))
+      (VP (VBD found)
+        (SBAR
+          (S
+            (NP (PRP$ his) (NN job))
+            (VP (VBD was)
+              (ADJP (JJ lonely)
+                (CC and)
+                (JJ wearisome))
+              (SBAR (IN because)
+                (S
+                  (NP (PRP he))
+                  (VP (VBD was)
+                    (ADVP (RB just))
+                    (VP (VBG sitting)
+                      (ADVP (RB alone))))
+                      (S
+                        (VP (VBG staring)
+                        (PP (IN at)
+                          (NP
+                            (NP (DT the) (NN mouse) (POS 's))
+                            (NN hole))))))))))))
+    (. .)))
+
+advmod(went-5, Then-1)
+predet(birds-4, all-2)
+det(birds-4, the-3)
+nsubj(went-5, birds-4)
+dobj(went-5, home-6)
+prep_to(went-5, bed-8)
+mark(tired-14, for-10)
+nsubj(tired-14, they-11)
+cop(tired-14, were-12)
+advmod(tired-14, very-13)
+advcl(went-5, tired-14)
+det(owl-18, the-17)
+xsubj(stand-24, owl-18)
+nsubj(found-26, owl-18)
+partmod(owl-18, assigned-19)
+det(birds-22, the-21)
+agent(assigned-19, birds-22)
+aux(stand-24, to-23)
+xcomp(assigned-19, stand-24)
+dobj(stand-24, guard-25)
+conj_but(went-5, found-26)
+poss(job-28, his-27)
+nsubj(lonely-30, job-28)
+nsubj(wearisome-32, job-28)
+cop(lonely-30, was-29)
+ccomp(found-26, lonely-30)
+ccomp(found-26, wearisome-32)
+conj_and(lonely-30, wearisome-32)
+mark(sitting-37, because-33)
+nsubj(sitting-37, he-34)
+aux(sitting-37, was-35)
+advmod(sitting-37, just-36)
+advcl(lonely-30, sitting-37)
+advmod(sitting-37, alone-38)
+partmod(he-34, staring-39)
+det(mouse-42, the-41)
+poss(hole-44, mouse-42)
+prep_at(staring-39, hole-44)
+
+Parsing [sent. 46 len. 16]: [``, I, can, close, one, eye, and, watch, with, the, other, ,, '', he, thought, .]
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (MD can)
+        (VP
+          (VP (VB close)
+            (NP (CD one) (NN eye)))
+          (CC and)
+          (VP (VB watch)
+            (PP (IN with)
+              (NP (DT the) (JJ other)))))))
+    (, ,) ('' '')
+    (NP (PRP he))
+    (VP (VBD thought))
+    (. .)))
+
+nsubj(close-4, I-2)
+nsubj(watch-8, I-2)
+aux(close-4, can-3)
+ccomp(thought-15, close-4)
+num(eye-6, one-5)
+dobj(close-4, eye-6)
+conj_and(close-4, watch-8)
+ccomp(thought-15, watch-8)
+det(other-11, the-10)
+prep_with(watch-8, other-11)
+nsubj(thought-15, he-14)
+
+Parsing [sent. 47 len. 32]: [So, he, closed, one, eye, and, stared, steadfastly, with, the, other, ,, but, before, he, knew, it, he, forgot, to, keep, that, one, open, ,, and, both, eyes, were, fast, asleep, .]
+(ROOT
+  (S (CC So)
+    (S
+      (NP (PRP he))
+      (VP
+        (VP (VBD closed)
+          (NP (CD one) (NN eye)))
+        (CC and)
+        (VP (VBD stared)
+          (ADVP (RB steadfastly))
+          (PP (IN with)
+            (NP (DT the) (JJ other))))))
+    (, ,)
+    (CC but)
+    (S
+      (SBAR (IN before)
+        (S
+          (NP (PRP he))
+          (VP (VBD knew)
+            (NP (PRP it)))))
+      (S
+        (NP (PRP he))
+        (VP (VBD forgot)
+          (S
+            (VP (TO to)
+              (VP (VB keep)
+                (NP (DT that)(PRP one))
+                (ADJP (JJ open)))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (DT both) (NNS eyes))
+        (VP (VBD were)
+          (ADVP (RB fast))
+          (ADJP (RB asleep)))))
+    (. .)))
+
+nsubj(closed-3, he-2)
+nsubj(stared-7, he-2)
+num(eye-5, one-4)
+dobj(closed-3, eye-5)
+conj_and(closed-3, stared-7)
+advmod(stared-7, steadfastly-8)
+det(other-11, the-10)
+prep_with(stared-7, other-11)
+mark(knew-16, before-14)
+nsubj(knew-16, he-15)
+advcl(forgot-19, knew-16)
+dobj(knew-16, it-17)
+nsubj(forgot-19, he-18)
+xsubj(keep-21, he-18)
+conj_but(closed-3, forgot-19)
+aux(keep-21, to-20)
+xcomp(forgot-19, keep-21)
+det(one-23, that-22)
+dobj(keep-21, one-23)
+acomp(keep-21, open-24)
+det(eyes-28, both-27)
+nsubj(asleep-31, eyes-28)
+cop(asleep-31, were-29)
+advmod(asleep-31, fast-30)
+conj_but(closed-3, asleep-31)
+conj_and(forgot-19, asleep-31)
+
+Parsing [sent. 48 len. 32]: [Then, the, little, bird, guarded, by, the, owl, peeped, out, ,, and, when, he, saw, the, owl, 's, two, eyes, tight, shut, ,, he, slipped, from, the, hole, and, flew, away, .]
+(ROOT
+  (S (RB Then)
+    (S
+      (NP
+        (NP (DT the) (JJ little) (NN bird))
+        (VP (VBN guarded)
+          (PP (IN by)
+            (NP (DT the) (NN owl)))))
+      (VP (VBD peeped)
+        (PRT (RP out))))
+    (, ,)
+    (CC and)
+    (S
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBD saw)
+            (SBAR
+              (S
+                (NP
+                  (NP (DT the) (NN owl) (POS 's))
+                  (CD two) (NNS eyes))
+                (ADVP (RB tight))
+                (VP (VBD shut)))))))
+      (, ,)
+      (NP (PRP he))
+      (VP
+        (VP (VBD slipped)
+          (PP (IN from)
+            (NP (DT the) (NN hole))))
+        (CC and)
+        (VP (VBD flew)
+          (PRT (RP away)))))
+    (. .)))
+
+advmod(peeped-9, Then-1)
+det(bird-4, the-2)
+amod(bird-4, little-3)
+nsubj(peeped-9, bird-4)
+partmod(bird-4, guarded-5)
+det(owl-8, the-7)
+agent(guarded-5, owl-8)
+prt(peeped-9, out-10)
+advmod(saw-15, when-13)
+nsubj(saw-15, he-14)
+advcl(slipped-25, saw-15)
+det(owl-17, the-16)
+poss(eyes-20, owl-17)
+num(eyes-20, two-19)
+nsubj(shut-22, eyes-20)
+advmod(shut-22, tight-21)
+ccomp(saw-15, shut-22)
+nsubj(slipped-25, he-24)
+nsubj(flew-30, he-24)
+conj_and(peeped-9, slipped-25)
+det(hole-28, the-27)
+prep_from(slipped-25, hole-28)
+conj_and(peeped-9, flew-30)
+conj_and(slipped-25, flew-30)
+prt(flew-30, away-31)
+
+Parsing [sent. 49 len. 11]: [He, wanted, to, shout, ,, ``, I, am, king, !, '']
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD wanted)
+      (S
+        (VP (TO to)
+          (VP (VB shout) (, ,) (`` ``)
+            (S
+              (NP (PRP I))
+              (VP (VBP am)
+                (NP (NN king))))))))
+    (. !) ('' '')))
+
+nsubj(wanted-2, He-1)
+xsubj(shout-4, He-1)
+aux(shout-4, to-3)
+xcomp(wanted-2, shout-4)
+nsubj(king-9, I-7)
+cop(king-9, am-8)
+ccomp(shout-4, king-9)
+
+Parsing [sent. 50 len. 17]: [so, that, the, owl, could, hear, him, as, he, flew, ,, but, thought, better, of, it, .]
+(ROOT
+  (FRAG
+    (ADVP (RB so))
+    (SBAR (IN that)
+      (S
+        (NP (DT the) (NN owl))
+        (VP (MD could)
+          (VP (VB hear)
+            (NP (PRP him))
+            (SBAR (IN as)
+              (S
+                (NP (PRP he))
+                  (VP (VBD flew))))))))
+                  (, ,)
+(CC but)
+                  (VP (VBD thought)
+                    (NP
+                      (NP (JJR better))
+                      (PP (IN of)
+                        (NP (PRP it)))))
+    (. .)))
+
+dep(hear-6, that-2)
+det(owl-4, the-3)
+nsubj(hear-6, owl-4)
+aux(hear-6, could-5)
+mark(so-1, hear-6)
+advcl(shout-4{sent.49} , hear-6)
+dobj(hear-6, him-7)
+mark(flew-10, as-8)
+nsubj(flew-10, he-9)
+nsubj(thought-13, He-1{sent.49} )
+advcl(hear-6, flew-10)
+conj_but(wanted-2{sent.49}, thought-13)
+dobj(thought-13, better-14)
+prep_of(better-14, it-16)
+
+Parsing [sent. 51 len. 33]: [From, this, time, on, ,, the, owl, fooled, by, the, little, bird, has, not, dared, to, show, himself, by, day, for, fear, the, birds, should, beat, the, living, daylights, out, of, him, .]
+(ROOT
+  (S
+    (PP (PP (IN From)
+        (NP (DT this) (NN time)))
+        (RB on))
+    (, ,)
+    (NP
+      (NP (DT the) (NN owl))
+      (VP (VBN fooled)
+        (PP (IN by)
+          (NP (DT the) (JJ little) (NN bird)))))
+    (VP (VBZ has) (RB not)
+      (VP (VBD dared)
+        (S
+          (VP (TO to)
+            (VP (VB show)
+              (NP (PRP himself))
+              (PP (IN by)
+                  (NP (NN day)))
+              (PP (IN for)
+                    (NP	
+                      (NP (NN fear))
+                      (SBAR
+                        (S
+                          (NP (DT the) (NNS birds))
+                          (VP (MD should)
+                            (VP (VB beat)
+                              (NP
+                                (NP (DT the) (VBG living) (NNS daylights))
+                                (PP (RB out) (IN of)
+                                  (NP (PRP him)))))))))))))))
+    (. .)))
+
+prep(dared-15, From-1)
+det(time-3, this-2)
+pobj(From-1, time-3)
+advmod(From-1, on-4)
+det(owl-7, the-6)
+nsubj(dared-15, owl-7)
+xsubj(show-17, owl-7)
+partmod(owl-7, fooled-8)
+det(bird-12, the-10)
+amod(bird-12, little-11)
+agent(fooled-8, bird-12)
+aux(dared-15, has-13)
+neg(dared-15, not-14)
+aux(show-17, to-16)
+xcomp(dared-15, show-17)
+dobj(show-17, himself-18)
+prep_by(show-17, day-20)
+prep_for(show-17, fear-22)
+det(birds-24, the-23)
+nsubj(beat-26, birds-24)
+aux(beat-26, should-25)
+rcmod(fear-22, beat-26)
+det(daylights-29, the-27)
+amod(daylights-29, living-28)
+dobj(beat-26, daylights-29)
+prep_out_of(daylights-29, him-32)
+
+Parsing [sent. 52 len. 29]: [He, flies, about, only, at, nighttime, ,, hating, and, pursuing, not, the, bird, ,, but, the, mouse, for, having, made, the, hole, into, which, the, little, bird, crept, .]
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ flies)
+      (ADVP (RB about))
+      (PP (ADVP (RB only)) (IN at)
+          (NP (NN nighttime))))
+      (, ,)
+      (S
+        (VP (VBG hating)
+          (CC and)
+          (VBG pursuing)
+          (NP 
+            (NP (RB not) (DT the) (NN bird))
+            (, ,)
+            (CC but)
+            (NP
+              (NP (DT the) (NN mouse))
+              (PP (IN for)
+                (S
+                  (VP (VBG having)
+                    (VP (VBN made)
+                      (NP (NP (DT the) (NN hole))
+                      (PP (IN into)
+                        (SBAR
+                          (WHNP (WDT which))
+                          (S
+                            (NP (DT the) (JJ little) (NN bird))
+                            (VP (VBD crept))))))))))))))
+    (. .)))
+
+nsubj(flies-2, He-1)
+advmod(flies-2, about-3)
+advmod(nighttime-6, only-4)
+prep_at(flies-2, nighttime-6)
+partmod(flies-2, hating-8)
+xcomp(flies-2, hating-8)
+partmod(flies-2, pursuing-10)
+xcomp(flies-2, pursuing-10)
+conj_and(hating-8, pursuing-10)
+neg(bird-13, not-11)
+det(bird-13, the-12)
+dobj(hating-8, bird-13)
+det(mouse-17, the-16)
+dobj(hating-8, mouse-17)
+conj_but(bird-13, mouse-17)
+aux(made-20, having-19)
+prepc_for(mouse-17, made-20)
+det(hole-22, the-21)
+dobj(made-20, hole-22)
+dobj(crept-28, which-24)
+det(bird-27, the-25)
+amod(bird-27, little-26)
+nsubj(crept-28, bird-27)
+prepc_into(hole-22, crept-28)
+
+Parsing [sent. 53 len. 24]: [And, the, little, bird, also, keeps, out, of, sight, ,, for, he, fears, that, the, other, birds, should, punish, him, for, his, cunning, .]
+(ROOT
+  (S (CC And)
+    (NP (DT the) (JJ little) (NN bird))
+    (ADVP (RB also))
+    (VP (VBZ keeps)
+      (PRT (RP out))
+      (PP (IN of)
+        (NP (NN sight)))
+      (, ,)
+      (SBAR (IN for)
+        (S
+          (NP (PRP he))
+          (VP (VBZ fears)
+            (SBAR (IN that)
+              (S
+                (NP (DT the) (JJ other) (NNS birds))
+                (VP (MD should)
+                  (VP (VB punish)
+                    (NP (PRP him))
+                    (PP (IN for)
+                      (NP (PRP$ his) (JJ cunning)))))))))))
+    (. .)))
+
+cc(keeps-6, And-1)
+det(bird-4, the-2)
+amod(bird-4, little-3)
+nsubj(keeps-6, bird-4)
+advmod(keeps-6, also-5)
+prep_out_of(keeps-6, sight-9)
+mark(fears-13, for-11)
+nsubj(fears-13, he-12)
+advcl(keeps-6, fears-13)
+complm(punish-19, that-14)
+det(birds-17, the-15)
+amod(birds-17, other-16)
+nsubj(punish-19, birds-17)
+aux(punish-19, should-18)
+ccomp(fears-13, punish-19)
+dobj(punish-19, him-20)
+poss(cunning-23, his-22)
+prep_for(punish-19, cunning-23)
+
+Parsing [sent. 54 len. 23]: [The, rejection, by, the, other, birds, was, a, bitter, pill, to, swallow, for, the, nameless, bird, the, owl, had, let, slip, away, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN rejection))
+      (PP (IN by)
+        (NP (DT the) (JJ other) (NNS birds))))
+    (VP (VBD was)
+      (NP (DT a) (JJ bitter) (NN pill)
+        (S
+          (VP (TO to)
+            (VP (VB swallow)
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (JJ nameless) (NN bird))
+                  (SBAR
+                    (S
+                      (NP (DT the) (NN owl))
+                      (VP (VBD had)
+                        (VP (VBN let)
+                          (S
+                            (VP (VB slip)
+                              (PRT (RP away)))))))))))))))
+    (. .)))
+
+det(rejection-2, The-1)
+nsubj(pill-10, rejection-2)
+det(birds-6, the-4)
+amod(birds-6, other-5)
+prep_by(rejection-2, birds-6)
+cop(pill-10, was-7)
+det(pill-10, a-8)
+amod(pill-10, bitter-9)
+aux(swallow-12, to-11)
+infmod(pill-10, swallow-12)
+det(bird-16, the-14)
+amod(bird-16, nameless-15)
+prep_for(swallow-12, bird-16)
+dobj(let-20, bird-16)
+det(owl-18, the-17)
+nsubj(let-20, owl-18)
+aux(let-20, had-19)
+rcmod(bird-16, let-20)
+ccomp(let-20, slip-21)
+prt(slip-21, away-22)
+
+Parsing [sent. 55 len. 28]: [He, hides, in, the, hedges, ,, and, when, he, thinks, himself, quite, safe, ,, he, sings, out, ,, ``, I, am, king, ,, I, am, king, !, '']
+(ROOT
+    (S
+      (S
+        (NP (PRP He))
+        (VP (VBZ hides)
+          (PP (IN in)
+            (NP (DT the) (NNS hedges)))))
+      (, ,)
+      (CC and)
+      (S
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP he))
+            (VP (VBZ thinks)
+              (S
+                (NP (PRP himself))
+                (ADJP (RB quite) (JJ safe))))))
+        (, ,)
+          (S
+            (NP (PRP he))
+            (VP (VBZ sings)
+              (PRT (RP out)))
+          (, ,)
+        (`` ``)
+        (S(NP (PRP I))
+        (VP (VBP am)
+          (NP (NN king))))
+    (, ,)
+    (S(NP (PRP I))
+    (VP (VBP am)
+      (NP (NN king))))))
+    (. !) ('' '')))
+
+nsubj(hides-2, He-1)
+ccomp(king-26, hides-2)
+det(hedges-5, the-4)
+prep_in(hides-2, hedges-5)
+advmod(thinks-10, when-8)
+nsubj(thinks-10, he-9)
+advcl(sings-16, thinks-10)
+nsubj(safe-13, himself-11)
+advmod(safe-13, quite-12)
+xcomp(thinks-10, safe-13)
+nsubj(sings-16, he-15)
+ccomp(sings-16, king-22)
+prt(sings-16, out-17)
+nsubj(king-22, I-20)
+cop(king-22, am-21)
+conj_and(hides-2, sings-16)
+ccomp(sings-16, king-26)
+nsubj(king-26, I-24)
+cop(king-26, am-25)
+
+Parsing [sent. 56 len. 21]: [And, the, other, birds, in, mockery, call, out, ,, ``, Yes, ,, yes, ,, the, hedge-king, ,, the, hedge-king, !, '']
+(ROOT
+  (S (CC And)
+      (NP (DT the) (JJ other) (NNS birds))
+      (PP (IN in)
+        (NP (NN mockery)))
+    (VP (VBP call)
+      (PRT (RP out)
+        (FRAG (, ,)
+          (INTJ
+            (INTJ (`` ``) (UH Yes))
+            (, ,)
+            (INTJ (UH yes)))
+          (, ,))
+        (NP
+          (NP (DT the) (NN hedge-king))
+          (, ,)
+          (NP (DT the) (NN hedge-king)))))
+    (. !) ('' '')))
+
+cc(call-7, And-1)
+det(birds-4, the-2)
+amod(birds-4, other-3)
+nsubj(call-7, birds-4)
+prep_in(call-7, mockery-6)
+prt(call-7, out-8)
+ccomp(call-7, Yes-11)
+ccomp(call-7, yes-13)
+det(hedge-king-16, the-15)
+ccomp(call-7, hedge-king-16)
+det(hedge-king-19, the-18)
+ccomp(call-7, hedge-king-19)
+
+Parsed file: ../stories_jan26_2011_final/Story4_finalized.txt [56 sentences].
+Parsed 1254 words in 56 sentences (34.16 wds/sec; 1.53 sents/sec).

@@ -1,0 +1,2306 @@
+egibson-2:stanford-parser-2010-11-30 egibson$ ./lexparser-more-mem.csh ../stories_jan26_2011_final/Story3_finalized.txt
+Loading parser from serialized file ./englishPCFG.ser.gz ... done [2.2 sec].
+../stories_jan26_2011_final/Story3_finalized.txt
+Parsing file: ../stories_jan26_2011_final/Story3_finalized.txt with 55 sentences.
+Parsing [sent. 1 len. 24]: [It, was, cold, and, nearly, dark, on, the, last, evening, of, the, old, year, ,, and, the, snow, was, falling, fast, and, furious, .]
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBD was)
+        (ADJP
+          (ADJP (JJ cold))
+          (CC and)
+          (ADJP (RB nearly) (JJ dark)))
+        (PP (IN on)
+          (NP
+            (NP (DT the) (JJ last) (NN evening))
+            (PP (IN of)
+              (NP (DT the) (JJ old) (NN year)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT the) (NN snow))
+      (VP (VBD was)
+        (VP (VBG falling)
+          (ADJP (JJ fast)
+            (CC and)
+            (JJ furious)))))
+    (. .)))
+
+nsubj(cold-3, It-1)
+nsubj(dark-6, It-1)
+cop(cold-3, was-2)
+advmod(dark-6, nearly-5)
+conj_and(cold-3, dark-6)
+det(evening-10, the-8)
+amod(evening-10, last-9)
+prep_on(cold-3, evening-10)
+det(year-14, the-12)
+amod(year-14, old-13)
+prep_of(evening-10, year-14)
+det(snow-18, the-17)
+nsubj(falling-20, snow-18)
+aux(falling-20, was-19)
+conj_and(cold-3, falling-20)
+amod(snow-18, fast-21)
+amod(snow-18, furious-23)
+conj_and(fast-21, furious-23)
+
+Parsing [sent. 2 len. 30]: [A, little, girl, no, one, sheltered, from, the, gelid, air, roamed, through, the, streets, with, a, bare, head, and, naked, feet, ,, looking, as, poor, as, a, church, mouse, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ little) (NN girl))
+      (SBAR (S 
+        (NP (DT no)(NN one))
+        (VP (VBD sheltered)
+        (PP (IN from)
+          (NP (DT the) (JJ gelid) (NN air)))))))
+    (VP (VBD roamed)
+      (PP (IN through)
+        (NP (DT the) (NNS streets)))
+      (PP (IN with)
+        (NP
+          (NP (DT a) (JJ bare) (NN head))
+          (CC and)
+          (NP (JJ naked) (NNS feet))))
+      (, ,)
+      (S
+        (VP (VBG looking)
+          (ADJP (RB as) (JJ poor))
+          (PP (IN as)
+            (NP (DT a) (NN church) (NN mouse))))))
+    (. .)))
+
+det(girl-3, A-1)
+amod(girl-3, little-2)
+nsubj(roamed-11, girl-3)
+rcmod(girl-3, sheltered-6)
+det( one-5, no-4)
+det(air-10, the-8)
+amod(air-10, gelid-9)
+prep_from(sheltered-6, air-10)
+det(streets-14, the-13)
+prep_through(roamed-11, streets-14)
+det(head-18, a-16)
+amod(head-18, bare-17)
+prep_with(roamed-11, head-18)
+amod(feet-21, naked-20)
+prep_with(girl-3, feet-21)
+conj_and(head-18, feet-21)
+partmod(girl-3, looking-23)
+advmod(poor-25, as-24)
+acomp(looking-23, poor-25)
+det(mouse-29, a-27)
+nn(mouse-29, church-28)
+prep_as(looking-23, mouse-29)
+
+Parsing [sent. 3 len. 34]: [It, 's, true, she, had, on, a, pair, of, slippers, her, mother, had, once, given, her, when, she, left, home, ,, but, they, were, as, much, use, to, her, as, a, chocolate, teapot, .]
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ 's)
+        (ADJP (JJ true)
+          (SBAR
+            (S
+              (NP (PRP she))
+              (VP (VBD had)
+                (PRT (RP on))
+                  (NP
+	   (NP
+                     (NP (DT a) (NN pair))
+                     (PP (IN of)
+                       (NP (NNS slippers))))
+    (SBAR
+      (S
+        (NP (PRP$ her) (NN mother))
+        (VP (VBD had)
+          (ADVP (RB once))
+          (VP (VBN given)
+            (NP (PRP her)))))))
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP she))
+                (VP (VBD left)
+                  (NP (NN home))))))))
+      (, ,))))
+    (CC but)
+    (S
+      (NP (PRP they))
+      (VP (VBD were)
+        (PP (IN as)
+          (NP
+            (NP (JJ much) (NN use))
+            (PP (TO to)
+              (NP (PRP her)))))
+        (PP (IN as)
+          (NP (DT a) (NN chocolate) (NN teapot)))))
+    (. .)))
+
+nsubj(true-3, It-1)
+cop(true-3, 's-2)
+nsubj(had-5, she-4)
+ccomp(true-3, had-5)
+det(pair-8, a-7)
+prt(had-5, on-6)
+dobj(had-5, pair-8)
+prep_of(pair-8, slippers-10)
+poss(mother-12, her-11)
+nsubj(given-15, mother-12)
+aux(given-15, had-13)
+advmod(given-15, once-14)
+rcmod(pair-8, given-15)
+iobj(given-15, her-16)
+mark(left-19, when-17)
+nsubj(left-19, she-18)
+advcl(had-5, left-19)
+dobj(left-19, home-20)
+nsubj(were-24, they-23)
+conj_but(true-3, were-24)
+amod(use-27, much-26)
+prep_as(were-24, use-27)
+prep_to(use-27, her-29)
+det(teapot-33, a-31)
+amod(teapot-33, chocolate-32)
+prep_as(were-24, teapot-33)
+
+Parsing [sent. 4 len. 35]: [The, slippers, owned, by, her, mother, were, so, large, that, the, emaciated, little, creature, had, lost, them, while, running, across, the, street, to, avoid, two, carriages, that, were, rolling, along, at, a, terrible, rate, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS slippers))
+      (VP (VBN owned)
+        (PP (IN by)
+          (NP (PRP$ her) (NN mother)))))
+    (VP (VBD were)
+      (ADJP (RB so) (JJ large))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (JJ emaciated) (JJ little) (NN creature))
+          (VP (VBD had)
+            (VP (VBN lost)
+              (NP (PRP them))
+              (PP (IN while)
+                (S
+                  (VP (VBG running)
+                    (PP (IN across)
+                      (NP (DT the) (NN street)
+                        (S
+                          (VP (TO to)
+                            (VP (VB avoid)
+                              (NP
+                                (NP (CD two) (NNS carriages))
+                                (SBAR
+                                  (WHNP (WDT that))
+                                  (S
+                                    (VP (VBD were)
+                                      (VP (VBG rolling)
+                                        (PRT (RP along))
+                                        (PP (IN at)
+                                          (NP (DT a) (JJ terrible) (NN rate)))))))))))))))))))))
+    (. .)))
+
+det(slippers-2, The-1)
+nsubj(large-9, slippers-2)
+partmod(slippers-2, owned-3)
+poss(mother-6, her-5)
+agent(owned-3, mother-6)
+cop(large-9, were-7)
+advmod(large-9, so-8)
+complm(lost-16, that-10)
+det(creature-14, the-11)
+amod(creature-14, emaciated-12)
+amod(creature-14, little-13)
+nsubj(lost-16, creature-14)
+aux(lost-16, had-15)
+ccomp(large-9, lost-16)
+dobj(lost-16, them-17)
+prepc_while(lost-16, running-19)
+det(street-22, the-21)
+prep_across(running-19, street-22)
+aux(avoid-24, to-23)
+infmod(street-22, avoid-24)
+num(carriages-26, two-25)
+dobj(avoid-24, carriages-26)
+nsubj(rolling-29, carriages-26)
+aux(rolling-29, were-28)
+rcmod(carriages-26, rolling-29)
+prt(rolling-29, along-30)
+det(rate-34, a-32)
+amod(rate-34, terrible-33)
+prep_at(rolling-29, rate-34)
+
+Parsing [sent. 5 len. 32]: [One, of, the, slippers, she, could, not, find, ,, and, a, boy, seized, upon, the, other, ,, saying, that, he, could, use, it, as, a, home, for, his, little, pet, mouse, .]
+(ROOT
+  (S
+    (S
+        (NP
+          (NP (CD One))
+          (PP (IN of)
+            (NP (DT the) (NNS slippers))))
+        (NP (PRP she))
+        (VP (MD could) (RB not)
+          (VP (VB find))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (NP (DT a) (NN boy))
+        (VP (VP (VBD seized) (PRT (RP upon)))
+                (NP (DT the) (JJ other)))
+    (, ,)
+        (S
+           (VP (VBG saying)
+           (SBAR (IN that)
+           (S
+             (NP (PRP he))
+             (VP (MD could)
+               (VP (VB use)
+                 (NP (PRP it))
+                 (PP (IN as) (NP
+                   (NP (DT a) (NN home))
+                   (PP (IN for)
+                       (NP (PRP$ his) (JJ little) (JJ pet) (NN mouse)))))))))))))
+    (. .)))
+
+det(slippers-4, the-3)
+prep_of(One-1, slippers-4)
+nsubj(find-8, she-5)
+aux(find-8, could-6)
+neg(find-8, not-7)
+dobj(find-8, One-1)
+det(boy-12, a-11)
+nsubj(seized-13, boy-12)
+conj_and(find-8, seized-13)
+det(other-16, the-15) 
+prt(seized-13, upon-14)
+dobj(seized-13, other-16)
+partmod(boy-12 , saying-18)
+complm(use-22, that-19)
+nsubj(use-22, he-20)
+aux(use-22, could-21)
+ccomp(saying-18, use-22)
+dobj(use-22, it-23)
+det(home-26, a-25)
+prep_as(use-22, home-26)
+poss(mouse-31, his-28)
+amod(mouse-31, little-29)
+amod(mouse-31, pet-30)
+prep_for(home-26, mouse-31)
+
+Parsing [sent. 6 len. 32]: [So, with, her, naked, feet, ,, which, were, quite, red, and, blue, with, the, cold, ,, the, little, girl, went, on, ,, wondering, how, she, would, get, through, this, dreadful, night, .]
+(ROOT
+  (S
+    (ADVP (IN So)
+      (PP (IN with)
+        (NP
+          (NP (PRP$ her) (JJ naked) (NNS feet))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBD were)
+                (ADJP (RB quite) (JJ red)
+                  (CC and)
+                  (JJ blue))
+                (PP (IN with)
+                  (NP (DT the) (NN cold)))))))))
+    (, ,)
+    (NP (DT the) (JJ little) (NN girl))
+    (VP (VBD went)
+      (PRT (RP on))
+      (, ,)
+      (S
+        (VP (VBG wondering)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (PRP she))
+              (VP (MD would)
+                (VP (VB get)
+                  (PP (IN through)
+                    (NP (DT this) (JJ dreadful) (NN night))))))))))
+    (. .)))
+
+advmod(went-20, So-1)
+poss(feet-5, her-3)
+amod(feet-5, naked-4)
+prep_with(girl-19, feet-5)
+nsubj(red-10, feet-5)
+nsubj(blue-12, feet-5)
+cop(red-10, were-8)
+advmod(red-10, quite-9)
+rcmod(feet-5, red-10)
+rcmod(feet-5, blue-12)
+conj_and(red-10, blue-12)
+det(cold-15, the-14)
+prep_with(red-10, cold-15)
+det(girl-19, the-17)
+amod(girl-19, little-18)
+nsubj(went-20, girl-19)
+prt(went-20, on-21)
+partmod(girl-19, wondering-23)
+complm(get-27, how-24)
+nsubj(get-27, she-25)
+aux(get-27, would-26)
+ccomp(wondering-23, get-27)
+det(night-31, this-29)
+amod(night-31, dreadful-30)
+prep_through(get-27, night-31)
+
+Parsing [sent. 7 len. 23]: [She, approached, an, old, hovel, she, had, used, as, a, shelter, a, few, times, before, ,, and, found, the, entrance, was, locked, .]
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP
+      (VP (VBD approached)
+        (NP (DT an) (JJ old) (NN hovel))
+        (SBAR
+          (S
+            (NP (PRP she))
+            (VP (VBD had)
+              (VP (VBN used)
+                (PP (IN as)
+                  (NP
+                    (NP (DT a) (NN shelter))
+                    (ADVP
+                      (NP (NP(DT a) (NN few)) (NNS times))
+                      (RB before)))))))))
+      (, ,)
+      (CC and)
+      (VP (VBD found)
+        (SBAR
+          (S
+            (NP (DT the) (NN entrance))
+            (VP (VBD was)
+              (VP (VBN locked)))))))
+    (. .)))
+
+nsubj(approached-2, She-1)
+nsubj(found-18, She-1)
+det(hovel-5, an-3)
+amod(hovel-5, old-4)
+dobj(approached-2, hovel-5)
+nsubj(used-8, she-6)
+aux(used-8, had-7)
+rcmod(hovel-5, used-8)
+det(shelter-11, a-10)
+prep_as(used-8, shelter-11)
+det(few-13, a-12)
+num(times-14, few-13)
+tmod(used-8, times-14)
+advmod(before-15, times-14)
+conj_and(approached-2, found-18)
+det(entrance-20, the-19)
+nsubjpass(locked-22, entrance-20)
+auxpass(locked-22, was-21)
+ccomp(found-18, locked-22)
+
+Parsing [sent. 8 len. 6]: [Tough, luck, for, the, girl, !]
+(ROOT
+  (NP
+    (NP (JJ Tough) (NN luck))
+    (PP (IN for)
+      (NP (DT the) (NN girl)))
+    (. !)))
+
+amod(luck-2, Tough-1)
+det(girl-5, the-4)
+prep_for(luck-2, girl-5)
+
+Parsing [sent. 9 len. 9]: [This, day, was, even, worse, than, the, others, .]
+(ROOT
+  (S
+    (NP (DT This) (NN day))
+    (VP (VBD was)
+      (ADJP (RB even) (JJR worse))
+      (PP (IN than)
+        (NP (DT the) (NNS others))))
+    (. .)))
+
+det(day-2, This-1)
+nsubj(worse-5, day-2)
+cop(worse-5, was-3)
+advmod(worse-5, even-4)
+det(others-8, the-7)
+prep_than(worse-5, others-8)
+
+Parsing [sent. 10 len. 10]: [No, Good, Samaritan, had, given, her, even, a, penny, .]
+(ROOT
+  (S
+    (NP (DT No) (NNP Good) (NNP Samaritan))
+    (VP (VBD had)
+      (VP (VBN given)
+        (NP (PRP her))
+        (NP (RB even) (DT a) (NN penny))))
+    (. .)))
+
+det(Samaritan-3, No-1)
+nn(Samaritan-3, Good-2)
+nsubj(given-5, Samaritan-3)
+aux(given-5, had-4)
+iobj(given-5, her-6)
+advmod(penny-9, even-7)
+det(penny-9, a-8)
+dobj(given-5, penny-9)
+
+Parsing [sent. 11 len. 21]: [And, she, had, no, luck, selling, any, matches, that, she, carried, in, the, old, apron, her, grandmother, had, given, her, .]
+(ROOT
+  (S (CC And)
+    (NP (PRP she))
+    (VP (VBD had)
+      (NP
+        (NP (DT no) (NN luck))
+        (VP (VBG selling)
+         (NP
+          (NP (DT any) (NNS matches))
+          (SBAR (IN that)
+            (S
+              (NP (PRP she))
+              (VP (VBD carried)
+                    (PP (IN in)
+                      (NP (NP (DT the) (JJ old) (NN apron))
+                               (SBAR
+                               (S
+                                   (NP (PRP$ her) (NN grandmother))
+                                   (VP (VBD had)
+                                    (VP (VBN given)
+                                      (NP (PRP her)))))))))))))))
+    (. .)))
+
+cc(had-3, And-1)
+nsubj(had-3, she-2)
+det(luck-5, no-4)
+dobj(had-3, luck-5)
+partmod(she-2, selling-6)
+det(matches-8, any-7)
+dobj(selling-6, matches-8)
+complm(carried-11, that-9)
+nsubj(carried-11, she-10)
+ccomp(selling-6, carried-11)
+det(apron-15, the-13)
+amod(apron-15, old-14)
+prep_in(carried-11, apron-15)
+poss(grandmother-17, her-16)
+nsubj(given-19, grandmother-17)
+aux(given-19, had-18)
+rcmod(apron-15, given-19)
+dobj(given-19, apron-15)
+iobj(given-19, her-20)
+
+Parsing [sent. 12 len. 11]: [Poor, little, child, ,, she, looked, the, picture, of, misery, .]
+(ROOT
+  (S
+    (NP (NNP Poor) (JJ little) (NN child))
+    (, ,)
+    (NP (PRP she))
+    (VP (VBD looked)
+      (NP
+        (NP (DT the) (NN picture))
+        (PP (IN of)
+          (NP (NN misery)))))
+    (. .)))
+
+amod(child-3, Poor-1)
+amod(child-3, little-2)
+appos(she-5, child-3)
+nsubj(looked-6, she-5)
+det(picture-8, the-7)
+dobj(looked-6, picture-8)
+prep_of(picture-8, misery-10)
+
+Parsing [sent. 13 len. 31]: [On, her, long, ,, fair, hair, ,, which, hung, in, curls, on, her, shoulders, ,, the, snowflakes, kept, landing, ,, but, she, did, not, notice, them, as, she, shivered, along, .]
+(ROOT
+  (S
+    (S
+      (PP (IN On)
+        (NP
+          (NP (PRP$ her) (JJ long) (, ,) (JJ fair) (NN hair))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBN hung)
+                (PP (IN in)
+                  (NP
+                    (NP (NNS curls))
+                    (PP (IN on)
+                      (NP (PRP$ her) (NNS shoulders))))))))))
+      (, ,)
+      (NP (DT the) (NNS snowflakes))
+      (VP (VBD kept)(VBG landing)))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP she))
+      (VP (VBD did) (RB not)
+        (VP (VB notice)
+          (NP (PRP them))
+          (SBAR (IN as)
+            (S
+              (NP (PRP she))
+              (VP (VBD shivered)
+                (PRT (RP along))))))))
+    (. .)))
+
+poss(hair-6, her-2)
+amod(hair-6, long-3)
+amod(hair-6, fair-5)
+nsubj(hung-9, hair-6)
+prep_on(landing-19, hair-6)
+rcmod(hair-6, hung-9)
+ref(hair-6, which-8)
+prep_in(hung-9, curls-11)
+poss(shoulders-14, her-13)
+prep_on(curls-11, shoulders-14)
+det(snowflakes-17, the-16)
+nsubj(landing-18, snowflakes-17)
+aux(landing-19, kept-18)
+nsubj(notice-25, she-22)
+aux(notice-25, did-23)
+neg(notice-25, not-24)
+conj_but(landing-19, notice-25)
+dobj(notice-25, them-26)
+mark(shivered-29, as-27)
+nsubj(shivered-29, she-28)
+advcl(notice-25, shivered-29)
+prt(shivered-29, along-30)
+
+Parsing [sent. 14 len. 14]: [She, was, losing, strength, and, beginning, to, doubt, she, could, weather, this, storm, .]
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD was)
+      (VP
+        (VP (VBG losing)
+          (NP (NN strength)))
+        (CC and)
+        (VP (VBG beginning)
+          (S
+            (VP (TO to)
+              (VP (VB doubt)
+                (SBAR
+                  (S
+                    (NP (PRP she))
+                    (VP (MD could)
+                      (VP (VB weather)
+                        (NP (DT this) (NN storm))))))))))))
+    (. .)))
+
+nsubj(losing-3, She-1)
+nsubj(beginning-6, She-1)
+xsubj(doubt-8, She-1)
+aux(losing-3, was-2)
+dobj(losing-3, strength-4)
+conj_and(losing-3, beginning-6)
+aux(doubt-8, to-7)
+xcomp(beginning-6, doubt-8)
+nsubj(weather-11, she-9)
+aux(weather-11, could-10)
+ccomp(doubt-8, weather-11)
+det(storm-13, this-12)
+dobj(weather-11, storm-13)
+
+Parsing [sent. 15 len. 39]: [It, was, New, Year, 's, ,, and, the, girl, asked, herself, why, ,, as, lights, shone, from, every, window, ,, and, the, savory, smell, of, roast, goose, crept, out, on, the, streets, ,, she, was, outside, all, alone, .]
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBD was)
+          (NP (NNP New) (NNP Year) (POS 's))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT the) (NN girl))
+      (VP (VBD asked)
+        (NP (PRP herself))
+        (SBAR
+          (WHADVP (WRB why))
+          (, ,)
+          (S
+            (SBAR (IN as)
+              (S
+                (S
+                  (NP (NNS lights))
+                  (VP (VBP shone)
+                    (PP (IN from)
+                      (NP (DT every) (NN window)))))
+                (, ,)
+                (CC and)
+                (S
+                  (NP
+                    (NP (DT the) (JJ savory) (NN smell))
+                    (PP (IN of)
+                      (NP (NN roast) (NN goose))))
+                  (VP (VBD crept)
+                    (ADVP (RB out))
+                    (PP (IN on)
+                      (NP (DT the) (NNS streets)))))))
+            (, ,)
+            (NP (PRP she))
+            (VP (VBD was)
+             (ADVP (ADVP (RB outside))(ADVP (RB all)(RB alone)))
+)))))
+    (. .)))
+
+nsubj(Year-4, It-1)
+cop(Year-4, was-2)
+nn(Year-4, New-3)
+possessive(Year-4, 's-5)
+det(girl-9, the-8)
+nsubj(asked-10, girl-9)
+conj_and(Year-4, asked-10)
+iobj(asked-10, herself-11)
+ccomp(asked-10, alone-38)
+advmod(alone-38, why-12)
+mark(shone-16, as-14)
+nsubj(shone-16, lights-15)
+advcl(alone-38, shone-16)
+det(window-19, every-18)
+prep_from(shone-16, window-19)
+det(smell-24, the-22)
+amod(smell-24, savory-23)
+nsubj(crept-28, smell-24)
+nn(goose-27, roast-26)
+prep_of(smell-24, goose-27)
+conj_and(shone-16, crept-28)
+advcl(alone-38, crept-28)
+advmod(crept-28, out-29)
+det(streets-32, the-31)
+prep_on(crept-28, streets-32)
+nsubj(alone-38, she-34)
+conj_and(alone-38, outside-36)
+cop(alone-38, was-35)
+advmod(alone-38, all-37)
+
+Parsing [sent. 16 len. 14]: [Exhausted, ,, she, finally, sat, down, in, a, corner, behind, the, little, bakery, .]
+(ROOT
+  (S
+    (S
+      (ADJP (JJ Exhausted)))
+    (, ,)
+    (NP (PRP she))
+    (ADVP (RB finally))
+    (VP (VBD sat)
+      (PRT (RP down))
+      (PP (IN in)
+        (NP
+          (NP (DT a) (NN corner))
+          (PP (IN behind)
+            (NP (DT the) (JJ little) (NN bakery))))))
+    (. .)))
+
+amod(she-3, Exhausted-1)
+nsubj(sat-5, she-3)
+advmod(sat-5, finally-4)
+prt(sat-5, down-6)
+det(corner-9, a-8)
+prep_in(sat-5, corner-9)
+det(bakery-13, the-11)
+amod(bakery-13, little-12)
+prep_behind(corner-9, bakery-13)
+
+Parsing [sent. 17 len. 23]: [She, put, a, rag, she, had, found, over, her, legs, to, cover, herself, ,, but, she, could, not, keep, off, the, cold, .]
+(ROOT
+  (S
+    (S
+      (NP (PRP She))
+      (VP (VBD put)
+        (NP
+          (NP (DT a) (NN rag))
+          (SBAR
+            (S
+              (NP (PRP she))
+              (VP (VBD had)
+                (VP (VBN found))))))
+         (PP (IN over)
+             (NP (PRP$ her) (NNS legs)))
+         (S
+            (VP (TO to)
+              (VP (VB cover)
+               (NP (PRP herself)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP she))
+      (VP (MD could) (RB not)
+        (VP (VB keep)
+          (PRT (RP off))
+          (NP (DT the) (NN cold)))))
+    (. .)))
+
+nsubj(put-2, She-1)
+det(rag-4, a-3)
+dobj(put-2, rag-4)
+dobj(found-7, rag-4)
+nsubj(found-7, she-5)
+aux(found-7, had-6)
+rcmod(rag-4, found-7)
+poss(legs-10, her-9)
+prep_over(rag-4, legs-10)
+aux(cover-12, to-11)
+purpcl(put-2, cover-12)
+dobj(cover-12, herself-13)
+nsubj(keep-19, she-16)
+aux(keep-19, could-17)
+neg(keep-19, not-18)
+conj_but(put-2, keep-19)
+prt(keep-19, off-20)
+det(cold-22, the-21)
+dobj(keep-19, cold-22)
+
+Parsing [sent. 18 len. 23]: [The, girl, ,, who, the, night, air, had, completely, enveloped, ,, dared, not, go, home, ,, for, she, had, sold, no, matches, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN girl))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (NP (DT the) (NN night) (NN air))
+          (VP (VBD had)
+            (ADVP (RB completely))
+            (VP (VBN enveloped)))))
+      (, ,))
+    (VP (VBD dared) (RB not)
+      (VP (VB go)
+        (ADVP (NN home))
+        (, ,)
+        (SBAR (IN for)
+          (S
+            (NP (PRP she))
+            (VP (VBD had)
+              (VP (VBN sold)
+                (NP (DT no) (NNS matches))))))))
+    (. .)))
+
+det(girl-2, The-1)
+dobj(enveloped-10, girl-2)
+nsubj(dared-12, girl-2)
+rel(enveloped-10, who-4)
+det(air-7, the-5)
+nn(air-7, night-6)	
+nsubj(enveloped-10, air-7)
+aux(enveloped-10, had-8)
+advmod(enveloped-10, completely-9)
+rcmod(girl-2, enveloped-10)
+neg(dared-12, not-13)
+dep(dared-12, go-14)
+advmod(go-14, home-15)
+mark(sold-20, for-17)
+nsubj(sold-20, she-18)
+aux(sold-20, had-19)
+advcl(go-14, sold-20)
+det(matches-22, no-21)
+dobj(sold-20, matches-22)
+
+Parsing [sent. 19 len. 18]: [Her, father, had, been, mean, and, moody, ever, since, his, wife, had, gone, to, meet, her, Maker, .]
+(ROOT
+  (S
+    (NP (PRP$ Her) (NN father))
+    (VP (VBD had)
+      (VP (VBN been)
+        (NP (NN mean)
+          (CC and)
+          (NN moody))
+        (ADVP
+          (ADVP (RB ever))
+          (SBAR (IN since)
+            (S
+              (NP (PRP$ his) (NN wife))
+              (VP (VBD had)
+                (VP (VBN gone)
+                  (S
+                    (VP (TO to)
+                      (VP (VB meet)
+                        (NP (PRP$ her) (NN Maker))))))))))))
+    (. .)))
+
+poss(father-2, Her-1)
+nsubj(mean-5, father-2)
+aux(mean-5, had-3)
+cop(mean-5, been-4)
+conj_and(mean-5, moody-7)
+advmod(mean-5, ever-8)
+mark(gone-13, since-9)
+poss(wife-11, his-10)
+nsubj(gone-13, wife-11)
+xsubj(meet-15, wife-11)
+aux(gone-13, had-12)
+dep(ever-8, gone-13)
+aux(meet-15, to-14)
+xcomp(gone-13, meet-15)
+poss(Maker-17, her-16)
+dobj(meet-15, Maker-17)
+
+Parsing [sent. 20 len. 26]: [He, would, certainly, beat, her, ,, as, he, has, done, several, times, in, the, weeks, past, ,, because, she, had, not, earned, any, money, today, .]
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (MD would)
+      (ADVP (RB certainly))
+      (VP (VB beat)
+        (NP (PRP her))
+        (, ,)
+        (SBAR (IN as)
+          (S
+            (NP (PRP he))
+            (VP (VBZ has)
+              (VP (VBN done)
+                (ADVP (QP (JJ several) 
+                                       (NP (NNS times)
+                                                (PP (IN in)
+                                                        (NP (DT the) (NNS weeks) (JJ past))))))))))
+                (, ,)
+          (SBAR (IN because)
+             (S
+               (NP (PRP she))
+               (VP (VBD had) (RB not)
+                 (VP (VBN earned)
+                    (NP (DT any) (NN money)))(ADVP (NN today)))))))
+    (. .)))
+nsubj(beat-4, He-1)
+aux(beat-4, would-2) 
+advmod(beat-4, certainly-3)
+dobj(beat-4, her-5)
+mark(done-10, as-7)
+nsubj(done-10, he-8)
+aux(done-10, has-9)
+advcl(beat-4, done-10)
+quantmod(times-12, several-11)
+tmod(done-10, times-12)
+det(weeks-15, the-14)
+amod(weeks-15, past-16)
+prep_in(done-10, weeks-15)
+mark(earned-22, because-18)
+nsubj(earned-22, she-19)
+aux(earned-22, had-20)
+neg(earned-22, not-21)
+advcl(beat-4, earned-22)
+det(money-24, any-23)
+dobj(earned-22, money-24)
+tmod(earned-22, today-25)
+
+Parsing [sent. 21 len. 23]: [Besides, ,, it, was, almost, as, cold, at, home, as, outside, ,, for, they, had, only, a, patchy, roof, to, cover, them, .]
+(ROOT
+  (S
+    (ADVP (RB Besides))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD was)
+     (NP
+      (NP (RB almost) (IN as) (NN cold))
+               (PP (IN at)(NN home))
+   (SBAR (RB as) 
+   (S (RB outside))))
+            (, ,)
+            (SBAR (IN for)
+              (S
+                (NP (PRP they))
+                (VP (VBD had)
+                    (NP (RB only) (DT a) (JJ patchy) (NN roof))
+                      (S (VP (TO to)
+                      (VP (VB cover)
+                        (NP (PRP them)))))))))
+    (. .)))
+
+advmod(was-4, Besides-1)
+nsubj(was-4, it-3)
+advmod(as-6, almost-5)
+advmod(was-4, as-6)
+dep(as-6, cold-7)
+prep(as-6, at-8)
+dep(outside-11, home-9)
+advmod(outside-11, as-10)
+pcomp(at-8, outside-11)
+mark(had-15, for-13)
+nsubj(had-15, they-14)
+dep(outside-11, had-15)
+advmod(roof-19, only-16)
+det(roof-19, a-17)
+amod(roof-19, patchy-18)
+nsubj(cover-21, roof-19)
+aux(cover-21, to-20)
+dobj(had-15, roof-19)
+xcomp(had-15, cover-21)
+dobj(cover-21, them-22)
+
+Parsing [sent. 22 len. 22]: [The, girl, 's, little, hands, were, almost, frozen, solid, so, she, decided, that, a, burning, match, might, be, of, some, good, .]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN girl) (POS 's))
+      (JJ little) (NNS hands))
+    (VP (VBD were)
+      (ADJP (RB almost) (VBN frozen) (JJ solid))
+      (SBAR
+        (IN so)
+        (S
+          (NP (PRP she))
+          (VP (VBD decided)
+            (SBAR (IN that)
+              (S
+                (NP (DT a) (JJ burning) (NN match))
+                (VP (MD might)
+                  (VP (VB be)
+                    (PP (IN of)
+                      (NP (DT some) (NN good)))))))))))
+    (. .)))
+
+det(girl-2, The-1)
+poss(hands-5, girl-2)
+amod(hands-5, little-4)
+nsubj(frozen-8, hands-5)
+cop(frozen-8, were-6)
+advmod(frozen-8, almost-7)
+iobj(frozen-8, solid-9)
+dep(decided-12, so-10)
+nsubj(decided-12, she-11)
+ccomp(frozen-8, decided-12)
+complm(be-18, that-13)
+det(match-16, a-14)
+amod(match-16, burning-15)
+nsubj(be-18, match-16)
+aux(be-18, might-17)
+ccomp(decided-12, be-18)
+det(good-21, some-20)
+prep_of(be-18, good-21)
+
+Parsing [sent. 23 len. 4]: [``, Scratch, !, '']
+(ROOT
+  (S (`` ``)
+    (VP (VB Scratch))
+    (. !) ('' '')))
+
+
+Parsing [sent. 24 len. 9]: [sounded, the, match, as, she, drew, it, out, .]
+(ROOT
+  (S
+    (VP (VBD sounded)
+      (NP (DT the) (NN match))
+      (SBAR (IN as)
+        (S
+          (NP (PRP she))
+          (VP (VBD drew)
+            (NP (PRP it))
+            (PRT (RP out))))))
+    (. .)))
+
+det(match-3, the-2)
+nsubj(sounded-1, match-3)
+mark(drew-6, as-4)
+nsubj(drew-6, she-5)
+advcl(sounded-1, drew-6)
+dobj(drew-6, it-7)
+prt(drew-6, out-8)
+
+Parsing [sent. 25 len. 7]: [How, it, sputtered, as, it, burnt, !]
+(ROOT
+  (FRAG
+    (SBAR
+      (WHADVP (WRB How))
+      (S
+        (NP (PRP it))
+        (VP (VBD sputtered)
+          (SBAR (IN as)
+            (S
+              (NP (PRP it))
+              (VP (VBN burnt)))))))
+    (. !)))
+
+advmod(sputtered-3, How-1)
+nsubj(sputtered-3, it-2)
+mark(burnt-6, as-4)
+nsubj(burnt-6, it-5)
+advcl(sputtered-3, burnt-6)
+
+Parsing [sent. 26 len. 23]: [It, gave, a, warm, ,, candle-like, bright, light, that, the, girl, hid, from, the, world, as, she, held, her, hand, over, it, .]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD gave)
+      (NP (DT a) (JJ warm) (, ,) (JJ candle-like) (JJ bright) (NN light))
+      (SB0AR (IN that)
+        (S
+          (NP (DT the) (NN girl))
+          (VP (VBD hid)
+            (PP (IN from)
+              (NP (DT the) (NN world)))
+            (SBAR (IN as)
+              (S
+                (NP (PRP she))
+                (VP (VBD held)
+                  (NP (PRP$ her) (NN hand))
+                  (PP (IN over)
+                    (NP (PRP it))))))))))
+    (. .)))
+
+nsubj(gave-2, It-1)
+det(light-8, a-3)
+amod(light-8, warm-4)
+amod(light-8, candle-like-6)
+amod(light-8, bright-7)
+dobj(gave-2, light-8)
+complm(hid-12, that-9)
+det(girl-11, the-10)
+nsubj(hid-12, girl-11)
+ccomp(gave-2, hid-12)
+det(world-15, the-14)
+prep_from(hid-12, world-15)
+mark(held-18, as-16)
+nsubj(held-18, she-17)
+advcl(hid-12, held-18)
+poss(hand-20, her-19)
+dobj(held-18, hand-20)
+prep_over(held-18, it-22)
+
+Parsing [sent. 27 len. 11]: [Why, had, no, one, wanted, to, buy, even, one, match, ?]
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ (VBD had)
+      (NP  (DT no) (NN one))
+      (VP (VBN wanted)
+        (S
+          (VP (TO to)
+            (VP (VB buy)
+              (NP (RB even) (CD one) (NN match)))))))
+    (. ?)))
+
+advmod(wanted-5, Why-1)
+aux(wanted-5, had-2)
+det(one-4, no-3)
+nsubj(wanted-5, one-4)
+xsubj(buy-7, one-4)
+aux(buy-7, to-6)
+xcomp(wanted-5, buy-7)
+advmod(match-10, even-8)
+num(match-10, one-9)
+dobj(buy-7, match-10)
+
+Parsing [sent. 28 len. 8]: [A, wonderful, light, ,, it, was, really, .]
+(ROOT
+  (S
+    (NP (DT A) (JJ wonderful) (NN light))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD was)
+      (ADVP (RB really)))
+    (. .)))
+
+det(light-3, A-1)
+amod(light-3, wonderful-2)
+nsubj(was-6, light-3)
+nsubj(was-6, it-5)
+advmod(was-6, really-7)
+
+Parsing [sent. 29 len. 24]: [It, seemed, to, the, girl, that, she, was, sitting, by, a, large, iron, stove, ,, with, polished, brass, feet, and, a, brass, ornament, .]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD seemed)
+      (PP (TO to)
+        (NP (DT the) (NN girl)))
+      (SBAR (IN that)
+        (S
+          (NP (PRP she))
+          (VP (VBD was)
+            (VP (VBG sitting)
+              (PP (IN by)
+(NP
+                (NP (DT a) (JJ large) (NN iron) (NN stove))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (JJ polished) (NN brass) (NNS feet))
+          (CC and)
+          (NP (DT a) (NN brass) (NN ornament)))))))))))
+    (. .)))
+
+nsubj(seemed-2, It-1)
+det(girl-5, the-4)
+prep_to(seemed-2, girl-5)
+complm(sitting-9, that-6)
+nsubj(sitting-9, she-7)
+aux(sitting-9, was-8)
+ccomp(seemed-2, sitting-9)
+det(stove-14, a-11)
+amod(stove-14, large-12)
+nn(stove-14, iron-13)
+prep_by(sitting-9, stove-14)
+amod(feet-19, polished-17)
+nn(feet-19, brass-18)
+prep_with(seemed-2, feet-19)
+det(ornament-23, a-21)
+nn(ornament-23, brass-22)
+prep_with(seemed-2, ornament-23)
+conj_and(feet-19, ornament-23)
+
+Parsing [sent. 30 len. 5]: [How, the, fire, burned, !]
+(ROOT
+  (FRAG
+    (SBAR
+      (WHADVP (WRB How))
+      (S
+        (NP (DT the) (NN fire))
+        (VP (VBD burned))))
+    (. !)))
+
+advmod(burned-4, How-1)
+det(fire-3, the-2)
+nsubj(burned-4, fire-3)
+
+Parsing [sent. 31 len. 34]: [The, girl, was, pleased, and, the, fire, actually, seemed, so, warm, that, the, child, stretched, out, her, feet, as, if, to, warm, them, ,, when, suddenly, the, flame, of, the, match, went, out, .]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN girl))
+      (VP (VBD was)
+        (ADJP (JJ pleased))))
+    (CC and)
+    (S
+      (NP (DT the) (NN fire))
+      (ADVP (RB actually))
+      (VP (VBD seemed)
+        (ADJP (RB so) (JJ warm))
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN child))
+            (VP (VBN stretched)
+              (PRT (RP out))
+              (NP (PRP$ her) (NNS feet))
+              (PP (IN as)
+                (SBAR (IN if)
+                  (S
+                    (VP (TO to)
+                      (VP (VB warm)
+                        (NP (PRP them)))))))
+              (, ,)
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (ADVP (RB suddenly))
+                  (NP
+                    (NP (DT the) (NN flame))
+                    (PP (IN of)
+                      (NP (DT the) (NN match))))
+                  (VP (VBD went)
+                    (PRT (RP out))))))))))
+    (. .)))
+
+det(girl-2, The-1)
+nsubj(pleased-4, girl-2)
+cop(pleased-4, was-3)
+det(fire-7, the-6)
+nsubj(warm-11, fire-7)
+advmod(warm-11, actually-8)
+cop(warm-11, seemed-9)
+advmod(warm-11, so-10)
+conj_and(pleased-4, warm-11)
+complm(stretched-15, that-12)
+det(child-14, the-13)
+nsubj(stretched-15, child-14)
+ccomp(warm-11, stretched-15)
+prt(stretched-15, out-16)
+poss(feet-18, her-17)
+dobj(stretched-15, feet-18)
+mark(warm-22, if-20)
+aux(warm-22, to-21)
+prepc_as(stretched-15, warm-22)
+dobj(warm-22, them-23)
+advmod(went-32, when-25)
+advmod(went-32, suddenly-26)
+det(flame-28, the-27)
+nsubj(went-32, flame-28)
+det(match-31, the-30)
+prep_of(flame-28, match-31)
+advcl(stretched-15, went-32)
+prt(went-32, out-33)
+
+Parsing [sent. 32 len. 17]: [It, was, a, short, ,, stubby, match, that, the, little, girl, next, rubbed, on, the, wall, .]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP (DT a) (JJ short) (, ,) (JJ stubby) (NN match))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (JJ little) (NN girl))
+          (ADVP (RB next))
+          (VP (VBD rubbed)
+            (PP (IN on)
+              (NP (DT the) (NN wall)))))))
+    (. .)))
+
+nsubj(match-7, It-1)
+cop(match-7, was-2)
+det(match-7, a-3)
+amod(match-7, short-4)
+amod(match-7, stubby-6)
+complm(rubbed-13, that-8)
+det(girl-11, the-9)
+amod(girl-11, little-10)
+nsubj(rubbed-13, girl-11)
+advmod(rubbed-13, next-12)
+rcmod(match-7, rubbed-13)
+det(wall-16, the-15)
+prep_on(rubbed-13, wall-16)
+
+Parsing [sent. 33 len. 26]: [It, burst, into, a, flame, ,, and, lo, and, behold, ,, the, girl, was, transported, from, her, dank, city, to, a, beautiful, ,, sunny, forest, .]
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBP burst)
+        (PP (IN into)
+          (NP (DT a) (NN flame)))))
+    (, ,)
+    (CC and)
+    (S
+      (S
+        (ADJP (JJ lo)
+          (CC and)
+          (JJ behold)))
+      (, ,)
+      (NP (DT the) (NN girl))
+      (VP (VBD was)
+        (VP (VBN transported)
+          (PP (IN from)
+            (NP (PRP$ her) (JJ dank) (NN city)))
+          (PP (TO to)
+            (NP (DT a) (JJ beautiful) (, ,) (JJ sunny) (NN forest))))))
+    (. .)))
+
+nsubj(burst-2, It-1)
+det(flame-5, a-4)
+prep_into(burst-2, flame-5)
+ccomp(transported-15, lo-8)
+conj_and(lo-8, behold-10)
+ccomp(transported-15, behold-10)
+det(girl-13, the-12)
+nsubjpass(transported-15, girl-13)
+auxpass(transported-15, was-14)
+conj_and(burst-2, transported-15)
+poss(city-19, her-17)
+amod(city-19, dank-18)
+prep_from(transported-15, city-19)
+det(forest-25, a-21)
+amod(forest-25, beautiful-22)
+amod(forest-25, sunny-24)
+prep_to(transported-15, forest-25)
+
+Parsing [sent. 34 len. 18]: [She, heard, the, birds, chirping, and, she, was, surrounded, by, wildflowers, and, birches, as, white, as, snow, .]
+(ROOT
+  (S
+    (S
+      (NP (PRP She))
+      (VP (VBD heard)
+        (NP
+          (NP (DT the) (NNS birds))
+          (VP (VBG chirping)))))
+    (CC and)
+    (S
+      (NP (PRP she))
+      (VP (VBD was)
+        (VP (VBN surrounded)
+          (PP (IN by)
+            (NP (NNS wildflowers)
+              (CC and)
+              (NP (NNS birches)
+          (PP (IN as)
+            (NP
+              (NP (JJ white))
+              (PP (IN as)
+                (NP (NN snow)))))))))))
+    (. .)))
+
+nsubj(heard-2, She-1)
+det(birds-4, the-3)
+dobj(heard-2, birds-4)
+partmod(birds-4, chirping-5)
+nsubjpass(surrounded-9, she-7)
+auxpass(surrounded-9, was-8)
+conj_and(heard-2, surrounded-9)
+agent(surrounded-9, wildflowers-11)
+agent(surrounded-9, birches-13)
+conj_and(wildflowers-11, birches-13)
+prep_as(birches-13, white-15)
+prep_as(white-15, snow-17)
+
+Parsing [sent. 35 len. 16]: [A, little, squirrel, hid, some, food, in, the, ground, and, scurried, off, into, the, underbrush, .]
+(ROOT
+  (S
+    (NP (DT A) (JJ little) (NN squirrel))
+    (VP
+      (VP (VBP hid)
+          (NP (DT some) (NN food))
+          (PP (IN in)
+            (NP (DT the) (NN ground))))
+      (CC and)
+      (VP (VBD scurried)
+        (PRT (RP off))
+        (PP (IN into)
+          (NP (DT the) (NN underbrush)))))
+    (. .)))
+
+det(squirrel-3, A-1)
+amod(squirrel-3, little-2)
+nsubj(hid-4, squirrel-3)
+nsubj(scurried-11, squirrel-3)
+det(food-6, some-5)
+dobj(hid-4, food-6)
+det(ground-9, the-8)
+prep_in(hid-4, ground-9)
+conj_and(hid-4, scurried-11)
+prt(scurried-11, off-12)
+det(underbrush-15, the-14)
+prep_into(scurried-11, underbrush-15)
+
+Parsing [sent. 36 len. 27]: [The, girl, was, curious, ,, so, she, dug, some, squirrel, food, up, to, see, what, it, was, ,, but, then, she, forgot, to, put, it, back, .]
+(ROOT
+  (S
+    (S
+      (S
+        (NP (DT The) (NN girl))
+        (VP (VBD was)
+          (ADJP (JJ curious))))
+      (, ,) (IN so)
+      (S
+        (NP (PRP she))
+        (VP (VBD dug)
+          (NP (DT some) (NN squirrel) (NN food))
+          (PRT (RP up))
+          (S
+            (VP (TO to)
+              (VP (VB see)
+                (SBAR
+                 (WHNP (WP what))
+                 (S
+                   (NP (PRP it))
+                   (VP (VBD was))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (ADVP (RB then))
+      (NP (PRP she))
+      (VP (VBD forgot)
+        (S
+          (VP (TO to)
+            (VP (VB put)
+              (NP (PRP it))
+              (ADVP (RB back)))))))
+    (. .)))
+
+det(girl-2, The-1)
+nsubj(curious-4, girl-2)
+cop(curious-4, was-3)
+dep(curious-4, so-6)
+nsubj(dug-8, she-7)
+xsubj(see-14, she-7)
+dep(curious-4, dug-8)
+det(food-11, some-9)
+nn(food-11, squirrel-10)
+dobj(dug-8, food-11)
+prt(dug-8, up-12)
+aux(see-14, to-13)
+xcomp(dug-8, see-14)
+dobj(was-17, what-15)
+nsubj(was-17, it-16)
+dep(dug-8, was-17)
+advmod(forgot-22, then-20)
+nsubj(forgot-22, she-21) 
+xsubj(put-24, she-21)
+conj_but(curious-4, forgot-22)
+aux(put-24, to-23)
+xcomp(forgot-22, put-24)
+dobj(put-24, it-25)
+advmod(put-24, back-26)
+
+Parsing [sent. 37 len. 20]: [The, squirrel, came, back, and, looked, in, its, hiding, place, ,, but, the, food, was, nowhere, to, be, found, .]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN squirrel))
+      (VP
+        (VP (VBD came)
+          (ADVP (RB back)))
+        (CC and)
+        (VP (VBD looked)
+          (PP (IN in)
+            (NP (PRP$ its) (NN hiding) (NN place))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT the) (NN food))
+      (VP (VBD was)
+        (ADVP (RB nowhere))
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (VP (VBN found)))))))
+    (. .)))
+
+det(squirrel-2, The-1)
+nsubj(came-3, squirrel-2)
+nsubj(looked-6, squirrel-2)
+advmod(came-3, back-4)
+conj_and(came-3, looked-6)
+poss(place-10, its-8)
+nn(place-10, hiding-9)
+prep_in(looked-6, place-10)
+det(food-14, the-13)
+nsubj(was-15, food-14)
+xsubj(found-19, food-14)
+conj_but(came-3, was-15)
+advmod(was-15, nowhere-16)
+aux(found-19, to-17)
+auxpass(found-19, be-18)
+xcomp(was-15, found-19)
+
+Parsing [sent. 38 len. 18]: [Then, the, match, went, out, ,, and, it, was, n't, the, forest, that, remained, before, her, eyes, .]
+(ROOT
+  (S
+    (S
+      (ADVP (RB Then))
+      (NP (DT the) (NN match))
+      (VP (VBD went)
+        (PRT (RP out))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBD was) (RB n't)
+        (NP
+          (NP (DT the) (NN forest))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBD remained)
+                (PP (IN before)
+                  (NP (PRP$ her) (NNS eyes)))))))))
+    (. .)))
+
+advmod(went-4, Then-1)
+det(match-3, the-2)
+nsubj(went-4, match-3)
+prt(went-4, out-5)
+nsubj(forest-12, it-8)
+cop(forest-12, was-9)
+neg(forest-12, n't-10)
+det(forest-12, the-11)
+conj_and(went-4, forest-12)
+nsubj(remained-14, forest-12)
+rcmod(forest-12, remained-14)
+poss(eyes-17, her-16)
+prep_before(remained-14, eyes-17)
+
+Parsing [sent. 39 len. 11]: [It, was, only, the, thick, ,, damp, ,, cold, wall, .]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADVP (RB only))
+      (NP (DT the) (JJ thick) (, ,) (JJ damp) (, ,) (JJ cold) (NN wall)))
+    (. .)))
+
+nsubj(wall-10, It-1)
+cop(wall-10, was-2)
+advmod(wall-10, only-3)
+det(wall-10, the-4)
+amod(wall-10, thick-5)
+amod(wall-10, damp-7)
+amod(wall-10, cold-9)
+
+Parsing [sent. 40 len. 29]: [The, girl, looked, despondently, into, the, sky, that, was, now, fully, darkened, and, suddenly, she, saw, a, star, fall, ,, leaving, behind, it, a, bright, streak, of, fire, .]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN girl))
+      (VP (VBD looked)
+        (ADVP (RB despondently))
+        (PP (IN into)
+          (NP
+            (NP (DT the) (NN sky))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD was)
+                  (ADVP (RB now))
+                  (ADJP (RB fully) (JJ darkened)))))))))
+    (CC and)
+    (S
+      (ADVP (RB suddenly))
+      (NP (PRP she))
+      (VP (VBD saw)
+        (SBAR
+          (S
+        (NP (DT a) (NN star))
+        (VP (VB fall))
+        (, ,)
+        (S
+          (VP (VBG leaving)
+            (PP (IN behind)
+              (NP (PRP it)))
+            (NP
+              (NP (DT a) (JJ bright) (NN streak))
+              (PP (IN of)
+                (NP (NN fire))))))))))
+    (. .)))
+
+det(girl-2, The-1)
+nsubj(looked-3, girl-2)
+advmod(looked-3, despondently-4)
+det(sky-7, the-6)
+prep_into(looked-3, sky-7)
+nsubj(darkened-12, sky-7)
+cop(darkened-12, was-9)
+advmod(darkened-12, now-10)
+advmod(darkened-12, fully-11)
+rcmod(sky-7, darkened-12)
+advmod(saw-16, suddenly-14)
+nsubj(saw-16, she-15)
+conj_and(looked-3, saw-16)
+det(star-18, a-17)
+ccomp(saw-16, fall-19)
+nsubj(fall-19, star-18)
+partmod(fall-19, leaving-21)
+xcomp(fall-19, leaving-21)
+prep_behind(leaving-21, it-23)
+det(streak-26, a-24)
+amod(streak-26, bright-25)
+dobj(leaving-21, streak-26)
+prep_of(streak-26, fire-28)
+
+Parsing [sent. 41 len. 11]: [``, Someone, is, dying, ,, '', thought, the, little, girl, .]
+(ROOT
+  (SINV (`` ``)
+    (S
+      (NP (NN Someone))
+      (VP (VBZ is)
+        (ADJP (VBG dying))))
+    (, ,) ('' '')
+    (VP (VBD thought))
+    (NP (DT the) (JJ little) (NN girl))
+    (. .)))
+
+nsubj(dying-4, Someone-2)
+cop(dying-4, is-3)
+ccomp(thought-7, dying-4)
+det(girl-10, the-8)
+amod(girl-10, little-9)
+nsubj(thought-7, girl-10)
+
+Parsing [sent. 42 len. 43]: [It, was, her, old, grandmother, ,, the, one, who, had, loved, her, the, most, ,, and, the, one, who, the, girl, used, to, visit, every, Sunday, ,, who, had, told, her, that, when, a, star, falls, ,, a, soul, leaves, this, earth, .]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (PRP$ her) (JJ old) (NN grandmother))
+        (, ,)
+        (NP
+        (NP
+          (NP (DT the) (NN one))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD had)
+                (VP (VBN loved)
+                  (NP (PRP$ her))
+                  (NP (DT the) (JJS most)))))))
+        (, ,)
+        (CC and)
+        (NP
+          (NP (DT the) (NN one))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (NP (DT the) (NN girl))
+              (VP (VBD used)
+                (S
+                  (VP (TO to)
+                    (VP (VB visit)
+                        (NP (DT every) (NNP Sunday))))))))))
+        (, ,)
+        (SBAR
+        (WHNP (WP who))
+        (S
+         (VP (VBD had)
+         (VP (VBN told)
+                                (NP (PRP her))
+                                (SBAR (IN that)
+                                  (S
+                                    (SBAR
+                                      (WHADVP (WRB when))
+                                      (S
+                                        (NP (DT a) (NN star))
+                                        (VP (VBZ falls))))
+                                    (, ,)
+                                    (NP (DT a) (NN soul))
+                                    (VP (VBZ leaves)
+                                      (NP (DT this) (NN earth)))))))))))
+    (. .)))
+
+nsubj(grandmother-5, It-1)
+cop(grandmother-5, was-2)
+poss(grandmother-5, her-3)
+amod(grandmother-5, old-4)
+det(one-8, the-7)
+appos(grandmother-5, one-8)
+nsubj(loved-11, one-8)
+aux(loved-11, had-10)
+rcmod(one-8, loved-11)
+npadvmod(loved-11, most-14)
+det(most-14, the-13)
+dobj(loved-11, her-12)
+det(one-18, the-17)
+appos(grandmother-5, one-18)
+conj_and(one-8, one-18)
+rel(used-22, who-19)
+det(girl-21, the-20)
+nsubj(used-22, girl-21)
+xsubj(visit-24, girl-21)
+rcmod(one-18, used-22)
+aux(visit-24, to-23)
+xcomp(used-22, visit-24)
+det(Sunday-26, every-25)
+tmod(visit-24, Sunday-26)
+xsubj(told-30, grandmother-5)
+aux(told-30, had-29)
+rcmod(grandmother-5, told-30)
+iobj(told-30, her-31)
+complm(leaves-40, that-32)
+advmod(falls-36, when-33)
+det(star-35, a-34)
+nsubj(falls-36, star-35)
+advcl(leaves-40, falls-36)
+det(soul-39, a-38)
+nsubj(leaves-40, soul-39)
+ccomp(told-30, leaves-40)
+det(earth-42, this-41)
+dobj(leaves-40, earth-42)
+
+Parsing [sent. 43 len. 22]: [It, was, her, last, match, that, the, little, girl, now, rubbed, on, the, wall, and, the, light, again, shone, round, her, .]
+(ROOT
+ (S
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP (PRP$ her) (JJ last) (NN match))
+      (SBAR (IN that)
+          (S
+            (NP (DT the) (JJ little) (NN girl))
+            (ADVP (RB now))
+            (VP (VBD rubbed)
+              (PP (IN on)
+                (NP (DT the) (NN wall))))))))
+     (CC and)
+     (S
+        (NP (DT the) (NN light))
+        (ADVP (RB again))
+        (VP (VBP shone)
+          (PP (IN round)
+            (NP (PRP her)))))
+    (. .)))
+
+nsubj(match-5, It-1)
+cop(match-5, was-2)
+poss(match-5, her-3)
+amod(match-5, last-4)
+complm(rubbed-11, that-6)
+det(girl-9, the-7)
+amod(girl-9, little-8)
+nsubj(rubbed-11, girl-9)
+advmod(rubbed-11, now-10)
+ccomp(match-5, rubbed-11)
+det(wall-14, the-13)
+prep_on(rubbed-11, wall-14)
+det(light-17, the-16)
+nsubj(shone-19, light-17)
+advmod(shone-19, again-18)
+conj_and(match-5, shone-19)
+prep_round(shone-19, her-21)
+
+Parsing [sent. 44 len. 13]: [Her, old, grandmother, in, the, brightness, stood, ,, loving, in, her, appearance, .]
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Her) (JJ old) (NN grandmother))
+      (PP (IN in)
+        (NP (DT the) (NNS brightness))))
+    (VP (VBD stood) (, ,) )
+      (S
+        (VP (VBG loving)
+          (PP (IN in)
+            (NP (PRP$ her) (NN appearance)))))
+    (. .)))
+
+poss(grandmother-3, Her-1)
+amod(grandmother-3, old-2)
+nsubj(stood-7, grandmother-3)
+det(brightness-6, the-5)
+prep_in(grandmother-3, brightness-6)
+partmod(grandmother-3, loving-9)
+poss(appearance-12, her-11)
+prep_in(loving-9, appearance-12)
+
+Parsing [sent. 45 len. 17]: [The, girl, understood, her, grandmother, would, soon, disappear, ,, but, she, tried, to, play, for, time, .]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN girl))
+      (VP (VBD understood)
+        (SBAR
+          (S
+            (NP (PRP$ her) (NN grandmother))
+            (VP (MD would)
+              (ADVP (RB soon))
+              (VP (VB disappear)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP she))
+      (VP (VBD tried)
+        (S
+          (VP (TO to)
+            (VP (VB play)
+              (PP (IN for)
+                (NP (NN time))))))))
+    (. .)))
+
+det(girl-2, The-1)
+nsubj(understood-3, girl-2)
+poss(grandmother-5, her-4)
+nsubj(disappear-8, grandmother-5)
+aux(disappear-8, would-6)
+advmod(disappear-8, soon-7)
+ccomp(understood-3, disappear-8)
+nsubj(tried-12, she-11)
+xsubj(play-14, she-11)
+conj_but(understood-3, tried-12)
+aux(play-14, to-13)
+xcomp(tried-12, play-14)
+prep_for(play-14, time-16)
+
+Parsing [sent. 46 len. 16]: [``, Grandmother, ,, '', cried, the, little, one, ,, ``, O, take, me, with, you, !]
+(ROOT
+  (SINV
+  (S
+    (NP (`` ``)
+      (NP (NNP Grandmother))
+      (, ,) ('' ''))
+    (VP (VBD cried)
+      (NP (DT the) (JJ little) (NN one))
+      (, ,) (`` ``)
+      (S
+        (NP (NNP O))
+        (VP (VB take)
+          (NP (PRP me))
+          (PP (IN with)
+            (NP (PRP you)))))))
+    (. !)))
+
+dobj(cried-5, Grandmother-2)
+det(one-8, the-6)
+amod(one-8, little-7)
+nsubj(cried-5, one-8)
+nsubj(take-12, O-11)
+dep(cried-5, take-12)
+dobj(take-12, me-13)
+prep_with(take-12, you-15)
+
+Parsing [sent. 47 len. 13]: [I, know, you, will, go, away, when, the, match, burns, out, !, '']
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP know)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (MD will)
+            (VP (VB go)
+              (PRT (RP away))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (DT the) (NN match))
+                  (VP (VBZ burns)
+                    (PRT (RP out))))))))))
+    (. !) ('' '')))
+
+nsubj(know-2, I-1)
+nsubj(go-5, you-3)
+aux(go-5, will-4)
+ccomp(know-2, go-5)
+prt(go-5, away-6)
+advmod(burns-10, when-7)
+det(match-9, the-8)
+nsubj(burns-10, match-9)
+advcl(go-5, burns-10)
+prt(burns-10, out-11)
+
+Parsing [sent. 48 len. 19]: [The, girl, decided, to, light, the, whole, bundle, of, matches, ,, in, order, to, keep, her, grandmother, there, .]
+(ROOT
+  (S
+    (NP (DT The) (NN girl))
+    (VP (VBD decided)
+      (S
+        (VP (TO to)
+          (VP (VB light)
+            (NP
+              (NP (DT the) (JJ whole) (NN bundle))
+              (PP (IN of)
+                (NP (NNS matches)))))))
+      (, ,)
+      (SBAR (IN in) (NN order)
+        (S
+          (VP (TO to)
+            (VP (VB keep)
+              (NP (PRP$ her) (NN grandmother))
+              (ADVP (RB there)))))))
+    (. .)))
+
+det(girl-2, The-1)
+nsubj(decided-3, girl-2)
+xsubj(light-5, girl-2)
+aux(light-5, to-4)
+xcomp(decided-3, light-5)
+det(bundle-8, the-6)
+amod(bundle-8, whole-7)
+dobj(light-5, bundle-8)
+prep_of(bundle-8, matches-10)
+mark(keep-15, in-12)
+dep(keep-15, order-13)
+aux(keep-15, to-14)
+purpcl(decided-3, keep-15)
+poss(grandmother-17, her-16)
+dobj(keep-15, grandmother-17)
+advmod(keep-15, there-18)
+
+Parsing [sent. 49 len. 38]: [The, girl, saw, the, matches, glowed, with, a, light, that, was, brighter, than, the, day, ,, and, her, grandmother, had, never, appeared, so, large, or, so, beautiful, as, she, did, in, the, light, of, the, little, matches, .]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN girl))
+      (VP (VBD saw)
+        (SBAR
+          (S
+            (NP (DT the) (NNS matches))
+            (VP (VBD glowed)
+              (PP (IN with)
+                (NP
+                  (NP (DT a) (NN light))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBD was)
+                        (ADJP (JJ brighter)
+                          (PP (IN than)
+                            (NP (DT the) (NN day))))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP$ her) (NN grandmother))
+      (VP (VBD had)
+        (ADVP (RB never))
+        (VP (VBN appeared)
+          (ADJP
+            (ADJP (RB so) (JJ large))
+            (CC or)
+            (ADJP (RB so) (JJ beautiful)))
+          (SBAR (IN as)
+            (S
+              (NP (PRP she))
+              (VP (VBD did)
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN light))
+                    (PP (IN of)
+                      (NP (DT the) (JJ little) (NNS matches)))))))))))
+    (. .)))
+
+det(girl-2, The-1)
+nsubj(saw-3, girl-2)
+det(matches-5, the-4)
+nsubj(glowed-6, matches-5)
+ccomp(saw-3, glowed-6)
+det(light-9, a-8)
+prep_with(glowed-6, light-9)
+nsubj(brighter-12, light-9)
+cop(brighter-12, was-11)
+rcmod(light-9, brighter-12)
+det(day-15, the-14)
+prep_than(brighter-12, day-15)
+poss(grandmother-19, her-18)
+nsubj(large-24, grandmother-19)
+nsubj(beautiful-27, grandmother-19)
+aux(large-24, had-20)
+neg(large-24, never-21)
+cop(large-24, appeared-22)
+advmod(large-24, so-23)
+conj_and(saw-3, large-24)
+advmod(beautiful-27, so-26)
+conj_and(saw-3, beautiful-27)
+conj_or(large-24, beautiful-27)
+mark(did-30, as-28)
+nsubj(did-30, she-29)
+advcl(large-24, did-30)
+det(light-33, the-32)
+prep_in(did-30, light-33)
+det(matches-37, the-35)
+amod(matches-37, little-36)
+prep_of(light-33, matches-37)
+
+Parsing [sent. 50 len. 42]: [The, grandmother, then, took, the, little, girl, in, her, arms, ,, and, they, both, flew, upwards, in, brightness, and, joy, far, above, the, earth, ,, where, there, was, neither, cold, nor, hunger, ,, and, the, little, girl, felt, safe, and, peaceful, .]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN grandmother))
+      (ADVP (RB then))
+      (VP (VBD took)
+        (NP (DT the) (JJ little) (NN girl))
+        (PP (IN in)
+          (NP (PRP$ her) (NNS arms)))))
+    (, ,)
+    (CC and)
+    (S
+      (S
+        (NP (PRP they))
+        (ADVP (DT both))
+        (VP (VBD flew)
+            (ADVP (RB upwards))
+            (PP (IN in)
+              (NP (NNS brightness)
+                (CC and)
+                (NN joy))))
+          (ADVP (RB far)
+            (PP (IN above)
+                (NP (DT the) (NN earth)))
+            (, ,)
+            (SBAR
+                  (WHADVP (WRB where))
+                  (S
+                    (NP (EX there))
+                    (VP (VBD was)
+                      (NP (CC neither)(NN cold)(CC nor)(NN hunger)))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (DT the) (JJ little) (NN girl))
+        (VP (VBD felt)
+          (ADJP (JJ safe)
+            (CC and)
+            (JJ peaceful)))))
+    (. .)))
+
+det(grandmother-2, The-1)
+nsubj(took-4, grandmother-2)
+advmod(took-4, then-3)
+det(girl-7, the-5)
+amod(girl-7, little-6)
+dobj(took-4, girl-7)
+poss(arms-10, her-9)
+prep_in(took-4, arms-10)
+nsubj(flew-15, they-13)
+advmod(flew-15, both-14)
+conj_and(took-4, flew-15)
+advmod(flew-15, upwards-16)
+prep_in(upwards-16, brightness-18)
+prep_in(upwards-16, joy-20)
+conj_and(brightness-18, joy-20)
+advmod(flew-15, far-21)
+det(earth-24, the-23)
+prep_above(far-21, earth-24)
+advmod(was-28, where-26)
+expl(was-28, there-27)
+rcmod(earth-24, was-28)
+preconj(cold-30, neither-29)
+cop(was-28, cold-30)
+cop(was-28, hunger-32)
+conj_nor(cold-30, hunger-32)
+det(girl-37, the-35)
+amod(girl-37, little-36)
+nsubj(felt-38, girl-37)
+conj_and(took-4, felt-38)
+conj_and(flew-15, felt-38)
+acomp(felt-38, safe-39)
+acomp(felt-38, peaceful-41)
+conj_and(safe-39, peaceful-41)
+
+Parsing [sent. 51 len. 33]: [In, the, dawn, of, the, morning, there, lay, the, poor, little, one, ,, not, frowning, ,, but, smiling, and, with, a, pale, face, leaning, against, the, wall, ,, frozen, and, stone, dead, .]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT the) (NN dawn))
+        (PP (IN of)
+          (NP (DT the) (NN morning)))))
+    (NP (EX there))
+    (VP (VBD lay)
+      (NP
+        (NP (DT the) (JJ poor) (JJ little) (NN one))
+        (, ,)
+        (UCP
+          (S
+            (VP
+              (VP (RB not) (VBG frowning))
+              (, ,)
+              (CC but)
+              (VP (VBG smiling))))
+          (CC and)
+          (PP (IN with)
+              (NP (DT a) (JJ pale) (NN face)))))
+      (S
+         (VP (VBG leaning)
+                (PP (IN against)
+                  (NP (DT the) (NN wall))))
+     (, ,)(ADJP (VBN frozen)
+                    (CC and)
+                    (NN stone) (JJ dead)))
+    (. .)))
+
+det(dawn-3, the-2)
+prep_in(lay-8, dawn-3)
+det(morning-6, the-5)
+prep_of(dawn-3, morning-6)
+expl(lay-8, there-7)
+det(one-12, the-9)
+amod(one-12, poor-10)
+amod(one-12, little-11)
+nsubj(lay-8, one-12)
+neg(frowning-15, not-14)
+partmod(one-12, frowning-15)
+partmod(one-12, smiling-18)
+conj_but(frowning-15, smiling-18)
+dep(one-12, with-20)
+conj_and(frowning-15, with-20)
+det(face-23, a-21)
+amod(face-23, pale-22)
+pobj(with-20, face-23)
+partmod(lay-8, leaning-24)
+det(wall-27, the-26)
+amod(one-12, frozen-29)
+conj_and(frozen-29, dead-32)
+amod(one-12, dead-32)
+npadvmod(dead-32, stone-31)
+prep_against(leaning-24, wall-27)
+
+Parsing [sent. 52 len. 11]: [``, She, tried, to, warm, herself, ,, '', said, some, .]
+(ROOT
+  (SINV (`` ``)
+    (S
+      (NP (PRP She))
+      (VP (VBD tried)
+        (S
+          (VP (TO to)
+            (VP (VB warm)
+              (NP (PRP herself)))))))
+    (, ,) ('' '')
+    (VP (VBD said))
+    (NP (DT some))
+    (. .)))
+
+nsubj(tried-3, She-2)
+xsubj(warm-5, She-2)
+ccomp(said-9, tried-3)
+aux(warm-5, to-4)
+xcomp(tried-3, warm-5)
+dobj(warm-5, herself-6)
+nsubj(said-9, some-10)
+
+Parsing [sent. 53 len. 23]: [Children, who, saw, her, were, asking, their, parents, why, no, one, helped, the, girl, who, they, knew, looked, dirt, poor, and, helpless, .]
+(ROOT
+  (S
+    (NP
+      (NP (NNP Children))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD saw)
+             (NP (PRP her)))))))
+     (VP (VBD were)
+        (VP (VBG asking)
+             (NP (PRP$ their) (NNS parents))
+             (SBAR
+             (WHADVP (WRB why))
+                 (S
+                 (NP (DT no) (NN one))
+                 (VP (VBD helped)
+                       (NP
+                         (NP (DT the) (NN girl))
+                         (SBAR
+                         (WHNP (WP who))
+                             (S
+                               (NP (PRP they))
+                               (VP (VBD knew)
+                                     (S
+                                       (VP (VBD looked)
+        (ADJP (NN dirt) (JJ poor)
+          (CC and)
+          (JJ helpless)))))))))))))
+    (. .)))
+
+nsubj(saw-3, Children-1)
+rcmod(Children-1, saw-3)
+rel(saw-3, who-2)
+dobj(saw-3, her-4)
+nsubj(asking-6, Childern-1)
+aux(asking-6, were-5)
+ccomp(asking-6, helped-12)
+poss(parents-8, their-7)
+iobj(asking-6, parents-8)
+advmod(helped-12, why-9)
+det(one-11, no-10)
+nsubj(helped-12, one-11)
+det(girl-14, the-13)
+dobj(helped-12, girl-14)
+dobj(knew-17, girl-14)
+rel(knew-17, who-15)
+nsubj(knew-17, they-16)
+rcmod(girl-14, knew-17)
+xcomp(knew-17, poor-20)
+xsubj(girl-14, poor-20)
+cop(poor-20, looked-18)
+cop(helpless-22, looked-18)
+npadvmod(poor-20, dirt-19)
+conj_and(poor-20, helpless-22)
+
+Parsing [sent. 54 len. 27]: [Passersby, who, saw, her, sitting, motionless, wished, they, could, have, helped, the, girl, ,, but, their, good, intentions, were, a, day, late, and, a, dollar, short, .]
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NN Passersby))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD saw)
+              (NP (PRP$ her) 
+   (VP (VBG sitting) (ADJP (JJ motionless))))))))
+      (VP (VBD wished)
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP (MD could)
+              (VP (VB have)
+                (VP (VBN helped)
+                  (NP (DT the) (NN girl)))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP$ their) (JJ good) (NNS intentions))
+      (VP (VBD were)
+        (ADVP
+          (ADVP
+            (NP (DT a) (NN day))
+            (RB late))
+          (CC and)
+          (ADVP
+            (NP (DT a) (NN dollar))
+            (RB short)))))
+    (. .)))
+
+nsubj(saw-3, Passersby-1)
+nsubj(wished-7, Passersby-1)
+rcmod(Passersby-1, saw-3)
+amod(her-4, motionless-6)
+partmod(her-4, sitting-5)
+dobj(saw-3, her-4)
+nsubj(helped-11, they-8)
+aux(helped-11, could-9)
+aux(helped-11, have-10)
+ccomp(wished-7, helped-11)
+det(girl-13, the-12)
+dobj(helped-11, girl-13)
+poss(intentions-18, their-16)
+amod(intentions-18, good-17)
+nsubj(were-19, intentions-18)
+conj_but(wished-7, were-19)
+det(day-21, a-20)
+npadvmod(late-22, day-21)
+advmod(were-19, late-22)
+det(dollar-25, a-24)
+npadvmod(short-26, dollar-25)
+advmod(were-19, short-26)
+conj_and(late-22, short-26)
+
+Parsing [sent. 55 len. 39]: [Other, people, suspected, the, girl, had, fallen, asleep, and, frozen, ,, but, no, one, imagined, what, beautiful, things, she, had, seen, ,, nor, into, what, glory, she, had, entered, with, her, grandmother, ,, on, New, Year, 's, day, .]
+(ROOT
+  (S
+    (S
+      (NP (JJ Other) (NNS people))
+      (VP (VBD suspected)
+        (SBAR
+          (S
+            (NP (DT the) (NN girl))
+            (VP (VBD had)
+             (VP
+              (VP (VBN fallen)
+                  (ADJP (JJ asleep)))
+              (CC and)
+              (VP (VBN frozen))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT no) (NN one))
+      (VP (VBD imagined)
+        (SBAR
+          (WHNP (WP what) (JJ beautiful) (NNS things))
+          (S
+            (NP (PRP she))
+            (VP (VBD had)
+                (VP (VBN seen)))))
+                (, ,)
+        (CC nor)
+        (SBAR
+           (PP (IN into)
+                   (NP (WP what) (NN glory))
+           (S
+              (NP (PRP she))
+              (VP (VBD had)
+                  (VP (VBN entered)
+                          (PP (IN with)
+                                (NP (PRP$ her) (NN grandmother)))
+                              (, ,)
+                          (PP (IN on)
+                                (NP
+                                  (NP (NNP New) (NNP Year) (POS 's))
+                                  (NN day))))))))))
+    (. .)))
+
+amod(people-2, Other-1)
+nsubj(suspected-3, people-2)
+det(girl-5, the-4)
+nsubj(fallen-7, girl-5)
+aux(fallen-7, had-6)
+ccomp(suspected-3, fallen-7)
+acomp(fallen-7, asleep-8)
+nsubj(frozen-10, girl-5)
+aux(frozen-10, had-6)
+conj_and(fallen-7, frozen-10)
+det(one-14, no-13)
+nsubj(imagined-15, one-14)
+conj_but(suspected-3, imagined-15)
+det(things-18, what-16)
+amod(things-18, beautiful-17)
+dobj(seen-21, things-18)
+nsubj(seen-21, she-19)
+aux(seen-21, had-20)
+ccomp(imagined-15, seen-21)
+ccomp(imagined-15, entered-29)
+conj_nor(seen-21, entered-29)
+dep(glory-26, what-25)
+prep_into(entered-29, glory-26)
+nsubj(entered-29, she-27)
+aux(entered-29, had-28)
+poss(grandmother-32, her-31)
+prep_with(entered-29, grandmother-32)
+nn(Year-36, New-35)
+poss(day-38, Year-36)
+prep_on(entered-29, day-38)
+
+Parsed file: ../stories_jan26_2011_final/Story3_finalized.txt [55 sentences].
+Parsed 1174 words in 55 sentences (35.48 wds/sec; 1.66 sents/sec).
