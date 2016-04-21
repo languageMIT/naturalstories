@@ -29,6 +29,6 @@ The token code consists of three fields:
 
 1. The id of the story the token is found in,
 2. The number of the token in the story,
-3. An additional field whose value is `whole` for the entire token including punctuation, `word` for the token stripped of punctuation to the left and right, and then 1 through n for each sub-token in `whole` as defined by NLTK's TreebankWordTokenizer.
+3. An additional field whose value is `whole` for the entire token including punctuation, `word` for the token stripped of punctuation to the left and right, and then 1 through n for each sub-token in `whole` as segmented by NLTK's TreebankWordTokenizer.
 
 The various annotations (frequencies, parses, RTs, etc.) should reference these codes so that we can track tokens uniformly.
