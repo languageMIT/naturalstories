@@ -6,7 +6,7 @@ There are a variety of annotations and psycholinguistic measures available for t
 The stories in with their various annotations are coordinated around the file `words.tsv`, which specifies a unique code for each token in the story under a variety of different tokenization schemes.
 For example, the following lines in `words.tsv` cover the phrase `the long-beareded mill owners.`:
 
-"""
+```
 1.54.whole      the
 1.54.word       the
 1.54.1  the
@@ -22,7 +22,7 @@ For example, the following lines in `words.tsv` cover the phrase `the long-beare
 1.57.word       owners
 1.57.1  owners
 1.57.2  .
-"""
+```
 
 The first column is the token code; the second is the token itself. For example, `1.57.whole` represents the token `owners.` and `1.57.word` represents the token `owners`.
 The token code consists of three fields:
