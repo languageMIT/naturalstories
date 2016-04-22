@@ -5,7 +5,7 @@ import itertools
 import re
 
 
-WORD_RE = re.compile(" ([^ \)]+)\)")
+WORD_RE = re.compile("(?<!-NONE-) ([^ \)]+)\)")
 
 Word = namedtuple('Word', 'story_id word_id content'.split())
 WordPart = namedtuple('WordPart', 'story_id word_id part_id content'.split())
