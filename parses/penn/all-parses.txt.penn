@@ -63,8 +63,7 @@
                           (NNS jennies))
                         (SBAR
                           (WHNP-3 (WDT that))
-                          (S (NP (-NONE- *)) (VP
-                              (NP (-NONE- *T*-3))
+                          (S (NP (-NONE- *T*-3)) (VP
                               (VP (VBD hummed))
                               (CC and)
                               (VP (VBD clattered))))))
@@ -618,7 +617,7 @@
                             (NP (DT the) (NN boar)))))))))))))
             (. ?) ('' '')))
 (ROOT
-    (NP (DT The)
+    (NP-TMP (DT The)
       (NP (JJ next) (NN instance)))
     (S
       (NP (PRP he))
@@ -1019,7 +1018,7 @@
     (. .)))
 (ROOT
   (S (`` ``)
-    (NP (DT The) (NN man)(RB here))
+    (NP (DT The) (NN man) (RB here))
     (VP
         (VBZ has)
         (VP (VBN brought)
@@ -1252,13 +1251,13 @@
 (ROOT
   (S
     (S
-        (NP (DT A)
+        (NP-TPC-1 (DT A)
           (ADJP (JJ clear)
             (CC and)
             (JJ joyous))
           (NN day))
        (NP (PRP it))
-       (VP (VBD was)))
+       (VP (VBD was) (NP (-NONE- *T*-1))))
    (CC and)
    (S  (ADVP (IN out)
          (PP (IN on)
@@ -1271,7 +1270,7 @@
               (PP (IN upon)
                     (NP (NNS thousands))))
            (PP (IN of)
-                   (NP (JJ sparkling) (NN water)(NNS drops))))
+                   (NP (JJ sparkling) (NN water) (NNS drops))))
       (, ,)
       (VP (VBN excited)
         (PP (IN by)
@@ -1282,7 +1281,7 @@
                       (NP (DT the) (NN ocean))))))))))
       (, ,))
     (VP (VBN danced)
-      (ADVP (DT all) (RP around))))
+      (ADVP (RB all) (RB around))))
     (. .)))
 (ROOT
  (S
@@ -1362,7 +1361,7 @@
     (. .)))
 (ROOT
   (S
-      (ADVP (IN By)(CC and)(IN by))
+      (ADVP (IN By) (CC and) (IN by))
     (, ,)
       (NP (DT the) (JJ happy) (NN water) (NN drop))
       (VP
@@ -1568,7 +1567,7 @@
   (S
     (PP-TPC-1 (IN Into)
        (NP (NN vapor)))
-   (NP (NP (DT the) (NN water)(NNS drops))
+   (NP (NP (DT the) (NN water) (NNS drops))
             (SBAR (WHNP-2 (WDT that))
                (S (NP (-NONE- *T*-2)) (VP (VBD danced)
                     (PP (IN in)
@@ -2020,7 +2019,7 @@
     (VP (VBD was)
       (ADJP (JJ lucky))
       (PP (IN for)
-          (NP (DT the) (NN water)(NNS drops)))
+          (NP (DT the) (NN water) (NNS drops)))
       (SBAR (IN that)
              (S
                 (NP
@@ -2145,7 +2144,7 @@
         (NP (NNP Aqua))
         (VP (VBD liked)
             (NP
-              (NP (DT this)(NN pond))
+              (NP (DT this) (NN pond))
                 (SBAR
                   (WHADVP-1 (WRB where))
                   (S
@@ -2225,13 +2224,13 @@
 (ROOT
  (S
   (SINV
-   (S (S (-NONE- *)) (VP (VBD cried)
+   (S (S-TPC-1 (-NONE- *)) (VP (VBD cried) (S (-NONE- *T*-1))
     (NP-SBJ (NNP Aqua)))))
         (CC and)
   (S
    (SBAR (IN because)
      (S
-         (NP (DT the) (NN water)(NNS drops))
+         (NP (DT the) (NN water) (NNS drops))
          (VP (VBD were) (RB all)
          (ADJP (RB together)))))
       (, ,)
@@ -2582,10 +2581,10 @@
               (VP (VBN locked)))))))
     (. .)))
 (ROOT
-  (NP
-    (NP (JJ Tough) (NN luck))
+  (S (NP (-NONE- *))
+    (VP (VBD (-NONE- *)) (NP (JJ Tough) (NN luck))
     (PP (IN for)
-      (NP (DT the) (NN girl)))
+      (NP (DT the) (NN girl))))
     (. !)))
 (ROOT
   (S
@@ -2730,7 +2729,7 @@
             (VP
               (ADVP-PRP (-NONE- *T*-1))
               (VBD was)
-              (ADVP (ADVP (RB outside)) (ADVP (RB all)(RB alone)))
+              (ADVP (ADVP (RB outside)) (ADVP (RB all) (RB alone)))
     (. .))))))))
 (ROOT
   (S
@@ -2853,7 +2852,7 @@
     (VP (VBD was)
      (NP
       (NP (RB almost) (IN as) (NN cold))
-               (PP (IN at)(NN home))
+               (PP (IN at) (NN home))
    (SBAR (RB as) 
    (S (RB outside))))
             (, ,)
@@ -3476,7 +3475,7 @@
                   (NP (DT the) (NN wall))))
      (, ,) (ADJP (VBN frozen)
                     (CC and)
-                    (NN stone) (JJ dead)))
+                    (RB stone) (JJ dead)))
     (. .)))
 (ROOT
   (SINV (`` ``)
@@ -3880,7 +3879,7 @@
                 (S
                   (NP (DT the) (NN competition))
                   (VP (VBD was)
-                      (S
+                      (S (NP (-NONE- *))
                     (ADVP (RB about))
                         (VP (TO to)
                           (VP (VB commence))))))))))))
@@ -4060,8 +4059,8 @@
           (PP (IN with)
             (NP (CD one) (NN accord)))
           (, ,)
-          (S (NP (-NONE- *)) (VP (`` ``) (VB Come)
-              (ADVP (RB back)))
+          (S (S (NP (-NONE- *)) (VP (`` ``) (VB Come)
+              (ADVP (RB back))))
       (CC ,)
     (S (NP (-NONE- *)) (VP (VB come)
       (ADVP (RB back))))))
@@ -4157,11 +4156,11 @@
 (ROOT
   (S
   (S
-      (NP (JJR Higher)
+      (ADVP-TPC-1 (JJR Higher)
         (CC and)
         (JJR higher))
           (NP (PRP he))
-          (VP (VBD mounted) (, ,)
+          (VP (VBD mounted) (ADVP-MNR (-NONE- *T*-1)) (, ,)
             (SBAR (IN until)
               (S
                 (NP (PRP he))
@@ -4304,12 +4303,12 @@
         (S (RB Then)
             (VP (VB let)
              (S (NP (NN everyone)) 
-                  (VP (VB start)
+                  (VP (VP (VB start)
               (PP (IN with)
                 (NP (DT a) (JJ clean) (NN slate))))
             (CC and)
             (VP (VB perform)
-              (NP (DT a) (JJ new) (VBG challenging) (NN task))))))))
+              (NP (DT a) (JJ new) (VBG challenging) (NN task)))))))))
     (. .)))
 (ROOT
   (S (RB Then)
@@ -4462,7 +4461,7 @@
             (ADVP (RB in))))
       (VP (VBD cried)
         (, ,) (`` ``)
-        (S 
+        (S (S 
          (NP (PRP I))
         (VP (VBP am)
           (NP (NN king))))
@@ -4470,7 +4469,7 @@
  (S
     (NP (PRP I))
     (VP (VBP am)
-      (NP (NN king))))))
+      (NP (NN king)))))))
     (. !) ('' '')))
 (ROOT
   (S (CC but)
@@ -4557,13 +4556,13 @@
     (, ,)
     (CC and)
     (S (NP (-NONE- *)) (VP (VB bade)
-        (NP (DT the) (NN owl))
+        (S (NP (DT the) (NN owl))
         (VP (VB watch)
           (NP (PRP him))
           (ADVP (RB carefully))
           (NP (NN night)
             (CC and)
-            (NN day)))))
+            (NN day))))))
     (. .)))
 (ROOT
   (S
@@ -4979,7 +4978,7 @@
     (PP (IN At)
       (NP (RB about) (CD nine) (RB o'clock)))
     (PP (IN on)
-      (NP (NNP Saturday)(NN morning)))
+      (NP (NNP Saturday) (NN morning)))
     (, ,)
     (NP (PRP I))
     (VP (VBD figured)
@@ -5738,7 +5737,7 @@
          (NP (DT an) (NNP Elvis) (NN haircut))
          (, ,)
          (CC but)
-         (NP (DT a) (JJ short) (NN buzz)(NN cut)))
+         (NP (DT a) (JJ short) (NN buzz) (NN cut)))
         (SBAR (WHNP-1 (WDT that))
           (S
             (NP (DT the) (NN barber))
@@ -6325,7 +6324,7 @@
               (PP (TO to)
                 (NP (DT the) (JJ pond) (NN weed))))
             (CC and)
-            (VP (VBG bobbing) (IN about)
+            (VP (VBG bobbing) (PRT (RP about))
               (PP (IN in)
                 (NP (DT the) (NN air) (NNS bubbles))))))))
     (. .)))
@@ -7655,7 +7654,7 @@
           (NP
             (NP (DT another) (NN one))
             (PP (IN of)
-              (NP (DT those)(NNS messages)))))
+              (NP (DT those) (NNS messages)))))
     (. ?) ('' ''))
     (NP (PRP$ her) (NN mom) (SBAR (-NONE- *RNR*-3)))
     (VP (VBD asked) (SQ (-NONE- *T*-1)) (, ,))
@@ -8244,7 +8243,7 @@
 (ROOT
   (S
     (S (CC But)
-      (NP
+      (NP-ADV
         (NP (NN text))
         (PP (IN by)
           (NP (NN text))))
@@ -8771,7 +8770,7 @@
        (PP-TMP (IN (IN on)
  (CC or)
                 (IN about))
-              (NP (NNP July) (CD eighth) (, ,) (CD nineteen)(CD forty-seven))))))))))))
+              (NP (NNP July) (CD eighth) (, ,) (CD nineteen) (CD forty-seven))))))))))))
     (. .)))
 (ROOT
   (S
@@ -9071,7 +9070,6 @@
                           (PP (IN in)
                             (NP (CD nineteen) (CD forty-seven))))))))))
     (. .)))
-%%%%%%%%%%%%%% END %%%%%%%%%%%%%%%%%
 (ROOT
   (S
     (ADVP (RB Additionally))
@@ -9086,16 +9084,16 @@
           (NP
             (NP (NP (NP (NNP Freedom))
             (PP (IN of)
-              (NP (NNP Information)))) (NNP Act)) (NNS requests)))
+              (NP (NNP Information)))) (NP (NNP Act))) (NP (NNS requests))))
         (, ,)
-        (SBAR (IN as)
+        (SBAR-ADV (IN as)
           (S (NP (-NONE- *)) (VP (VBD were)
-              (NP (DT some))
-              (SBAR (IN that)
+              (NP-SBJ (NP (DT some))
+              (SBAR (WHNP-1 (WDT that))
                 (S
                   (NP (NNS insiders))
-                  (ADVP (RB apparently))
-                  (VP (VBD leaked)))))))))
+                  (VP (ADVP (RB apparently))
+                  (VBD leaked) (NP (-NONE- *T*-1)))))))))))
     (. .)))
 (ROOT
   (S
@@ -9208,14 +9206,14 @@
     (NP (DT a) (JJ new) (NN narrative))
     (VP (VBD emerged))
       (SBAR
-        (WHNP (WDT which))
-        (S (NP (-NONE- *)) (VP (VBD was)
+        (WHNP-1 (WDT which))
+        (S (NP (-NONE- *T*-1)) (VP (VBD was)
             (PP (IN at)
               (NP (NP (JJ strong) (NNS odds))
             (PP (IN with)
               (SBAR
-                (WHNP (WP what))
-                (S (NP (-NONE- *)) (VP (VBD was)
+                (WHNP-2 (WP what))
+                (S (NP (-NONE- *T*-2)) (VP (VBD was)
                     (VP (VBN reported)
                       (PP (IN in)
                         (NP (CD nineteen) (NN forty-seven)))))))))))))
@@ -9231,13 +9229,16 @@
           (NP
             (NP (DT the) (NN time))
             (SBAR
+              (WHNP-1 (-NONE- *))
               (S
                 (NP
                   (NP (DT the) (JJ first) (NN book))
                   (PP (IN on)
                     (NP (NNP Roswell))))
-                (VP (VBD was)
+                (VP 
+                  (VBD was)
                   (VP (VBN published)
+                    (ADVP (-NONE- *T*-1))
                     (PP (IN in)
                       (NP (CD nineteen) (NN eighty))))))))))
       (, ,)
@@ -9266,10 +9267,10 @@
         (PP (IN of)
           (NP
             (NP (NNS witnesses))
-            (SBAR (IN that)
+            (SBAR (WHNP-1 (WDT that))
               (S
                 (NP (DT the) (JJ various) (NNS researchers))
-                (VP (VBD interviewed))))))
+                (VP (VBD interviewed) (NP (-NONE- *T*-1)))))))
     (, ,)
       (NP (DT a)
         (ADJP (RB seemingly) (JJ impressive))
@@ -9281,8 +9282,8 @@
       (NP
         (NP (JJ true) (`` ``) (NNS witnesses) ('' ''))
         (SBAR
-          (WHNP (WP who))
-          (S (NP (-NONE- *)) (VP (VBD claimed)
+          (WHNP-2 (WP who))
+          (S (NP (-NONE- *T*-2)) (VP (VBD claimed)
               (S (NP (-NONE- *)) (VP (TO to)
                   (VP (VB have)
                     (VP
@@ -9291,7 +9292,7 @@
                       (NP (NN debris)
                         (CC or)
                         (NNS aliens)))))))))))
-    (. .))) 
+    (. .)))
 (ROOT
   (S
     (S
@@ -9325,8 +9326,8 @@
             (NP
               (NP (DT those))
               (SBAR
-                (WHNP (WP who))
-                (S (NP (-NONE- *)) (VP (VBD claimed)
+                (WHNP-1 (WP who))
+                (S (NP (-NONE- *T*-1)) (VP (VBD claimed)
                     (S (NP (-NONE- *)) (VP (TO to)
                         (VP (VB have)
                           (VP (VBN seen)
@@ -9424,11 +9425,11 @@
     (S 
       (SINV
         (ADVP (RB Not) (RB only))
-        (VP (VBP are))
-          (NP (NNS memories)
+        (VP (VBP are) (PP (-NONE- *T*-1))
+          (NP-SBJ (NNS memories)
             (RRC
-              (ADJP (DT this) (JJ old))))
-              (PP (IN of)
+              (ADJP (DT this) (JJ old)))))
+              (PP-1 (IN of)
                 (NP (JJ dubious) (NN reliability)))))
     (, ,)
  (S
@@ -9442,13 +9443,14 @@
         (NP
           (NP (JJ other) (NNS accounts))
           (SBAR
+            (WHNP-1 (-NONE- *))
             (S
               (NP (DT the) (NNS witnesses))
               (VP (MD may)
                 (VP (VB have)
                   (VP (VBN been)
                     (VP (VBN exposed)
-                      (PP (TO to)))))))))))))))
+                      (PP (TO to) (NP (-NONE- *T*-1))))))))))))))))
     (. .)))
 (ROOT
   (S
@@ -9461,8 +9463,8 @@
             (NP
               (NP (NNS skeptics))
               (SBAR
-                (WHNP (WP who))
-                (S (NP (-NONE- *)) (VP (VBD had)
+                (WHNP-1 (WP who))
+                (S (NP (-NONE- *T*-1)) (VP (VBD had)
                     (NP (NP (JJ many) (NNS objections))
                     (PP (TO to)
                       (NP
@@ -9495,14 +9497,14 @@
         (NP (DT an) (NN inquiry)))
       (CC and)
       (VP (VBD directed)
-        (NP
+        (S (NP
           (NP (DT the) (NNP Office))
           (PP (IN of)
             (NP
               (NP (DT the) (NNP Secretary))
               (PP (IN of)
                 (NP (DT the) (NNP Air) (NNP Force))))))
-        (S (NP (-NONE- *)) (VP (TO to)
+        (VP (TO to)
             (VP (VB conduct)
               (NP (DT an) (JJ internal) (NN investigation)))))))
     (. .)))
@@ -9540,8 +9542,8 @@
                       (NP (NNP Project) (NNP Mogul)))
                       (, ,)
                       (SBAR
-                        (WHNP (WDT which))
-                        (S (NP (-NONE- *)) (VP (VBD involved)
+                        (WHNP-1 (WDT which))
+                        (S (NP (-NONE- *T*-1)) (VP (VBD involved)
                                 (NP (NP (JJ high) (NN altitude) (NNS balloons))
                                 (VP (VBN meant)
                                   (S (NP (-NONE- *)) (VP (TO to)
@@ -9605,21 +9607,23 @@
                                         (NP (JJ anthropomorphic) (NNS dummies))
                                         (PP (IN in)
                                           (NP (NP (JJ military) (NNS programs))
-                              (SBAR (S
+                              (SBAR
+                                (WHNP-1 (-NONE- *))
+                                (S
                                 (NP (NNP US))
-                                (VP (VBD conducted)
+                                (VP (VBD conducted) (NP (-NONE- *T*-1))
                                   (PP (IN in)
                                     (NP (DT the) (CD nineteen) (NNS fifties)))))))))))))
                             (, ,)
                             (CC and)
                            (NP (NP (NNS hoaxes))
-                          (SBAR (IN that)
+                          (SBAR (WHNP-2 (WDT that))
                             (S
                               (NP
                                 (NP (JJ various) (NNS witnesses))
                                 (CC and)
                                 (NP (NNP UFO) (NNS proponents)))
-                              (VP (VBD perpetrated))))))))))))
+                              (VP (VBD perpetrated) (NP (-NONE- *T*-2)))))))))))))
     (. .)))
 (ROOT
   (S
@@ -9629,10 +9633,10 @@
         (NP (NP (NN confusion))
       (PP (IN about)
         (SBAR
-          (WHADVP (WRB when))
+          (WHADVP-1 (WRB when))
           (S 
             (NP (NNS events))
-            (VP (VBD occurred))))))) 
+            (VP (ADVP-TMP (-NONE- *T*-1)) (VBD occurred))))))) 
     (VP (VBD explained)
       (NP (NP (DT the) (NN discrepancy))
       (PP (IN with)
@@ -9741,7 +9745,7 @@
           (PP (IN with)
               (NP (DT this) (NN conclusion))))))
               (, ,)
-              (NP (DT each) (NN year))
+              (NP-TMP (DT each) (NN year))
               (, ,)
           (PP (IN during)
             (NP (NNP July)
@@ -9773,7 +9777,7 @@
         (PP (IN in)
           (NP (DT the) (NNP Dutch) (NNP Golden) (NNP Age)))
         (SBAR
-          (WHPP (IN during)
+          (WHPP-1 (IN during)
             (WHNP (WDT which)))
           (S
             (NP
@@ -9786,7 +9790,9 @@
                       (ADJP (RB recently) (VBN introduced))
                       (NN tulip))))))
             (VP
-              (VP (VBD reached)
+              (VP
+                (PP (-NONE- *T*-1))
+                (VBD reached)
                 (NP
                   (ADJP (RB extraordinarily) (JJ high))
                   (NNS levels)))
@@ -9811,9 +9817,9 @@
         (NP 
           (NP
             (QP (JJR more) (IN than) (CD ten) (NNS times))
-            (DT the) (JJ annual) (NN income))
+            (NP (DT the) (JJ annual) (NN income)
           (PP (IN of)
-            (NP (DT a) (JJ skilled) (NN craftsman))))))
+            (NP (DT a) (JJ skilled) (NN craftsman))))))))
     (. .)))
 (ROOT
   (S
@@ -9843,11 +9849,11 @@
           (NP (DT the) (NNP United) (NNP Provinces))
           (, ,)
           (SBAR
-            (WHNP (WDT which))
+            (WHNP-1 (WDT which))
             (S
               (NP (PRP we))
               (ADVP (RB now))
-              (VP (VBP know)
+              (VP (VBP know) (NP (-NONE- *T*-1))
                 (PP (IN as)
                   (NP (DT the) (NNPS Netherlands)))))))))
     (. .)))
@@ -9887,8 +9893,8 @@
                     (NP (DT a) (JJ botanical) (NN garden))
                     (, ,)
                     (SBAR
-                      (WHNP (WDT which))
-                      (S (NP (-NONE- *)) (VP (VBZ is)
+                      (WHNP-1 (WDT which))
+                      (S (NP (-NONE- *T*-1)) (VP (VBZ is)
                           (ADJP (JJ famous)
                             (PP (IN as)
                               (NP
@@ -9910,20 +9916,20 @@
         (PP (IN of)
          (NP
           (NP (NN tulip) (NNS bulbs))
-      (SBAR (IN that)
+      (SBAR (WHNP-1 (WDT that))
         (S
           (NP
             (NP (DT the) (NN Emperor) (POS 's))
             (NN ambassador))
-          (VP (VBD sent)
+          (VP (VBD sent) (NP (-NONE- *T*-1))
             (PP (TO to)
               (NP (PRP him)))
             (PP (IN from)
                 (NP (NNP Turkey))))))
                 (, ,)
                 (SBAR
-                  (WHNP (WDT which))
-                  (S (NP (-NONE- *)) (VP (VBD were)
+                  (WHNP-2 (WDT which))
+                  (S (NP (-NONE- *T*-2)) (VP (VBD were)
                       (ADJP (JJ able)
                         (S (NP (-NONE- *)) (VP (TO to)
                             (VP (VB tolerate)
@@ -10028,7 +10034,7 @@
                   (PP (TO to)
                     (NP (DT a) (JJR lesser) (NN extent)))
                   (, ,)
-                  (NP (NP (DT the)(NNP Bizarden))
+                  (NP (NP (DT the) (NNP Bizarden))
                 (PRN (-LRB- -LRB-)
                   (NP
                     (NP
@@ -10039,8 +10045,8 @@
                       (NP (JJ yellow) (NN background))))
                   (-RRB- -RRB-)))))
             (SBAR
-              (WHNP (WDT that))
-              (S (NP (-NONE- *)) (VP (VBD were)
+              (WHNP-1 (WDT that))
+              (S (NP (-NONE- *T*-1)) (VP (VBD were)
                   (NP (DT the)
                     (ADJP (RBS most) (JJ popular))))))))))
     (. .)))
@@ -10120,8 +10126,8 @@
       (NP
         (NP (DT another) (NN prefix))
         (SBAR
-          (WHNP (WDT that))
-          (S (NP (-NONE- *)) (VP (VBD found)
+          (WHNP-1 (WDT that))
+          (S (NP (-NONE- *T*-1)) (VP (VBD found)
               (NP (PRP$ its) (NN way))
               (PP (IN into)
                 (NP
@@ -10131,19 +10137,18 @@
     (. .)))
 (ROOT
   (SINV
-    (ADVP (RB Later))
-    (VP (VBD came)
-      (NP (NP (NNS varieties))
+    (ADVP-TPC-1 (RB Later))
+    (VP (VBD came) (ADVP (-NONE- *T*-1)))
+      (NP-SBJ (NP (NNS varieties))
       (PP (IN with)
         (NP
           (NP
             (ADJP (RB even) (RBR more) (JJ superb))
             (NNS names))
           (, ,) 
-          (ADVP (JJ such)
-            (PP (IN as)
-              (ADVP (RB even))
-    (NP
+          (PP (JJ such)
+            (IN as)
+    (NP (ADVP (RB even))
       (NP (`` ``)
         (NP (NN Admiral))
         (PP (IN of)
@@ -10154,7 +10159,7 @@
         (NP (NNP General))
         (PP (IN of)
           (NP (NNP Generals)))
-        ('' '')))))))))
+        ('' '')))))))
     (. .)))
 (ROOT
   (S
@@ -10167,7 +10172,7 @@
       (VP (VBN died)
         (PRT (RP out))
         (, ,)
-        (SBAR (IN though)
+        (SBAR-ADV (IN though)
           (S
             (NP (JJ similar) (`` ``) (JJ broken) ('' '') (NNS tulips))
             (VP (VBP continue)
@@ -10207,11 +10212,13 @@
 (ROOT
   (S
     (S
-      (SBAR
-        (WHADVP (WRB When))
+      (SBAR-TMP
+        (WHADVP-1 (WRB When))
         (S
           (NP (DT a) (NN bulb))
-          (VP (VBZ grows)
+          (VP 
+            (ADVP-TMP (-NONE- *T*-1))
+            (VBZ grows)
             (PP (IN into)
               (NP (DT the) (NN flower))))))
       (, ,)
@@ -10226,14 +10233,15 @@
         (PP (IN in)
           (NP (PRP$ its) (NN place)))
         (, ,)
-        (SBAR (IN as)
+        (SBAR-MNR (IN as)
           (SINV
-            (VP (VBP do)
-              (NP (JJ several) (NNS buds)))))))
+            (ADVP-TPC-2 (-NONE- *T*-2))
+            (VP (VBP do) (ADVP (-NONE- *T*-2)))
+              (NP-SBJ (JJ several) (NNS buds))))))
     (. .)))
 (ROOT
   (S
-    (S
+    (S-ADV
       (ADJP (RB Properly) (JJ cultivated)))
     (, ,)
     (NP (DT these) (NNS buds))
@@ -10251,11 +10259,11 @@
         (NP (DT The) (`` ``) (NN tulip) (NN breaking) ('' '') (NN virus))
         (, ,)
         (SBAR
-          (WHNP (WDT which))
+          (WHNP-1 (WDT which))
           (S
             (NP (JJ many) (NNS botanists))
             (VP (VBP have)
-              (VP (VBN studied)))))
+              (VP (VBN studied) (NP (-NONE- *T*-1))))))
         (, ,))
       (VP (VBZ spreads)
         (ADVP (RB only))
@@ -10268,7 +10276,7 @@
     (CC and)
     (IN so)
     (S
-      (S (NP (-NONE- *)) (VP (VBG cultivating)
+      (S-SBJ (NP (-NONE- *)) (VP (VBG cultivating)
           (NP (DT the)
             (ADJP (RBS most) (JJ appealing))
             (NNS varieties))))
@@ -10329,7 +10337,7 @@
     (. .)))
 (ROOT
   (S
-    (SBAR (IN As)
+    (SBAR-TMP (IN As)
       (S
         (NP (DT the) (NNS flowers))
         (VP (VBD grew)
@@ -10385,15 +10393,15 @@
             (NP (JJ formal) (NNS futures) (NNS markets))
             (, ,)
             (SBAR
-              (WHNP (WDT which))
+              (WHNP-1 (WDT which))
               (S
                 (NP (NNS merchants))
-                (VP (VBD used)
+                (VP (VBD used) (NP (-NONE- *T*-1))
                   (S (NP (-NONE- *)) (VP (TO to)
-                      (VP (VB sell)
+                      (VP (VP (VB sell)
                         (CC and)
-                        (VB buy)
-                        (NP (NNS contracts))
+                        (VB buy))
+                        (NP (NNS contracts)
                         (S (NP (-NONE- *)) (VP (TO to)
                             (VP (VB buy)
                               (NP (NNS bulbs))
@@ -10401,7 +10409,7 @@
                                 (NP
                                   (NP (DT the) (NN end))
                                   (PP (IN of)
-                                    (NP (DT the) (NN season))))))))))))))))))
+                                    (NP (DT the) (NN season)))))))))))))))))))
     (. .)))
 (ROOT
   (S (S
@@ -10550,10 +10558,12 @@
                   (PP (IN of)
                  (NP
                     (NP (DT the) (NN price))
-(SBAR (S
+(SBAR
+    (WHNP-1 (-NONE- *))
+    (S
     (NP (PRP they))
     (VP (VBD had)
-      (VP (VBN paid))))))))))))))))
+      (VP (VBN paid) (NP (-NONE- *T*-1)))))))))))))))))
     (. .)))
 (ROOT
   (S
@@ -10561,29 +10571,29 @@
     (VP (VBD was)
       (VP (VBN popularized)
         (PP (IN in)
-            (NP (CD eighteen)(CD forty-one)))
+            (NP (CD eighteen) (CD forty-one)))
                 (PP (IN by)
                   (NP (NP (NP (DT the) (NN book))
              (NP (NP (`` ``) (JJ Extraordinary) (JJ Popular) (NNS Delusions))
             (CC and)
             (NP (DT the) (NNP Madness) (IN of) (NNP Crowds) ('' ''))))
       (, ,)
-      (SBAR (IN that)
+      (SBAR (WHNP-1 (WDT that))
         (S
           (NP (NP (DT a) (JJ British) (NN journalist)) (NP (NNP Charles) (NNP Mackay)))
-          (VP (VBD wrote))))))))
+          (VP (VBD wrote) (NP (-NONE- *T*-1)))))))))
     (. .)))
 (ROOT
   (S
     (S
-      (SBAR (IN That) 
+      (SBAR-SBJ (IN That) 
       (S
         (NP (NP (NNS crowds))
         (PP (IN of)
-          (NP (NNS people)))
+          (NP (NNS people))))
       (ADVP (RB often))
       (VP (VBP behave)
-       (ADVP (RB irrationally))))))
+       (ADVP (RB irrationally)))))
             (VP (VBD was)
               (NP
                 (NP (DT the) (JJ main) (NN thesis))
@@ -10657,8 +10667,8 @@
               (NP (DT the) (NNPS Netherlands)))
             (, ,)
             (SBAR
-              (WHNP (WDT which))
-              (S (NP (-NONE- *)) (VP (VBD responded)
+              (WHNP-1 (WDT which))
+              (S (NP (-NONE- *T*-1)) (VP (VBD responded)
                   (PP (IN by)
                     (S (NP (-NONE- *)) (VP (VBG declaring)
                         (SBAR (IN that)
@@ -10666,8 +10676,8 @@
                             (NP
                               (NP (NN anyone))
                               (SBAR
-                                (WHNP (WP who))
-                                (S (NP (-NONE- *)) (VP (VBD had)
+                                (WHNP-2 (WP who))
+                                (S (NP (-NONE- *T*-2)) (VP (VBD had)
                                     (VP (VBN bought)
                                       (NP (NNS contracts))
                                       (S (NP (-NONE- *)) (VP (TO to)
@@ -10689,8 +10699,8 @@
     (NP
       (NP (NNS Attempts))
       (SBAR
-        (WHNP (WDT that))
-        (S (NP (-NONE- *)) (VP (VBD were)
+        (WHNP-1 (WDT that))
+        (S (NP (-NONE- *T*-1)) (VP (VBD were)
             (VP (VBN made)
               (S (NP (-NONE- *)) (VP (TO to)
                   (VP (VB resolve)
@@ -10710,8 +10720,8 @@
       (ADVP (RB finally))
       (VP (VBD ended)))
     (, ,)
-    (PRN (NP (NNP Mackay))
-    (VP (VBZ says) (, ,)))
+    (PRN (S (NP (NNP Mackay))
+    (VP (VBZ says) (, ,))))
       (PP (IN with)
         (NP
           (NP (NNS individuals))
@@ -10720,9 +10730,10 @@
               (NP
                 (NP (DT the) (NNS bulbs))
                 (SBAR
+                  (WHNP-1 (-NONE- *))
                   (S
                     (NP (PRP they))
-                    (VP (VBD held)
+                    (VP (VBD held) (NP (-NONE- *T*-1))
                       (PP (IN at)
                         (NP
                           (NP (DT the) (NN end))
@@ -10765,11 +10776,12 @@
           (NN book))
         (VP (VBZ is)
           (NP (DT a) (JJ classic))
-          (SBAR (IN that)
+          (SBAR
+            (WHNP-1 (WDT that))
             (S
               (NP (JJ many) (NN publishing) (NNS houses))
               (VP (VBP continue)
-                (S (NP (-NONE- *)) (VP (VBG reprinting)))
+                (S (NP (-NONE- *)) (VP (VBG reprinting) (NP (-NONE- *T*-1))))
    (ADVP (NN today))))))))
     (, ,)
     (NP (PRP$ his) (NN account))
@@ -10858,8 +10870,9 @@
               (NN introduction)))
             (, ,)
             (SBAR
-              (WHNP (WDT which))
+              (WHNP-1 (WDT which))
               (S
+                (NP (-NONE- *T*-1))
                 (ADVP (RB then))
                 (VP (VBD fell)
                   (ADVP (RB dramatically)))))))
@@ -10887,6 +10900,7 @@
                         (NP (DT a) (JJ small) (NN cost)))
                       (, ,)
                       (S
+                        (NP (-NONE- *))
                         (ADVP (RB thus))
                         (VP (VBG lowering)
                          (NP (NP (DT the) (NN risk))
@@ -10923,11 +10937,13 @@
                 (NP
                   (NP (DT any) (JJ large) (JJ economic) (NN bubble))
                   (, ,)
-                  (SBAR
-                    (WHADVP (WRB when))
+                  (SBAR-TMP
+                    (WHADVP-1 (WRB when))
                     (S
                       (NP (NN asset) (NNS prices))
-                      (VP (VB deviate)
+                      (VP
+                        (ADVP-TMP (-NONE- *T*-1))
+                        (VB deviate)
                         (PP (IN from)
                           (NP (JJ intrinsic) (NNS values)))))))))))))
     (. .)))
@@ -10953,8 +10969,9 @@
             (NP
               (NP (DT the) (JJ pioneering) (JJ French) (NN neurologist))
               (SBAR
-                (WHNP (WP who))
+                (WHNP-1 (WP who))
                 (S
+                  (NP (-NONE- *T*-1))
                   (ADVP (RB first))
                   (VP (VBD described)
                     (NP (DT the) (NN condition))
@@ -11022,8 +11039,8 @@
               (ADJP (RBR less) (JJ complex)))
             (NNS symptoms))
           (SBAR
-            (WHNP (WDT that))
-            (S (NP (-NONE- *)) (VP (VBP include)
+            (WHNP-1 (WDT that))
+            (S (NP (-NONE- *T*-1)) (VP (VBP include)
                 (NP (NP
                   (ADJP
                     (ADJP (JJ chronic) (JJ motor))
@@ -11065,8 +11082,8 @@
       (NP
         (NP (DT a) (NN condition))
         (SBAR
-          (WHNP (WP$ whose) (NNS severity))
-          (S (NP (-NONE- *)) (VP (VBZ peaks)
+          (WHNP-1 (WP$ whose) (NNS severity))
+          (S (NP (-NONE- *T*-1)) (VP (VBZ peaks)
               (PP (IN in)
                 (NP (DT the) (JJ early) (NNS teens)))
               (, ,)
@@ -11101,8 +11118,8 @@
           (VBG disabling))
         (NN course)
         (SBAR
-          (WHNP (WDT that))
-          (S (NP (-NONE- *)) (VP (VBZ lasts)
+          (WHNP-1 (WDT that))
+          (S (NP (-NONE- *T*-1)) (VP (VBZ lasts)
               (PP (IN into)
                 (NP (NN adulthood))))))))
     (. .)))
@@ -11121,7 +11138,7 @@
                   (NP (DT an) (VBN extended) (NN period))
                   (PP (IN of)
                     (NP (NN time))))))
-            (SBAR (IN before)
+            (SBAR-TMP (IN before)
               (S
                 (NP
                   (NP (DT a) (JJ formal) (NN diagnosis))
@@ -11206,8 +11223,8 @@
       (NP
         (NP (JJ many) (NNS patients))
         (SBAR
-          (WHNP (WP who))
-          (S (NP (-NONE- *)) (VP (VBP are)
+          (WHNP-1 (WP who))
+          (S (NP (-NONE- *T*-1)) (VP (VBP are)
               (ADJP (JJ self-diagnosed)
                 (SBAR (IN after)
                   (S
@@ -11253,8 +11270,8 @@
             (ADJP (JJ repetitive)))
           (NNS movements))
         (SBAR
-          (WHNP (WDT that))
-          (S (NP (-NONE- *)) (VP (VBP involve)
+          (WHNP-1 (WDT that))
+          (S (NP (-NONE- *T*-1)) (VP (VBP involve)
               (NP
                 (NP (DT a) (JJ limited) (NN number))
                 (PP (IN of)
@@ -11287,11 +11304,11 @@
       (NP (JJ Simple) (NNS vocalizations))
       (, ,)
       (SBAR
-        (WHNP (WDT which))
+        (WHNP-1 (WDT which))
         (S
           (NP (NN motor) (NNS tics))
           (ADVP (RB typically))
-          (VP (VB precede))))
+          (VP (VB precede) (NP (-NONE- *T*-1)))))
       (, ,))
     (VP (MD might)
       (VP (VB include)
@@ -11310,12 +11327,12 @@
     (NP (JJ Complex) (NNS tics))
     (VP
       (VP (VBP are)
-        (NP (NP (NP (JJ distinct)(, ,)(VBN coordinated) (NNS patterns))
+        (NP (NP (NP (JJ distinct) (, ,) (VBN coordinated) (NNS patterns))
         (PP (IN of)
           (NP (NN movement))))
         (SBAR
-          (WHNP (WDT that))
-          (S (NP (-NONE- *)) (VP (VBP involve)
+          (WHNP-1 (WDT that))
+          (S (NP (-NONE- *T*-1)) (VP (VBP involve)
               (NP (JJ several) (NN muscle) (NNS groups))))))))
     (. .)))
 (ROOT
@@ -11376,15 +11393,15 @@
         (NP
           (NP (NP (JJ motor) (NNS movements))
           (SBAR
-            (WHNP (WDT that))
-            (S (NP (-NONE- *)) (VP (VBP result)
+            (WHNP-1 (WDT that))
+            (S (NP (-NONE- *T*-1)) (VP (VBP result)
                 (PP (IN in)
                     (NP (NN self-harm)))))))
                     (PP (JJ such) (IN as)
-                      (S (NP (-NONE- *)) (VP (VBG punching)
+                      (NP (S (NP (-NONE- *)) (VP (VBG punching)
                           (NP (PRP oneself))
                           (PP (IN in)
-                            (NP (DT the) (NN face)))))))
+                            (NP (DT the) (NN face))))))))
         (, ,)
         (CC or)
         (NP
@@ -11394,8 +11411,8 @@
                 (NP (NN coprolalia))
                 (, ,)
                 (SBAR
-                  (WHNP (WDT which))
-                  (S (NP (-NONE- *)) (VP (VBZ involves)
+                  (WHNP-2 (WDT which))
+                  (S (NP (-NONE- *T*-2)) (VP (VBZ involves)
                       (S (NP (-NONE- *)) (VP (VBG uttering)
                           (NP (JJ swear) (NNS words))))))))
           (, ,)
@@ -11404,8 +11421,8 @@
             (NP (NN echolalia))
             (, ,)
             (SBAR
-              (WHNP (WDT which))
-              (S (NP (-NONE- *)) (VP (VBZ involves)
+              (WHNP-3 (WDT which))
+              (S (NP (-NONE- *T*-3)) (VP (VBZ involves)
                   (S (NP (-NONE- *)) (VP (VBG repeating)
                       (NP 
                         (NP (DT the) (NNS words)
@@ -11454,7 +11471,7 @@
     (, ,)
     (CC or)
     (S
-      (S (NP (-NONE- *)) (VP (VBG hearing)
+      (S-SBJ (NP (-NONE- *)) (VP (VBG hearing)
           (S
             (NP (DT another) (NN person))
             (VP (VB sniff)
@@ -11492,8 +11509,8 @@
   (S
     (NP
       (NP (DT The) (JJ first) (NNS symptoms))
-      (SBAR (S (NP (NP (NN Tourette) (POS 's))
-      (NNS patients)) (VP (VB experience)))))
+      (SBAR (WHNP-1 (-NONE- *)) (S (NP (NP (NN Tourette) (POS 's))
+      (NNS patients)) (VP (VB experience) (NP (-NONE- *T*-1))))))
     (ADVP (RB usually))
     (VP (VBP occur)
       (PP (IN in)
@@ -11501,7 +11518,7 @@
           (CC and)
           (NN neck) (NN area)))
       (, ,)
-      (SBAR (IN though)
+      (SBAR-ADB (IN though)
         (S
           (NP (PRP they))
           (VP (MD may)
@@ -11533,8 +11550,8 @@
         (NP
           (NP (DT some) (NNS people)) 
           (SBAR
-            (WHNP (WP who))
-            (S (NP (-NONE- *)) (VP (MD can)
+            (WHNP-1 (WP who))
+            (S (NP (-NONE- *T*-1)) (VP (MD can)
                 (ADVP (RB sometimes))
                 (VP (VP
                   (VP (VB suppress)) (, ,)
@@ -11567,18 +11584,22 @@
       (PP (IN in)
         (NP (NN tension)))
       (SBAR
-        (WHADVP (WRB when))
-        (S (NP (-NONE- *)) (VP (VBG suppressing)
+        (WHADVP-1 (WRB when))
+        (S (NP (-NONE- *)) (VP
+            (ADVP-TMP (-NONE- *T*-1))
+            (VBG suppressing)
             (NP (PRP$ their) (NN tics)))))
             (PP (TO to)
               (NP
                 (NP (DT the) (NN point))
                 (SBAR
-                  (WHADVP (WRB where))
+                  (WHADVP-1 (WRB where))
                   (S
                     (NP (PRP they))
                     (ADVP (RB often))
-                    (VP (VBP feel)
+                    (VP 
+                      (ADVP-LOC (-NONE- *T*-2))
+                      (VBP feel)
                       (SBAR (IN that)
                         (S
                           (NP (DT the) (NN tic))
@@ -11614,8 +11635,8 @@
       (NP
         (NP (JJ additional) (JJ neurobehavioral) (NNS problems))
         (SBAR
-          (WHNP (WDT that))
-          (S (NP (-NONE- *)) (VP (VBP include)
+          (WHNP-1 (WDT that))
+          (S (NP (-NONE- *T*-1)) (VP (VBP include)
               (NP (NN inattention) (, ,) (NN hyperactivity)
                 (CC and)
                 (NN impulsivity)))))))
@@ -11638,15 +11659,17 @@
           (CONJP (RB as) (RB well) (IN as))
           (NP
             (NP (JJ other) (NNS difficulties))
-            (SBAR (S 
-              (NP (NNP Tourette) (POS 's))
+            (SBAR 
+              (WHNP-1 (-NONE- *))
+              (S 
+              (NP (NP (NNP Tourette) (POS 's))
               (NN syndrome))
     (VP (MD may)
       (CC or)
       (MD may) (RB not)
       (VP
         (ADVP (RB directly))
-        (VB cause)))))))
+        (VB cause) (NP (-NONE- *T*-1)))))))))
     (. .)))
 (ROOT
   (S
@@ -11654,10 +11677,11 @@
     (VP (VBZ is)
       (NP
         (NP (DT a) (NN diagnosis))
-        (SBAR 
+        (SBAR
+          (WHNP-1 (-NONE- *))
           (S
             (NP (NNS doctors))
-            (VP (VBP make)
+            (VP (VBP make) (NP (-NONE- *T*-1))
               (PP (IN after)
                 (S (NP (-NONE- *)) (VP (VBG verifying)
                     (SBAR (IN that)
@@ -11750,8 +11774,8 @@
       (NP (JJ neuroimaging) (NNS studies))
       (, ,)
       (SBAR
-        (WHNP (WDT which))
-        (S (NP (-NONE- *)) (VP (VBP include)
+        (WHNP-1 (WDT which))
+        (S (NP (-NONE- *T*-1)) (VP (VBP include)
               (NP
                 (NP (JJ magnetic) (NN resonance) (NN imaging))
                 (, ,)
@@ -11769,13 +11793,13 @@
               (VP (VB rule)
                 (PRT (RP out))
                 (NP (JJ other) (NNS conditions))
-                (SBAR (IN that)
+                (SBAR (WHNP-1 (WDT that))
                   (S
                     (NP (NNP Tourette) (POS 's))
                     (VP (MD might)
                       (VP (VB be)
                         (VP (VBN confused)
-                          (PP (IN with)))))))))))))
+                          (PP (IN with) (NP (-NONE- *T*-1))))))))))))))
     (. .)))
 (ROOT
   (S
@@ -11837,8 +11861,8 @@
             (NP
               (NP (DT a) (JJ few) (NNS genes))
               (SBAR
-                (WHNP (WDT that))
-                (S (NP (-NONE- *)) (VP (VBP have)
+                (WHNP-1 (WDT that))
+                (S (NP (-NONE- *T*-1)) (VP (VBP have)
                     (NP (JJ substantial) (NNS effects))))))))))
     (, ,)
     (NP (PRP it)) 
@@ -11896,11 +11920,11 @@
                   (NP (NNP Tourette) (POS 's))
                   (CC and)
                   (NP (NP (JJ other) (JJ neurobehavioral) (NNS problems))
-        (SBAR (IN that)
+        (SBAR (WHNP-1 (WDT that))
           (S
-            (NP (NNP Tourette)(POS 's))
+            (NP (NNP Tourette) (POS 's))
               (VP (RB commonly) (VPZ co-occurs)
-                (PP (IN with)))))))))))))
+                (PP (IN with) (NP (-NONE- *T*-1))))))))))))))
     (. .)))
 (ROOT
   (S
@@ -11930,14 +11954,16 @@
           (NP (DT the) (NN gene)))))
     (VP (VBP are)
       (ADJP (RBR more) (JJ likely)
-          (VP (TO to)
+          (S
+            (NP (-NONE- *))
+            (VP (TO to)
             (VP (VB have)
-                (NP (NNS tics)))))))
+                (NP (NNS tics))))))))
                   (CC and)
                   (S (NP (NP (NNS females))
                 (SBAR
-                  (WHNP (WP who))
-                  (S (NP (-NONE- *)) (VP (VBP have)
+                  (WHNP-1 (WP who))
+                  (S (NP (-NONE- *T*-1)) (VP (VBP have)
                         (NP (DT a) (JJ genetic) (NN predisposition))))))
                             (VP (VBP are)
                               (ADJP (RBR more) (JJ likely)
