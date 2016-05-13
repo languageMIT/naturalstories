@@ -721,7 +721,7 @@
        (, ,) (VBD was)
                 (ADJP (JJ able)
                   (S (NP (-NONE- *)) (VP (TO to)
-                      (VP (VB pick)
+                      (VP (VP (VB pick)
                         (PRT (RP up))
                         (NP
                           (NP (DT the) (NN boar) (POS 's))
@@ -737,7 +737,7 @@
                         (SBAR
                           (WHNP-1 (WDT that))
                           (S (NP (-NONE- *T*-1)) (VP (VBD awaited)
-                              (NP (PRP him)))))))))))))
+                              (NP (PRP him))))))))))))))
     (. .)))
 (ROOT
   (S
