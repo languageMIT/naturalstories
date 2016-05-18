@@ -26,7 +26,11 @@ d$l <- nchar(as.character(d$word))
 
 
 #calculate by-word statistics
-word.info <- ddply(d , .(word, zone, item), summarise, nItem = length(RT), meanItemRT = mean(RT), sdItemRT = sd(RT))
+
+gmean <- function(x) exp(mean(log(x)))
+gsd   <- function(x) exp(sd(log(x)))
+
+word.info <- ddply(d , .(word, zone, item), summarise, nItem = length(RT), meanItemRT = mean(RT), sdItemRT = sd(RT), gmeanItemRT = gmean(RT), gsdItemRT = gsd(RT))
 
 d <- merge(d, word.info, by = c('word', 'zone', 'item'))
 
