@@ -1,4 +1,4 @@
-library(reshape)
+library(plyr)
 library(ggplot2)
 
 #read in RT data from 2 separate files
