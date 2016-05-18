@@ -31,8 +31,8 @@ word.info <- ddply(d , .(word, zone, item), summarise, nItem = length(RT), meanI
 d <- merge(d, word.info, by = c('word', 'zone', 'item'))
 
 #write processed output, by word, overall
-write.csv(word.info, 'processed_wordinfo.csv', quote = F, row.names=F )
-write.csv(d, 'processed_RTs.csv', quote=F, row.names=F)
+write.table(word.info, 'processed_wordinfo.tsv', quote = F, row.names=F, sep="\t")
+write.table(d, 'processed_RTs.tsv', quote=F, row.names=F, sep="\t")
 
 ggplot(d, aes(RT)) + facet_grid( . ~ WorkerId) + geom_histogram()
 
