@@ -15,4 +15,4 @@ The file `stanford/all-parses-aligned.txt.stanford` contains these parses where 
 
 `stanford/` also contains `stanford/all-parses-aligned.txt.stanford.depfeatures`, which contains three columns: the first is a word code, the second is the distance between a word and its farthest head, and the third is the number of outstanding dependencies present during a word.
 
-Also including scripts: `align_parses.py`, which aligns the word codes in `words.tsv` with Penn Treebank style parses, `depfeatures.py` which calculates the depfeatures file from Stanford dependencies, and `consfeatures.py` which calculates the consfeatures file from Penn Treebank style dependencies.
+Also including scripts: `align_parses.py`, which aligns the word codes in `words.tsv` with Penn Treebank style parses. Run this with two arguments (the path to `words.tsv` and the path to the Penn Treebank file) to align a Penn Treebank file. Run it with three arguments (path to `words.tsv`, path to a Penn Treebank file, and path to a CoNLL-X file) to align a Universal Dependencies CoNLL-X file.
