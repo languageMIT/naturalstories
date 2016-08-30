@@ -6,6 +6,8 @@ import re
 
 
 WORD_RE = re.compile("(?<!-NONE-) ([^ \)]+)\)")
+CONLLX_WORD = 1
+CONLLX_MISC = -1
 
 Word = namedtuple('Word', 'story_id word_id content'.split())
 WordPart = namedtuple('WordPart', 'story_id word_id part_id content'.split())
@@ -41,15 +43,18 @@ def align_penn(words, parts, lines):
                 assert isinstance(curr_word, Word)
                 if any(part.content == '-' for part in curr_parts):
                     # handle special case of "x-y,+"
-                    # where "x-y" corresponds to id.id.word, and ",+" is id.id.4 onward
+                    # where "x-y" corresponds to id.id.word,
+                    # and ",+" is id.id.4 onward
                     i_first_punct = first(i for i, part in enumerate(curr_parts)
                                             if not (part.content.isalpha()
                                                     or part.content == '-'))
                     word_parts = curr_parts[:i_first_punct] 
-                    curr_part = WordPart(curr_word.story_id,
-                                         curr_word.word_id,
-                                         'word',
-                                         " ".join(part.content for part in word_parts))
+                    curr_part = WordPart(
+                        curr_word.story_id,
+                        curr_word.word_id,
+                        'word',
+                        " ".join(part.content for part in word_parts)
+                    )
                     words = append(curr_parts[i_first_punct:], words)
                 else:
                     curr_part = curr_parts[0]
@@ -86,9 +91,28 @@ def penn_sentences(lines):
 def stanford_sentences(lines):
     return itersplit(lambda line: not line.strip(), lines)
 
+conllx_sentences = stanford_sentences
+
+def align_ud(aligned_penn, lines):
+    for penn_sentence, ud_sentence in zip(penn_sentences(aligned_penn),
+                                          conllx_sentences(lines)):
+        the_penn_words = list(penn_words(penn_sentence))
+        # Make a dict of indices to (word, code) pairs
+        penn_word_ids = dict(
+            enumerate(((word, code) for _, word, code in the_penn_words))
+        )
+        for i, line in enumerate(ud_sentence):
+            parts = line.split("\t")
+            word = parts[CONLLX_WORD]
+            assert word == the_penn_words[i][1]
+            parts[CONLLX_MISC] = "TokenId=%s" % penn_word_ids[i][-1]
+            yield "\t".join(parts) + "\n"
+        yield "\n"
+
 def align_stanford(aligned_penn, lines):
     for penn_sentence, stanford_sentence in zip(penn_sentences(aligned_penn),
                                                  stanford_sentences(lines)):
+        # Make a dict of indices to (word, code) pairs
         penn_word_ids = dict(enumerate(((word, code)
                                         for _, word, code in penn_words(penn_sentence)),
                                         1))
@@ -122,18 +146,19 @@ def renumber_stanford_sentence(stanford_lines, word_ids):
         (i_w1, w1, w1_id), (i_w2, w2, w2_id) = stanford_words(line)
         assert w1 == word_ids[w1_id][0]
         assert w2 == word_ids[w2_id][0]
-        def gen():
-            yield line[:(i_w1 + 1)]
-            yield w1
-            yield "-"
-            yield word_ids[w1_id][1]
-            yield ", "
-            yield w2
-            yield "-"
-            yield word_ids[w2_id][1]
-            yield ")"
-            yield "\n"
-        yield "".join(gen())
+        parts = [
+            line[:(i_w1 + 1)],
+            w1,
+            "-",
+            word_ids[w1_id][1],
+            ", ",
+            w2,
+            "-",
+            word_ids[w2_id][1],
+            ")",
+            "\n"
+        ]
+        yield "".join(parts)
         
 def first(xs):
     return next(iter(xs))
@@ -181,17 +206,18 @@ def find_words(line):
     for match in matches:
         yield match.start() + 1, match.end() - 1, match.groups()[0]
 
-def main(words_filename, penn_filename, stanford_filename):
-    with open(words_filename, 'rb') as infile:
+def main(words_filename, penn_filename, ud_filename=None):
+    with open(words_filename, 'rt') as infile:
         words, parts = read_words(infile)
-    with open(penn_filename, 'rb') as infile:
+    with open(penn_filename, 'rt') as infile:
         aligned_penn_lines = list(align_penn(words, parts, infile))
-    for line in aligned_penn_lines:
-        print(line, end="")
-    print("------")
-    with open(stanford_filename, 'rb') as infile:
-        for line in align_stanford(aligned_penn_lines, infile):
+    if ud_filename is None:
+        for line in aligned_penn_lines:
             print(line, end="")
+    else:
+        with open(ud_filename, 'rt') as infile:
+            for line in align_ud(aligned_penn_lines, infile):
+                print(line, end="")
 
 if __name__ == '__main__':
     main(*sys.argv[1:])
