@@ -4,7 +4,7 @@ This is a corpus of naturalistic stories meant to contain varied, low-frequency 
 There are a variety of annotations and psycholinguistic measures available for the stories.
 
 The stories in with their various annotations are coordinated around the file `words.tsv`, which specifies a unique code for each token in the story under a variety of different tokenization schemes.
-For example, the following lines in `words.tsv` cover the phrase `the long-beareded mill owners.`:
+For example, the following lines in `words.tsv` cover the phrase `the long-bearded mill owners.`:
 
 ```
 1.54.whole      the
