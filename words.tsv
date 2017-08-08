@@ -16344,6 +16344,7 @@
 6.6.word	how
 6.6.1	how
 6.7.whole	Mr.
+6.7.word	Mr
 6.7.1	Mr.
 6.8.whole	Sticky
 6.8.word	Sticky
@@ -16783,6 +16784,7 @@
 6.145.word	mysterious
 6.145.1	mysterious
 6.146.whole	Mr.
+6.146.word	Mr
 6.146.1	Mr.
 6.147.whole	Sticky ,
 6.147.word	Sticky
@@ -16911,6 +16913,7 @@
 6.186.word	found
 6.186.1	found
 6.187.whole	Mr.
+6.187.word	Mr
 6.187.1	Mr.
 6.188.whole	Sticky
 6.188.word	Sticky
@@ -16972,7 +16975,7 @@
 6.205.1	exclaimed
 6.205.2	.
 6.206.whole	She
-6.206.w ord	She
+6.206.word	She
 6.206.1	She
 6.207.whole	tried
 6.207.word	tried
@@ -17569,6 +17572,7 @@
 6.392.2	Where
 6.392.3	's
 6.393.whole	Mr.
+6.393.word	Mr
 6.393.1	Mr.
 6.394.whole	Sticky ? '
 6.394.word	Sticky
@@ -17910,6 +17914,7 @@
 6.499.word	see
 6.499.1	see
 6.500.whole	Mr.
+6.500.word	Mr
 6.500.1	Mr.
 6.501.whole	Sticky .
 6.501.word	Sticky
@@ -17971,6 +17976,7 @@
 6.519.word	but
 6.519.1	but
 6.520.whole	Mr.
+6.520.word	Mr
 6.520.1	Mr.
 6.521.whole	Sticky
 6.521.word	Sticky
@@ -18398,6 +18404,7 @@
 6.651.word	because
 6.651.1	because
 6.652.whole	Mr.
+6.652.word	Mr
 6.652.1	Mr.
 6.653.whole	Sticky
 6.653.word	Sticky
@@ -18516,6 +18523,7 @@
 6.686.word	overlooked
 6.686.1	overlooked
 6.687.whole	Mr.
+6.687.word	Mr
 6.687.1	Mr.
 6.688.whole	Sticky
 6.688.word	Sticky
@@ -19389,6 +19397,7 @@
 6.962.word	sat
 6.962.1	sat
 6.963.whole	Mr.
+6.963.word	Mr
 6.963.1	Mr.
 6.964.whole	Sticky ,
 6.964.word	Sticky
@@ -29420,6 +29429,7 @@
 10.13.word	for
 10.13.1	for
 10.14.whole	Dr.
+10.14.word	Dr
 10.14.1	Dr.
 10.15.whole	Georges
 10.15.word	Georges
