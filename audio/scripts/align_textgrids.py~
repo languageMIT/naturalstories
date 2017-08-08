@@ -1,0 +1,95 @@
+#!/usr/bin/python2
+from __future__ import print_function
+import sys
+import itertools
+from collections import namedtuple
+
+import textgrid
+
+Code = namedtuple("Code", "story token".split())
+Word = namedtuple("Word", "code parts".split())
+WORDS_FILENAME = "../words.tsv"
+
+def read_words(filename):
+    def gen():
+        with open(filename) as infile:
+            for line in infile:
+                code, word = line.strip().split("\t")
+                yield tuple(code.split(".")), word
+
+    for code, words in itertools.groupby(gen(), lambda ((a,b,c), _): (a,b)):
+        story, token = code
+        codepart, whole = next(words)
+        assert codepart[-1] == 'whole', codepart
+        codepart, word = next(words)
+        assert codepart[-1] == 'word', codepart
+        rest = [w for codepart, w in words]
+        yield Word(Code(story, token), [whole, word] + rest)
+
+def strict_zip(xs, ys):
+    xs = iter(xs)
+    ys = iter(ys)
+    for x, y in zip(xs, ys):
+        yield x, y
+    xs_rest = list(xs)
+    assert not xs_rest, xs_rest
+    ys_rest = list(ys)
+    assert not ys_rest, ys_rest
+
+def normalize(s):
+    return s.strip().lower().replace(" 's", "'s").replace("can not", "cannot").replace(" '", "'").replace(" n't", "n't").replace("gon na", "gonna")
+
+def parts_enumerator():
+    yield 'whole'
+    yield 'word'
+    for i in itertools.count(1):
+        yield i
+
+def align(words, story, filename):
+    words_by_story = (w for w in words if w.code.story == story)
+    print("Processing file %s" % filename, file=sys.stderr)
+    with open(filename) as f:
+        t = textgrid.TextGrid.read(f)
+        t_words = (interval.text for interval in t['words'])
+        def gen():
+            s_word = next(words_by_story) # this stream should be shorter
+            t_word = next(t_words) # this one might have gaps
+            try:
+                while True:
+                    if not t_word.strip() or t_word.strip() == "<s>" or t_word.strip() == "</s>":
+                        yield t_word
+                        t_word = next(t_words)
+                        continue
+                    print("Comparing %s and %s" % (str(s_word), t_word), file=sys.stderr)
+                    found = False
+                    for part, word in zip(parts_enumerator(), s_word.parts):
+                        if normalize(word) == normalize(t_word):
+                            # suppose s_word is "long-bearded" and t_word is "long". We just matched s_word at part 1.
+                            if part == 'whole':
+                                code_str = ".".join(map(str, [s_word.code.story, s_word.code.token]))
+                            else:
+                                code_str = ".".join(map(str, [s_word.code.story, s_word.code.token, part]))
+                            yield t_word + " / " + code_str
+                            # now we want to advance to the next t_word while staying in the same s_word
+                            # so advance the t_word (to "bearded")
+                            t_word = next(t_words)
+                            found = True
+                    if found:
+                        s_word = next(words_by_story)
+                    else:
+                        print("Unmatched in textgrid: %s" % t_word, file=sys.stderr)
+                        yield t_word
+                        t_word = next(t_words) # advance t_words; stay in the for loop
+            except StopIteration: # we get here whens one of the streams is exhausted
+                for t_word in t_words:
+                    print("Unmatched in textgrid: %s" % t_word, file=sys.stderr)
+                for s_word in words_by_story:
+                    print("Unmatched in words: %s" % str(s_word), file=sys.stderr)
+        for interval, word_with_code in zip(t['words'], gen()):
+            interval.text = word_with_code
+        t.write(sys.stdout)
+                        
+if __name__ == '__main__':
+    words = read_words(WORDS_FILENAME)
+    align(words, sys.argv[1], sys.argv[2])
+        
