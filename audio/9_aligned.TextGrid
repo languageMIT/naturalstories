@@ -19,7 +19,7 @@ item []:
 		intervals [2]:
 			xmin = 0.403494196075
 			xmax = 0.73
-			text = "TULIP"
+			text = "TULIP / 9.1"
 		intervals [3]:
 			xmin = 0.73
 			xmax = 0.785999650717
@@ -27,83 +27,83 @@ item []:
 		intervals [4]:
 			xmin = 0.785999650717
 			xmax = 1.26
-			text = "MANIA"
+			text = "MANIA / 9.2"
 		intervals [5]:
 			xmin = 1.26
 			xmax = 1.5
-			text = "WAS"
+			text = "WAS / 9.3"
 		intervals [6]:
 			xmin = 1.5
 			xmax = 1.59
-			text = "A"
+			text = "A / 9.4"
 		intervals [7]:
 			xmin = 1.59
 			xmax = 2.0
-			text = "PERIOD"
+			text = "PERIOD / 9.5"
 		intervals [8]:
 			xmin = 2.0
 			xmax = 2.1
-			text = "IN"
+			text = "IN / 9.6"
 		intervals [9]:
 			xmin = 2.1
 			xmax = 2.17
-			text = "THE"
+			text = "THE / 9.7"
 		intervals [10]:
 			xmin = 2.17
 			xmax = 2.55
-			text = "DUTCH"
+			text = "DUTCH / 9.8"
 		intervals [11]:
 			xmin = 2.55
 			xmax = 3.03
-			text = "GOLDEN"
+			text = "GOLDEN / 9.9"
 		intervals [12]:
 			xmin = 3.03
 			xmax = 3.42
-			text = "AGE"
+			text = "AGE / 9.10"
 		intervals [13]:
 			xmin = 3.42
 			xmax = 3.77
-			text = "DURING"
+			text = "DURING / 9.11"
 		intervals [14]:
 			xmin = 3.77
 			xmax = 4.02
-			text = "WHICH"
+			text = "WHICH / 9.12"
 		intervals [15]:
 			xmin = 4.02
 			xmax = 4.68
-			text = "CONTRACT"
+			text = "CONTRACT / 9.13"
 		intervals [16]:
 			xmin = 4.68
 			xmax = 5.15
-			text = "PRICES"
+			text = "PRICES / 9.14"
 		intervals [17]:
 			xmin = 5.15
 			xmax = 5.36
-			text = "FOR"
+			text = "FOR / 9.15"
 		intervals [18]:
 			xmin = 5.36
 			xmax = 5.78
-			text = "BULBS"
+			text = "BULBS / 9.16"
 		intervals [19]:
 			xmin = 5.78
 			xmax = 5.85
-			text = "OF"
+			text = "OF / 9.17"
 		intervals [20]:
 			xmin = 5.85
 			xmax = 5.98
-			text = "THE"
+			text = "THE / 9.18"
 		intervals [21]:
 			xmin = 5.98
 			xmax = 6.51
-			text = "RECENTLY"
+			text = "RECENTLY / 9.19"
 		intervals [22]:
 			xmin = 6.51
 			xmax = 7.11
-			text = "INTRODUCED"
+			text = "INTRODUCED / 9.20"
 		intervals [23]:
 			xmin = 7.11
 			xmax = 7.53
-			text = "TULIP"
+			text = "TULIP / 9.21"
 		intervals [24]:
 			xmin = 7.53
 			xmax = 7.94
@@ -111,35 +111,35 @@ item []:
 		intervals [25]:
 			xmin = 7.94
 			xmax = 8.27
-			text = "REACHED"
+			text = "REACHED / 9.22"
 		intervals [26]:
 			xmin = 8.27
 			xmax = 9.05
-			text = "EXTRAORDINARILY"
+			text = "EXTRAORDINARILY / 9.23"
 		intervals [27]:
 			xmin = 9.05
 			xmax = 9.28
-			text = "HIGH"
+			text = "HIGH / 9.24"
 		intervals [28]:
 			xmin = 9.28
 			xmax = 9.77
-			text = "LEVELS"
+			text = "LEVELS / 9.25"
 		intervals [29]:
 			xmin = 9.77
 			xmax = 9.91
-			text = "AND"
+			text = "AND / 9.26"
 		intervals [30]:
 			xmin = 9.91
 			xmax = 10.08
-			text = "THEN"
+			text = "THEN / 9.27"
 		intervals [31]:
 			xmin = 10.08
 			xmax = 10.45
-			text = "SUDDENLY"
+			text = "SUDDENLY / 9.28"
 		intervals [32]:
 			xmin = 10.45
 			xmax = 11.1824334635
-			text = "COLLAPSED"
+			text = "COLLAPSED / 9.29.word"
 		intervals [33]:
 			xmin = 11.1824334635
 			xmax = 11.82
@@ -151,27 +151,27 @@ item []:
 		intervals [35]:
 			xmin = 11.8744138819
 			xmax = 11.9800005
-			text = "AT"
+			text = "AT / 9.30"
 		intervals [36]:
 			xmin = 11.9800005
 			xmax = 12.070001
-			text = "THE"
+			text = "THE / 9.31"
 		intervals [37]:
 			xmin = 12.070001
 			xmax = 12.37
-			text = "PEAK"
+			text = "PEAK / 9.32"
 		intervals [38]:
 			xmin = 12.37
 			xmax = 12.51
-			text = "OF"
+			text = "OF / 9.33"
 		intervals [39]:
 			xmin = 12.51
 			xmax = 12.84
-			text = "TULIP"
+			text = "TULIP / 9.34"
 		intervals [40]:
 			xmin = 12.84
 			xmax = 13.450001
-			text = "MANIA"
+			text = "MANIA / 9.35"
 		intervals [41]:
 			xmin = 13.450001
 			xmax = 13.8128877262
@@ -179,83 +179,83 @@ item []:
 		intervals [42]:
 			xmin = 13.8128877262
 			xmax = 13.93
-			text = "IN"
+			text = "IN / 9.36"
 		intervals [43]:
 			xmin = 13.93
 			xmax = 14.450001
-			text = "FEBRUARY"
+			text = "FEBRUARY / 9.37"
 		intervals [44]:
 			xmin = 14.450001
 			xmax = 14.88
-			text = "SIXTEEN"
+			text = "SIXTEEN / 9.38"
 		intervals [45]:
 			xmin = 14.88
 			xmax = 15.14
-			text = "THIRTY"
+			text = "THIRTY / 9.39.1"
 		intervals [46]:
 			xmin = 15.14
 			xmax = 15.620001
-			text = "SEVEN"
+			text = "SEVEN / 9.39.3"
 		intervals [47]:
 			xmin = 15.620001
 			xmax = 15.96
-			text = "TULIP"
+			text = "TULIP / 9.40"
 		intervals [48]:
 			xmin = 15.96
 			xmax = 16.58
-			text = "CONTRACTS"
+			text = "CONTRACTS / 9.41"
 		intervals [49]:
 			xmin = 16.58
 			xmax = 16.82
-			text = "SOLD"
+			text = "SOLD / 9.42"
 		intervals [50]:
 			xmin = 16.82
 			xmax = 16.970001
-			text = "FOR"
+			text = "FOR / 9.43"
 		intervals [51]:
 			xmin = 16.970001
 			xmax = 17.18
-			text = "MORE"
+			text = "MORE / 9.44"
 		intervals [52]:
 			xmin = 17.18
 			xmax = 17.36
-			text = "THAN"
+			text = "THAN / 9.45"
 		intervals [53]:
 			xmin = 17.36
 			xmax = 17.66
-			text = "TEN"
+			text = "TEN / 9.46"
 		intervals [54]:
 			xmin = 17.66
 			xmax = 18.02
-			text = "TIMES"
+			text = "TIMES / 9.47"
 		intervals [55]:
 			xmin = 18.02
 			xmax = 18.15
-			text = "THE"
+			text = "THE / 9.48"
 		intervals [56]:
 			xmin = 18.15
 			xmax = 18.470001
-			text = "ANNUAL"
+			text = "ANNUAL / 9.49"
 		intervals [57]:
 			xmin = 18.470001
 			xmax = 18.9
-			text = "INCOME"
+			text = "INCOME / 9.50"
 		intervals [58]:
 			xmin = 18.9
 			xmax = 19.01
-			text = "OF"
+			text = "OF / 9.51"
 		intervals [59]:
 			xmin = 19.01
 			xmax = 19.07
-			text = "A"
+			text = "A / 9.52"
 		intervals [60]:
 			xmin = 19.07
 			xmax = 19.53
-			text = "SKILLED"
+			text = "SKILLED / 9.53"
 		intervals [61]:
 			xmin = 19.53
 			xmax = 20.16
-			text = "CRAFTSMAN"
+			text = "CRAFTSMAN / 9.54.word"
 		intervals [62]:
 			xmin = 20.16
 			xmax = 20.8896491904
@@ -263,35 +263,35 @@ item []:
 		intervals [63]:
 			xmin = 20.8896491904
 			xmax = 20.98
-			text = "IT"
+			text = "IT / 9.55"
 		intervals [64]:
 			xmin = 20.98
 			xmax = 21.13
-			text = "IS"
+			text = "IS / 9.56"
 		intervals [65]:
 			xmin = 21.13
 			xmax = 21.58
-			text = "GENERALLY"
+			text = "GENERALLY / 9.57"
 		intervals [66]:
 			xmin = 21.58
 			xmax = 22.08
-			text = "CONSIDERED"
+			text = "CONSIDERED / 9.58"
 		intervals [67]:
 			xmin = 22.08
 			xmax = 22.15
-			text = "THE"
+			text = "THE / 9.59"
 		intervals [68]:
 			xmin = 22.15
 			xmax = 22.52
-			text = "FIRST"
+			text = "FIRST / 9.60"
 		intervals [69]:
 			xmin = 22.52
 			xmax = 23.06
-			text = "RECORDED"
+			text = "RECORDED / 9.61"
 		intervals [70]:
 			xmin = 23.06
 			xmax = 23.58
-			text = "ECONOMIC"
+			text = "ECONOMIC / 9.62"
 		intervals [71]:
 			xmin = 23.58
 			xmax = 23.7209479621
@@ -299,7 +299,7 @@ item []:
 		intervals [72]:
 			xmin = 23.7209479621
 			xmax = 24.07
-			text = "BUBBLE"
+			text = "BUBBLE / 9.63.word"
 		intervals [73]:
 			xmin = 24.07
 			xmax = 24.7946829079
@@ -307,11 +307,11 @@ item []:
 		intervals [74]:
 			xmin = 24.7946829079
 			xmax = 24.869999
-			text = "THE"
+			text = "THE / 9.64"
 		intervals [75]:
 			xmin = 24.869999
 			xmax = 25.36
-			text = "TULIP"
+			text = "TULIP / 9.65.word"
 		intervals [76]:
 			xmin = 25.36
 			xmax = 25.4581678382
@@ -319,51 +319,51 @@ item []:
 		intervals [77]:
 			xmin = 25.4581678382
 			xmax = 25.949999
-			text = "INTRODUCED"
+			text = "INTRODUCED / 9.66"
 		intervals [78]:
 			xmin = 25.949999
 			xmax = 26.029999
-			text = "TO"
+			text = "TO / 9.67"
 		intervals [79]:
 			xmin = 26.029999
 			xmax = 26.41
-			text = "EUROPE"
+			text = "EUROPE / 9.68"
 		intervals [80]:
 			xmin = 26.41
 			xmax = 26.49
-			text = "IN"
+			text = "IN / 9.69"
 		intervals [81]:
 			xmin = 26.49
 			xmax = 26.57
-			text = "THE"
+			text = "THE / 9.70"
 		intervals [82]:
 			xmin = 26.57
 			xmax = 26.779999
-			text = "MID"
+			text = "MID / 9.71"
 		intervals [83]:
 			xmin = 26.779999
 			xmax = 27.23
-			text = "SIXTEENTH"
+			text = "SIXTEENTH / 9.72"
 		intervals [84]:
 			xmin = 27.23
 			xmax = 27.66
-			text = "CENTURY"
+			text = "CENTURY / 9.73"
 		intervals [85]:
 			xmin = 27.66
 			xmax = 27.869999
-			text = "FROM"
+			text = "FROM / 9.74"
 		intervals [86]:
 			xmin = 27.869999
 			xmax = 28.0
-			text = "THE"
+			text = "THE / 9.75"
 		intervals [87]:
 			xmin = 28.0
 			xmax = 28.41
-			text = "OTTOMAN"
+			text = "OTTOMAN / 9.76"
 		intervals [88]:
 			xmin = 28.41
 			xmax = 28.9881777029
-			text = "EMPIRE"
+			text = "EMPIRE / 9.77.word"
 		intervals [89]:
 			xmin = 28.9881777029
 			xmax = 29.3817547638
@@ -371,31 +371,31 @@ item []:
 		intervals [90]:
 			xmin = 29.3817547638
 			xmax = 29.65
-			text = "BECAME"
+			text = "BECAME / 9.78"
 		intervals [91]:
 			xmin = 29.65
 			xmax = 29.93
-			text = "VERY"
+			text = "VERY / 9.79"
 		intervals [92]:
 			xmin = 29.93
 			xmax = 30.5
-			text = "POPULAR"
+			text = "POPULAR / 9.80"
 		intervals [93]:
 			xmin = 30.5
 			xmax = 30.63
-			text = "IN"
+			text = "IN / 9.81"
 		intervals [94]:
 			xmin = 30.63
 			xmax = 30.71
-			text = "THE"
+			text = "THE / 9.82"
 		intervals [95]:
 			xmin = 30.71
 			xmax = 31.1
-			text = "UNITED"
+			text = "UNITED / 9.83"
 		intervals [96]:
 			xmin = 31.1
 			xmax = 31.88
-			text = "PROVINCES"
+			text = "PROVINCES / 9.84.word"
 		intervals [97]:
 			xmin = 31.88
 			xmax = 32.1989852531
@@ -403,31 +403,31 @@ item []:
 		intervals [98]:
 			xmin = 32.1989852531
 			xmax = 32.34
-			text = "WHICH"
+			text = "WHICH / 9.85"
 		intervals [99]:
 			xmin = 32.34
 			xmax = 32.47
-			text = "WE"
+			text = "WE / 9.86"
 		intervals [100]:
 			xmin = 32.47
 			xmax = 32.72
-			text = "NOW"
+			text = "NOW / 9.87"
 		intervals [101]:
 			xmin = 32.72
 			xmax = 33.03
-			text = "KNOW"
+			text = "KNOW / 9.88"
 		intervals [102]:
 			xmin = 33.03
 			xmax = 33.28
-			text = "AS"
+			text = "AS / 9.89"
 		intervals [103]:
 			xmin = 33.28
 			xmax = 33.38
-			text = "THE"
+			text = "THE / 9.90"
 		intervals [104]:
 			xmin = 33.38
 			xmax = 34.13
-			text = "NETHERLANDS"
+			text = "NETHERLANDS / 9.91.word"
 		intervals [105]:
 			xmin = 34.13
 			xmax = 34.7656418003
@@ -435,59 +435,59 @@ item []:
 		intervals [106]:
 			xmin = 34.7656418003
 			xmax = 35.13
-			text = "TULIP"
+			text = "TULIP / 9.92"
 		intervals [107]:
 			xmin = 35.13
 			xmax = 35.88
-			text = "CULTIVATION"
+			text = "CULTIVATION / 9.93"
 		intervals [108]:
 			xmin = 35.88
 			xmax = 35.99
-			text = "IN"
+			text = "IN / 9.94"
 		intervals [109]:
 			xmin = 35.99
 			xmax = 36.06
-			text = "THE"
+			text = "THE / 9.95"
 		intervals [110]:
 			xmin = 36.06
 			xmax = 36.440002
-			text = "UNITED"
+			text = "UNITED / 9.96"
 		intervals [111]:
 			xmin = 36.440002
 			xmax = 37.08
-			text = "PROVINCES"
+			text = "PROVINCES / 9.97"
 		intervals [112]:
 			xmin = 37.08
 			xmax = 37.23
-			text = "IS"
+			text = "IS / 9.98"
 		intervals [113]:
 			xmin = 37.23
 			xmax = 37.65
-			text = "GENERALLY"
+			text = "GENERALLY / 9.99"
 		intervals [114]:
 			xmin = 37.65
 			xmax = 38.02
-			text = "THOUGHT"
+			text = "THOUGHT / 9.100"
 		intervals [115]:
 			xmin = 38.02
 			xmax = 38.15
-			text = "TO"
+			text = "TO / 9.101"
 		intervals [116]:
 			xmin = 38.15
 			xmax = 38.260002
-			text = "HAVE"
+			text = "HAVE / 9.102"
 		intervals [117]:
 			xmin = 38.260002
 			xmax = 38.670002
-			text = "STARTED"
+			text = "STARTED / 9.103"
 		intervals [118]:
 			xmin = 38.670002
 			xmax = 38.800003
-			text = "IN"
+			text = "IN / 9.104"
 		intervals [119]:
 			xmin = 38.800003
 			xmax = 39.3193410043
-			text = "EARNEST"
+			text = "EARNEST / 9.105"
 		intervals [120]:
 			xmin = 39.3193410043
 			xmax = 39.5822957071
@@ -495,47 +495,47 @@ item []:
 		intervals [121]:
 			xmin = 39.5822957071
 			xmax = 39.97
-			text = "AROUND"
+			text = "AROUND / 9.106"
 		intervals [122]:
 			xmin = 39.97
 			xmax = 40.47
-			text = "FIFTEEN"
+			text = "FIFTEEN / 9.107"
 		intervals [123]:
 			xmin = 40.47
 			xmax = 40.74
-			text = "NINETY"
+			text = "NINETY / 9.108.1"
 		intervals [124]:
 			xmin = 40.74
 			xmax = 41.27
-			text = "THREE"
+			text = "THREE / 9.108.3"
 		intervals [125]:
 			xmin = 41.27
 			xmax = 41.550003
-			text = "AFTER"
+			text = "AFTER / 9.109"
 		intervals [126]:
 			xmin = 41.550003
 			xmax = 41.670002
-			text = "THE"
+			text = "THE / 9.110"
 		intervals [127]:
 			xmin = 41.670002
 			xmax = 42.170002
-			text = "FLEMISH"
+			text = "FLEMISH / 9.111"
 		intervals [128]:
 			xmin = 42.170002
 			xmax = 42.77
-			text = "BOTANIST"
+			text = "BOTANIST / 9.112"
 		intervals [129]:
 			xmin = 42.77
 			xmax = 43.32
-			text = "CHARLES"
+			text = "CHARLES / 9.113"
 		intervals [130]:
 			xmin = 43.32
 			xmax = 43.58
-			text = "DE"
+			text = "DE / 9.114"
 		intervals [131]:
 			xmin = 43.58
 			xmax = 44.3226562367
-			text = "L'ECLUSE"
+			text = "L'ECLUSE / 9.115"
 		intervals [132]:
 			xmin = 44.3226562367
 			xmax = 44.6813187173
@@ -543,63 +543,63 @@ item []:
 		intervals [133]:
 			xmin = 44.6813187173
 			xmax = 44.800003
-			text = "HAD"
+			text = "HAD / 9.116"
 		intervals [134]:
 			xmin = 44.800003
 			xmax = 45.14
-			text = "TAKEN"
+			text = "TAKEN / 9.117"
 		intervals [135]:
 			xmin = 45.14
 			xmax = 45.260002
-			text = "UP"
+			text = "UP / 9.118"
 		intervals [136]:
 			xmin = 45.260002
 			xmax = 45.34
-			text = "A"
+			text = "A / 9.119"
 		intervals [137]:
 			xmin = 45.34
 			xmax = 45.7
-			text = "POST"
+			text = "POST / 9.120"
 		intervals [138]:
 			xmin = 45.7
 			xmax = 45.760002
-			text = "AT"
+			text = "AT / 9.121"
 		intervals [139]:
 			xmin = 45.760002
 			xmax = 45.9
-			text = "THE"
+			text = "THE / 9.122"
 		intervals [140]:
 			xmin = 45.9
 			xmax = 46.440002
-			text = "UNIVERSITY"
+			text = "UNIVERSITY / 9.123"
 		intervals [141]:
 			xmin = 46.440002
 			xmax = 46.57
-			text = "OF"
+			text = "OF / 9.124"
 		intervals [142]:
 			xmin = 46.57
 			xmax = 47.07
-			text = "LEIDEN"
+			text = "LEIDEN / 9.125"
 		intervals [143]:
 			xmin = 47.07
 			xmax = 47.21
-			text = "AND"
+			text = "AND / 9.126"
 		intervals [144]:
 			xmin = 47.21
 			xmax = 47.77
-			text = "ESTABLISHED"
+			text = "ESTABLISHED / 9.127"
 		intervals [145]:
 			xmin = 47.77
 			xmax = 47.81
-			text = "A"
+			text = "A / 9.128"
 		intervals [146]:
 			xmin = 47.81
 			xmax = 48.38
-			text = "BOTANICAL"
+			text = "BOTANICAL / 9.129"
 		intervals [147]:
 			xmin = 48.38
 			xmax = 48.8426827916
-			text = "GARDEN"
+			text = "GARDEN / 9.130.word"
 		intervals [148]:
 			xmin = 48.8426827916
 			xmax = 49.1945780557
@@ -607,47 +607,47 @@ item []:
 		intervals [149]:
 			xmin = 49.1945780557
 			xmax = 49.350002
-			text = "WHICH"
+			text = "WHICH / 9.131"
 		intervals [150]:
 			xmin = 49.350002
 			xmax = 49.46
-			text = "IS"
+			text = "IS / 9.132"
 		intervals [151]:
 			xmin = 49.46
 			xmax = 49.920002
-			text = "FAMOUS"
+			text = "FAMOUS / 9.133"
 		intervals [152]:
 			xmin = 49.920002
 			xmax = 50.04
-			text = "AS"
+			text = "AS / 9.134"
 		intervals [153]:
 			xmin = 50.04
 			xmax = 50.22
-			text = "ONE"
+			text = "ONE / 9.135"
 		intervals [154]:
 			xmin = 50.22
 			xmax = 50.32
-			text = "OF"
+			text = "OF / 9.136"
 		intervals [155]:
 			xmin = 50.32
 			xmax = 50.420002
-			text = "THE"
+			text = "THE / 9.137"
 		intervals [156]:
 			xmin = 50.420002
 			xmax = 50.84
-			text = "OLDEST"
+			text = "OLDEST / 9.138"
 		intervals [157]:
 			xmin = 50.84
 			xmax = 50.9
-			text = "IN"
+			text = "IN / 9.139"
 		intervals [158]:
 			xmin = 50.9
 			xmax = 50.980003
-			text = "THE"
+			text = "THE / 9.140"
 		intervals [159]:
 			xmin = 50.980003
 			xmax = 51.5
-			text = "WORLD"
+			text = "WORLD / 9.141.word"
 		intervals [160]:
 			xmin = 51.5
 			xmax = 52.0398353038
@@ -655,35 +655,35 @@ item []:
 		intervals [161]:
 			xmin = 52.0398353038
 			xmax = 52.43
-			text = "THERE"
+			text = "THERE / 9.142.word"
 		intervals [162]:
 			xmin = 52.43
 			xmax = 52.58
-			text = "HE"
+			text = "HE / 9.143"
 		intervals [163]:
 			xmin = 52.58
 			xmax = 52.95
-			text = "PLANTED"
+			text = "PLANTED / 9.144"
 		intervals [164]:
 			xmin = 52.95
 			xmax = 53.11
-			text = "HIS"
+			text = "HIS / 9.145"
 		intervals [165]:
 			xmin = 53.11
 			xmax = 53.510002
-			text = "COLLECTION"
+			text = "COLLECTION / 9.146"
 		intervals [166]:
 			xmin = 53.510002
 			xmax = 53.620003
-			text = "OF"
+			text = "OF / 9.147"
 		intervals [167]:
 			xmin = 53.620003
 			xmax = 53.96
-			text = "TULIP"
+			text = "TULIP / 9.148"
 		intervals [168]:
 			xmin = 53.96
 			xmax = 54.47
-			text = "BULBS"
+			text = "BULBS / 9.149"
 		intervals [169]:
 			xmin = 54.47
 			xmax = 54.7488783796
@@ -691,39 +691,39 @@ item []:
 		intervals [170]:
 			xmin = 54.7488783796
 			xmax = 54.84
-			text = "THAT"
+			text = "THAT / 9.150"
 		intervals [171]:
 			xmin = 54.84
 			xmax = 54.980003
-			text = "THE"
+			text = "THE / 9.151"
 		intervals [172]:
 			xmin = 54.980003
 			xmax = 55.43
-			text = "EMPEROR'S"
+			text = "EMPEROR'S / 9.152"
 		intervals [173]:
 			xmin = 55.43
 			xmax = 55.980003
-			text = "AMBASSADOR"
+			text = "AMBASSADOR / 9.153"
 		intervals [174]:
 			xmin = 55.980003
 			xmax = 56.230003
-			text = "SENT"
+			text = "SENT / 9.154"
 		intervals [175]:
 			xmin = 56.230003
 			xmax = 56.300003
-			text = "TO"
+			text = "TO / 9.155"
 		intervals [176]:
 			xmin = 56.300003
 			xmax = 56.480003
-			text = "HIM"
+			text = "HIM / 9.156"
 		intervals [177]:
 			xmin = 56.480003
 			xmax = 56.68
-			text = "FROM"
+			text = "FROM / 9.157"
 		intervals [178]:
 			xmin = 56.68
 			xmax = 57.1606842473
-			text = "TURKEY"
+			text = "TURKEY / 9.158.word"
 		intervals [179]:
 			xmin = 57.1606842473
 			xmax = 57.465208995
@@ -731,51 +731,51 @@ item []:
 		intervals [180]:
 			xmin = 57.465208995
 			xmax = 57.61
-			text = "WHICH"
+			text = "WHICH / 9.159"
 		intervals [181]:
 			xmin = 57.61
 			xmax = 57.74
-			text = "WERE"
+			text = "WERE / 9.160"
 		intervals [182]:
 			xmin = 57.74
 			xmax = 58.03
-			text = "ABLE"
+			text = "ABLE / 9.161"
 		intervals [183]:
 			xmin = 58.03
 			xmax = 58.15
-			text = "TO"
+			text = "TO / 9.162"
 		intervals [184]:
 			xmin = 58.15
 			xmax = 58.64
-			text = "TOLERATE"
+			text = "TOLERATE / 9.163"
 		intervals [185]:
 			xmin = 58.64
 			xmax = 58.760002
-			text = "THE"
+			text = "THE / 9.164"
 		intervals [186]:
 			xmin = 58.760002
 			xmax = 59.13
-			text = "HARSHER"
+			text = "HARSHER / 9.165"
 		intervals [187]:
 			xmin = 59.13
 			xmax = 59.670002
-			text = "CONDITIONS"
+			text = "CONDITIONS / 9.166"
 		intervals [188]:
 			xmin = 59.670002
 			xmax = 59.760002
-			text = "OF"
+			text = "OF / 9.167"
 		intervals [189]:
 			xmin = 59.760002
 			xmax = 59.85
-			text = "THE"
+			text = "THE / 9.168"
 		intervals [190]:
 			xmin = 59.85
 			xmax = 60.25
-			text = "NORTHERN"
+			text = "NORTHERN / 9.169"
 		intervals [191]:
 			xmin = 60.25
 			xmax = 60.7673449394
-			text = "CLIMATE"
+			text = "CLIMATE / 9.170.word"
 		intervals [192]:
 			xmin = 60.7673449394
 			xmax = 61.07
@@ -783,51 +783,51 @@ item []:
 		intervals [193]:
 			xmin = 61.07
 			xmax = 61.24
-			text = "IT"
+			text = "IT / 9.171"
 		intervals [194]:
 			xmin = 61.24
 			xmax = 61.34
-			text = "WAS"
+			text = "WAS / 9.172"
 		intervals [195]:
 			xmin = 61.34
 			xmax = 61.72
-			text = "SHORTLY"
+			text = "SHORTLY / 9.173"
 		intervals [196]:
 			xmin = 61.72
 			xmax = 62.260002
-			text = "THEREAFTER"
+			text = "THEREAFTER / 9.174"
 		intervals [197]:
 			xmin = 62.260002
 			xmax = 62.38
-			text = "THAT"
+			text = "THAT / 9.175"
 		intervals [198]:
 			xmin = 62.38
 			xmax = 62.47
-			text = "THE"
+			text = "THE / 9.176"
 		intervals [199]:
 			xmin = 62.47
 			xmax = 62.88
-			text = "TULIPS"
+			text = "TULIPS / 9.177"
 		intervals [200]:
 			xmin = 62.88
 			xmax = 63.18
-			text = "BEGAN"
+			text = "BEGAN / 9.178"
 		intervals [201]:
 			xmin = 63.18
 			xmax = 63.29
-			text = "TO"
+			text = "TO / 9.179"
 		intervals [202]:
 			xmin = 63.29
 			xmax = 63.64
-			text = "GROW"
+			text = "GROW / 9.180"
 		intervals [203]:
 			xmin = 63.64
 			xmax = 63.730003
-			text = "IN"
+			text = "IN / 9.181"
 		intervals [204]:
 			xmin = 63.730003
 			xmax = 64.48
-			text = "POPULARITY"
+			text = "POPULARITY / 9.182.word"
 		intervals [205]:
 			xmin = 64.48
 			xmax = 65.1881264666
@@ -835,35 +835,35 @@ item []:
 		intervals [206]:
 			xmin = 65.1881264666
 			xmax = 65.26
-			text = "THE"
+			text = "THE / 9.183"
 		intervals [207]:
 			xmin = 65.26
 			xmax = 65.600006
-			text = "FLOWER"
+			text = "FLOWER / 9.184"
 		intervals [208]:
 			xmin = 65.600006
 			xmax = 66.11
-			text = "RAPIDLY"
+			text = "RAPIDLY / 9.185"
 		intervals [209]:
 			xmin = 66.11
 			xmax = 66.450005
-			text = "BECAME"
+			text = "BECAME / 9.186"
 		intervals [210]:
 			xmin = 66.450005
 			xmax = 66.5
-			text = "A"
+			text = "A / 9.187"
 		intervals [211]:
 			xmin = 66.5
 			xmax = 66.920006
-			text = "COVETED"
+			text = "COVETED / 9.188"
 		intervals [212]:
 			xmin = 66.920006
 			xmax = 67.39001
-			text = "LUXURY"
+			text = "LUXURY / 9.189"
 		intervals [213]:
 			xmin = 67.39001
 			xmax = 67.7341320005
-			text = "ITEM"
+			text = "ITEM / 9.190"
 		intervals [214]:
 			xmin = 67.7341320005
 			xmax = 67.8607755297
@@ -871,19 +871,19 @@ item []:
 		intervals [215]:
 			xmin = 67.8607755297
 			xmax = 67.950005
-			text = "AND"
+			text = "AND / 9.191"
 		intervals [216]:
 			xmin = 67.950005
 			xmax = 68.0
-			text = "A"
+			text = "A / 9.192"
 		intervals [217]:
 			xmin = 68.0
 			xmax = 68.47
-			text = "STATUS"
+			text = "STATUS / 9.193"
 		intervals [218]:
 			xmin = 68.47
 			xmax = 68.89
-			text = "SYMBOL"
+			text = "SYMBOL / 9.194.word"
 		intervals [219]:
 			xmin = 68.89
 			xmax = 69.2252651727
@@ -891,27 +891,27 @@ item []:
 		intervals [220]:
 			xmin = 69.2252651727
 			xmax = 69.32001
-			text = "AND"
+			text = "AND / 9.195"
 		intervals [221]:
 			xmin = 69.32001
 			xmax = 69.380005
-			text = "A"
+			text = "A / 9.196"
 		intervals [222]:
 			xmin = 69.380005
 			xmax = 69.93
-			text = "PROFUSION"
+			text = "PROFUSION / 9.197"
 		intervals [223]:
 			xmin = 69.93
 			xmax = 70.100006
-			text = "OF"
+			text = "OF / 9.198"
 		intervals [224]:
 			xmin = 70.100006
 			xmax = 70.670006
-			text = "VARIETIES"
+			text = "VARIETIES / 9.199"
 		intervals [225]:
 			xmin = 70.670006
 			xmax = 71.22
-			text = "FOLLOWED"
+			text = "FOLLOWED / 9.200.word"
 		intervals [226]:
 			xmin = 71.22
 			xmax = 71.657975713
@@ -919,55 +919,55 @@ item []:
 		intervals [227]:
 			xmin = 71.657975713
 			xmax = 71.770004
-			text = "THEY"
+			text = "THEY / 9.201"
 		intervals [228]:
 			xmin = 71.770004
 			xmax = 71.880005
-			text = "WERE"
+			text = "WERE / 9.202"
 		intervals [229]:
 			xmin = 71.880005
 			xmax = 72.57001
-			text = "CLASSIFIED"
+			text = "CLASSIFIED / 9.203"
 		intervals [230]:
 			xmin = 72.57001
 			xmax = 72.630005
-			text = "IN"
+			text = "IN / 9.204"
 		intervals [231]:
 			xmin = 72.630005
 			xmax = 73.16
-			text = "GROUPS"
+			text = "GROUPS / 9.205.word"
 		intervals [232]:
 			xmin = 73.16
 			xmax = 73.450005
-			text = "ONE"
+			text = "ONE / 9.206.1"
 		intervals [233]:
 			xmin = 73.450005
 			xmax = 73.82001
-			text = "COLORED"
+			text = "COLORED / 9.206.3"
 		intervals [234]:
 			xmin = 73.82001
 			xmax = 74.240005
-			text = "TULIPS"
+			text = "TULIPS / 9.207"
 		intervals [235]:
 			xmin = 74.240005
 			xmax = 74.39
-			text = "OF"
+			text = "OF / 9.208"
 		intervals [236]:
 			xmin = 74.39
 			xmax = 74.68
-			text = "RED"
+			text = "RED / 9.209.word"
 		intervals [237]:
 			xmin = 74.68
 			xmax = 75.03001
-			text = "YELLOW"
+			text = "YELLOW / 9.210.word"
 		intervals [238]:
 			xmin = 75.03001
 			xmax = 75.16
-			text = "OR"
+			text = "OR / 9.211"
 		intervals [239]:
 			xmin = 75.16
 			xmax = 75.5828603907
-			text = "WHITE"
+			text = "WHITE / 9.212"
 		intervals [240]:
 			xmin = 75.5828603907
 			xmax = 75.9453287361
@@ -975,19 +975,19 @@ item []:
 		intervals [241]:
 			xmin = 75.9453287361
 			xmax = 76.04
-			text = "WERE"
+			text = "WERE / 9.213"
 		intervals [242]:
 			xmin = 76.04
 			xmax = 76.310005
-			text = "KNOWN"
+			text = "KNOWN / 9.214"
 		intervals [243]:
 			xmin = 76.310005
 			xmax = 76.46001
-			text = "AS"
+			text = "AS / 9.215"
 		intervals [244]:
 			xmin = 76.46001
 			xmax = 77.1179432384
-			text = "COULEREN"
+			text = "COULEREN / 9.216.word"
 		intervals [245]:
 			xmin = 77.1179432384
 			xmax = 77.3849646972
@@ -995,27 +995,27 @@ item []:
 		intervals [246]:
 			xmin = 77.3849646972
 			xmax = 77.48
-			text = "BUT"
+			text = "BUT / 9.217"
 		intervals [247]:
 			xmin = 77.48
 			xmax = 77.54
-			text = "IT"
+			text = "IT / 9.218"
 		intervals [248]:
 			xmin = 77.54
 			xmax = 77.69
-			text = "WAS"
+			text = "WAS / 9.219"
 		intervals [249]:
 			xmin = 77.69
 			xmax = 77.770004
-			text = "THE"
+			text = "THE / 9.220"
 		intervals [250]:
 			xmin = 77.770004
 			xmax = 78.46001
-			text = "MULTICOLORED"
+			text = "MULTICOLORED / 9.221"
 		intervals [251]:
 			xmin = 78.46001
 			xmax = 79.01
-			text = "ROSEN"
+			text = "ROSEN / 9.222"
 		intervals [252]:
 			xmin = 79.01
 			xmax = 79.312813586
@@ -1023,27 +1023,27 @@ item []:
 		intervals [253]:
 			xmin = 79.312813586
 			xmax = 79.55
-			text = "RED"
+			text = "RED / 9.223.word"
 		intervals [254]:
 			xmin = 79.55
 			xmax = 79.71001
-			text = "OR"
+			text = "OR / 9.224"
 		intervals [255]:
 			xmin = 79.71001
 			xmax = 80.01
-			text = "PINK"
+			text = "PINK / 9.225"
 		intervals [256]:
 			xmin = 80.01
 			xmax = 80.200005
-			text = "ON"
+			text = "ON / 9.226"
 		intervals [257]:
 			xmin = 80.200005
 			xmax = 80.450005
-			text = "WHITE"
+			text = "WHITE / 9.227"
 		intervals [258]:
 			xmin = 80.450005
 			xmax = 81.143495989
-			text = "BACKGROUND"
+			text = "BACKGROUND / 9.228.word"
 		intervals [259]:
 			xmin = 81.143495989
 			xmax = 81.370680946
@@ -1051,7 +1051,7 @@ item []:
 		intervals [260]:
 			xmin = 81.370680946
 			xmax = 82.16
-			text = "VIOLETTEN"
+			text = "VIOLETTEN / 9.229"
 		intervals [261]:
 			xmin = 82.16
 			xmax = 82.4390720415
@@ -1059,27 +1059,27 @@ item []:
 		intervals [262]:
 			xmin = 82.4390720415
 			xmax = 82.72
-			text = "PURPLE"
+			text = "PURPLE / 9.230.word"
 		intervals [263]:
 			xmin = 82.72
 			xmax = 82.840004
-			text = "OR"
+			text = "OR / 9.231"
 		intervals [264]:
 			xmin = 82.840004
 			xmax = 83.270004
-			text = "LILAC"
+			text = "LILAC / 9.232"
 		intervals [265]:
 			xmin = 83.270004
 			xmax = 83.44
-			text = "ON"
+			text = "ON / 9.233"
 		intervals [266]:
 			xmin = 83.44
 			xmax = 83.69
-			text = "WHITE"
+			text = "WHITE / 9.234"
 		intervals [267]:
 			xmin = 83.69
 			xmax = 84.380005
-			text = "BACKGROUND"
+			text = "BACKGROUND / 9.235.word"
 		intervals [268]:
 			xmin = 84.380005
 			xmax = 84.6522423817
@@ -1087,23 +1087,23 @@ item []:
 		intervals [269]:
 			xmin = 84.6522423817
 			xmax = 84.87
-			text = "AND"
+			text = "AND / 9.236.word"
 		intervals [270]:
 			xmin = 84.87
 			xmax = 84.990005
-			text = "TO"
+			text = "TO / 9.237"
 		intervals [271]:
 			xmin = 84.990005
 			xmax = 85.05
-			text = "A"
+			text = "A / 9.238"
 		intervals [272]:
 			xmin = 85.05
 			xmax = 85.420006
-			text = "LESSER"
+			text = "LESSER / 9.239"
 		intervals [273]:
 			xmin = 85.420006
 			xmax = 85.9429028242
-			text = "EXTENT"
+			text = "EXTENT / 9.240.word"
 		intervals [274]:
 			xmin = 85.9429028242
 			xmax = 86.037643785
@@ -1111,11 +1111,11 @@ item []:
 		intervals [275]:
 			xmin = 86.037643785
 			xmax = 86.100006
-			text = "THE"
+			text = "THE / 9.241"
 		intervals [276]:
 			xmin = 86.100006
 			xmax = 86.86
-			text = "BIZARDEN"
+			text = "BIZARDEN / 9.242"
 		intervals [277]:
 			xmin = 86.86
 			xmax = 87.0765722825
@@ -1123,7 +1123,7 @@ item []:
 		intervals [278]:
 			xmin = 87.0765722825
 			xmax = 87.4
-			text = "RED"
+			text = "RED / 9.243.word"
 		intervals [279]:
 			xmin = 87.4
 			xmax = 87.4524858518
@@ -1131,27 +1131,27 @@ item []:
 		intervals [280]:
 			xmin = 87.4524858518
 			xmax = 87.840004
-			text = "BROWN"
+			text = "BROWN / 9.244"
 		intervals [281]:
 			xmin = 87.840004
 			xmax = 88.0
-			text = "OR"
+			text = "OR / 9.245"
 		intervals [282]:
 			xmin = 88.0
 			xmax = 88.37
-			text = "PURPLE"
+			text = "PURPLE / 9.246"
 		intervals [283]:
 			xmin = 88.37
 			xmax = 88.71001
-			text = "ON"
+			text = "ON / 9.247"
 		intervals [284]:
 			xmin = 88.71001
 			xmax = 89.060005
-			text = "YELLOW"
+			text = "YELLOW / 9.248"
 		intervals [285]:
 			xmin = 89.060005
 			xmax = 89.71001
-			text = "BACKGROUND"
+			text = "BACKGROUND / 9.249.word"
 		intervals [286]:
 			xmin = 89.71001
 			xmax = 89.9321135655
@@ -1159,23 +1159,23 @@ item []:
 		intervals [287]:
 			xmin = 89.9321135655
 			xmax = 90.020004
-			text = "THAT"
+			text = "THAT / 9.250"
 		intervals [288]:
 			xmin = 90.020004
 			xmax = 90.12
-			text = "WERE"
+			text = "WERE / 9.251"
 		intervals [289]:
 			xmin = 90.12
 			xmax = 90.22
-			text = "THE"
+			text = "THE / 9.252"
 		intervals [290]:
 			xmin = 90.22
 			xmax = 90.5
-			text = "MOST"
+			text = "MOST / 9.253"
 		intervals [291]:
 			xmin = 90.5
 			xmax = 91.130005
-			text = "POPULAR"
+			text = "POPULAR / 9.254.word"
 		intervals [292]:
 			xmin = 91.130005
 			xmax = 91.6915830044
@@ -1183,51 +1183,51 @@ item []:
 		intervals [293]:
 			xmin = 91.6915830044
 			xmax = 91.86
-			text = "THESE"
+			text = "THESE / 9.255"
 		intervals [294]:
 			xmin = 91.86
 			xmax = 92.600006
-			text = "SPECTACULAR"
+			text = "SPECTACULAR / 9.256"
 		intervals [295]:
 			xmin = 92.600006
 			xmax = 92.69
-			text = "AND"
+			text = "AND / 9.257"
 		intervals [296]:
 			xmin = 92.69
 			xmax = 93.01
-			text = "HIGHLY"
+			text = "HIGHLY / 9.258"
 		intervals [297]:
 			xmin = 93.01
 			xmax = 93.240005
-			text = "SOUGHT"
+			text = "SOUGHT / 9.259.1"
 		intervals [298]:
 			xmin = 93.240005
 			xmax = 93.55
-			text = "AFTER"
+			text = "AFTER / 9.259.3"
 		intervals [299]:
 			xmin = 93.55
 			xmax = 93.9
-			text = "TULIP"
+			text = "TULIP / 9.260"
 		intervals [300]:
 			xmin = 93.9
 			xmax = 94.3
-			text = "BULBS"
+			text = "BULBS / 9.261"
 		intervals [301]:
 			xmin = 94.3
 			xmax = 94.43001
-			text = "WOULD"
+			text = "WOULD / 9.262"
 		intervals [302]:
 			xmin = 94.43001
 			xmax = 94.69
-			text = "GROW"
+			text = "GROW / 9.263"
 		intervals [303]:
 			xmin = 94.69
 			xmax = 95.11
-			text = "FLOWERS"
+			text = "FLOWERS / 9.264"
 		intervals [304]:
 			xmin = 95.11
 			xmax = 95.28
-			text = "WITH"
+			text = "WITH / 9.265"
 		intervals [305]:
 			xmin = 95.28
 			xmax = 95.3507024996
@@ -1235,35 +1235,35 @@ item []:
 		intervals [306]:
 			xmin = 95.3507024996
 			xmax = 95.600006
-			text = "VIVID"
+			text = "VIVID / 9.266"
 		intervals [307]:
 			xmin = 95.600006
 			xmax = 96.130005
-			text = "COLORS"
+			text = "COLORS / 9.267.word"
 		intervals [308]:
 			xmin = 96.130005
 			xmax = 96.590004
-			text = "LINES"
+			text = "LINES / 9.268.word"
 		intervals [309]:
 			xmin = 96.590004
 			xmax = 96.740005
-			text = "AND"
+			text = "AND / 9.269"
 		intervals [310]:
 			xmin = 96.740005
 			xmax = 97.14
-			text = "FLAMES"
+			text = "FLAMES / 9.270"
 		intervals [311]:
 			xmin = 97.14
 			xmax = 97.200005
-			text = "ON"
+			text = "ON / 9.271"
 		intervals [312]:
 			xmin = 97.200005
 			xmax = 97.29001
-			text = "THE"
+			text = "THE / 9.272"
 		intervals [313]:
 			xmin = 97.29001
 			xmax = 97.810005
-			text = "PETALS"
+			text = "PETALS / 9.273.word"
 		intervals [314]:
 			xmin = 97.810005
 			xmax = 98.095767668
@@ -1271,15 +1271,15 @@ item []:
 		intervals [315]:
 			xmin = 98.095767668
 			xmax = 98.28
-			text = "AS"
+			text = "AS / 9.274"
 		intervals [316]:
 			xmin = 98.28
 			xmax = 98.310005
-			text = "A"
+			text = "A / 9.275"
 		intervals [317]:
 			xmin = 98.310005
 			xmax = 98.79001
-			text = "RESULT"
+			text = "RESULT / 9.276.word"
 		intervals [318]:
 			xmin = 98.79001
 			xmax = 99.0563158181
@@ -1287,47 +1287,47 @@ item []:
 		intervals [319]:
 			xmin = 99.0563158181
 			xmax = 99.12
-			text = "IT"
+			text = "IT / 9.277"
 		intervals [320]:
 			xmin = 99.12
 			xmax = 99.23
-			text = "IS"
+			text = "IS / 9.278"
 		intervals [321]:
 			xmin = 99.23
 			xmax = 99.520004
-			text = "NOW"
+			text = "NOW / 9.279"
 		intervals [322]:
 			xmin = 99.520004
 			xmax = 99.96001
-			text = "UNDERSTOOD"
+			text = "UNDERSTOOD / 9.280.word"
 		intervals [323]:
 			xmin = 99.96001
 			xmax = 100.090004
-			text = "OF"
+			text = "OF / 9.281"
 		intervals [324]:
 			xmin = 100.090004
 			xmax = 100.29001
-			text = "BEING"
+			text = "BEING / 9.282"
 		intervals [325]:
 			xmin = 100.29001
 			xmax = 100.76
-			text = "INFECTED"
+			text = "INFECTED / 9.283"
 		intervals [326]:
 			xmin = 100.76
 			xmax = 100.950005
-			text = "WITH"
+			text = "WITH / 9.284"
 		intervals [327]:
 			xmin = 100.950005
 			xmax = 101.23
-			text = "TULIP"
+			text = "TULIP / 9.285.1"
 		intervals [328]:
 			xmin = 101.23
 			xmax = 101.740005
-			text = "SPECIFIC"
+			text = "SPECIFIC / 9.285.3"
 		intervals [329]:
 			xmin = 101.740005
 			xmax = 102.327495861
-			text = "VIRUS"
+			text = "VIRUS / 9.286"
 		intervals [330]:
 			xmin = 102.327495861
 			xmax = 102.629120144
@@ -1335,27 +1335,27 @@ item []:
 		intervals [331]:
 			xmin = 102.629120144
 			xmax = 102.82001
-			text = "KNOWN"
+			text = "KNOWN / 9.287"
 		intervals [332]:
 			xmin = 102.82001
 			xmax = 103.01
-			text = "AS"
+			text = "AS / 9.288"
 		intervals [333]:
 			xmin = 103.01
 			xmax = 103.100006
-			text = "THE"
+			text = "THE / 9.289"
 		intervals [334]:
 			xmin = 103.100006
 			xmax = 103.55
-			text = "TULIP"
+			text = "TULIP / 9.290.word"
 		intervals [335]:
 			xmin = 103.55
 			xmax = 103.91
-			text = "BREAKING"
+			text = "BREAKING / 9.291"
 		intervals [336]:
 			xmin = 103.91
 			xmax = 104.520004
-			text = "VIRUS"
+			text = "VIRUS / 9.292.word"
 		intervals [337]:
 			xmin = 104.52
 			xmax = 105.259995
@@ -1371,51 +1371,51 @@ item []:
 		intervals [340]:
 			xmin = 105.330949585
 			xmax = 105.413122867
-			text = "THE"
+			text = "THE / 9.293"
 		intervals [341]:
 			xmin = 105.413122867
 			xmax = 105.7
-			text = "DUTCH"
+			text = "DUTCH / 9.294"
 		intervals [342]:
 			xmin = 105.7
 			xmax = 106.1
-			text = "GOLDEN"
+			text = "GOLDEN / 9.295"
 		intervals [343]:
 			xmin = 106.1
 			xmax = 106.32
-			text = "AGE"
+			text = "AGE / 9.296"
 		intervals [344]:
 			xmin = 106.32
 			xmax = 106.84
-			text = "GROWERS"
+			text = "GROWERS / 9.297"
 		intervals [345]:
 			xmin = 106.84
 			xmax = 107.1
-			text = "NAMED"
+			text = "NAMED / 9.298"
 		intervals [346]:
 			xmin = 107.1
 			xmax = 107.21
-			text = "THEIR"
+			text = "THEIR / 9.299"
 		intervals [347]:
 			xmin = 107.21
 			xmax = 107.42
-			text = "NEW"
+			text = "NEW / 9.300"
 		intervals [348]:
 			xmin = 107.42
 			xmax = 107.979996
-			text = "VARIETIES"
+			text = "VARIETIES / 9.301"
 		intervals [349]:
 			xmin = 107.979996
 			xmax = 108.10999
-			text = "WITH"
+			text = "WITH / 9.302"
 		intervals [350]:
 			xmin = 108.10999
 			xmax = 108.67
-			text = "EXALTED"
+			text = "EXALTED / 9.303"
 		intervals [351]:
 			xmin = 108.67
 			xmax = 109.32
-			text = "TITLES"
+			text = "TITLES / 9.304.word"
 		intervals [352]:
 			xmin = 109.32
 			xmax = 109.814910492
@@ -1423,31 +1423,31 @@ item []:
 		intervals [353]:
 			xmin = 109.814910492
 			xmax = 110.07
-			text = "MANY"
+			text = "MANY / 9.305"
 		intervals [354]:
 			xmin = 110.07
 			xmax = 110.34
-			text = "EARLY"
+			text = "EARLY / 9.306"
 		intervals [355]:
 			xmin = 110.34
 			xmax = 110.759995
-			text = "FORMS"
+			text = "FORMS / 9.307"
 		intervals [356]:
 			xmin = 110.759995
 			xmax = 110.869995
-			text = "WERE"
+			text = "WERE / 9.308"
 		intervals [357]:
 			xmin = 110.869995
 			xmax = 111.39
-			text = "PREFIXED"
+			text = "PREFIXED / 9.309"
 		intervals [358]:
 			xmin = 111.39
 			xmax = 111.57
-			text = "WITH"
+			text = "WITH / 9.310"
 		intervals [359]:
 			xmin = 111.57
 			xmax = 112.24367859
-			text = "ADMIRAL"
+			text = "ADMIRAL / 9.311.word"
 		intervals [360]:
 			xmin = 112.24367859
 			xmax = 112.396424221
@@ -1455,27 +1455,27 @@ item []:
 		intervals [361]:
 			xmin = 112.396424221
 			xmax = 112.7
-			text = "OFTEN"
+			text = "OFTEN / 9.312"
 		intervals [362]:
 			xmin = 112.7
 			xmax = 113.119995
-			text = "COMBINED"
+			text = "COMBINED / 9.313"
 		intervals [363]:
 			xmin = 113.119995
 			xmax = 113.25
-			text = "WITH"
+			text = "WITH / 9.314"
 		intervals [364]:
 			xmin = 113.25
 			xmax = 113.31
-			text = "THE"
+			text = "THE / 9.315"
 		intervals [365]:
 			xmin = 113.31
 			xmax = 113.78
-			text = "GROWERS'"
+			text = "GROWERS' / 9.316"
 		intervals [366]:
 			xmin = 113.78
 			xmax = 114.39
-			text = "NAMES"
+			text = "NAMES / 9.317.word"
 		intervals [367]:
 			xmin = 114.39
 			xmax = 114.969230648
@@ -1483,63 +1483,63 @@ item []:
 		intervals [368]:
 			xmin = 114.969230648
 			xmax = 115.32
-			text = "GENERAL"
+			text = "GENERAL / 9.318.word"
 		intervals [369]:
 			xmin = 115.32
 			xmax = 115.49
-			text = "WAS"
+			text = "WAS / 9.319"
 		intervals [370]:
 			xmin = 115.49
 			xmax = 115.74
-			text = "ANOTHER"
+			text = "ANOTHER / 9.320"
 		intervals [371]:
 			xmin = 115.74
 			xmax = 116.29
-			text = "PREFIX"
+			text = "PREFIX / 9.321"
 		intervals [372]:
 			xmin = 116.29
 			xmax = 116.39
-			text = "THAT"
+			text = "THAT / 9.322"
 		intervals [373]:
 			xmin = 116.39
 			xmax = 116.68
-			text = "FOUND"
+			text = "FOUND / 9.323"
 		intervals [374]:
 			xmin = 116.68
 			xmax = 116.86
-			text = "ITS"
+			text = "ITS / 9.324"
 		intervals [375]:
 			xmin = 116.86
 			xmax = 117.08
-			text = "WAY"
+			text = "WAY / 9.325"
 		intervals [376]:
 			xmin = 117.08
 			xmax = 117.26
-			text = "INTO"
+			text = "INTO / 9.326"
 		intervals [377]:
 			xmin = 117.26
 			xmax = 117.37
-			text = "THE"
+			text = "THE / 9.327"
 		intervals [378]:
 			xmin = 117.37
 			xmax = 117.74
-			text = "NAMES"
+			text = "NAMES / 9.328"
 		intervals [379]:
 			xmin = 117.74
 			xmax = 117.87
-			text = "OF"
+			text = "OF / 9.329"
 		intervals [380]:
 			xmin = 117.87
 			xmax = 118.18
-			text = "AROUND"
+			text = "AROUND / 9.330"
 		intervals [381]:
 			xmin = 118.18
 			xmax = 118.5
-			text = "THIRTY"
+			text = "THIRTY / 9.331"
 		intervals [382]:
 			xmin = 118.5
 			xmax = 119.27
-			text = "VARIETIES"
+			text = "VARIETIES / 9.332.word"
 		intervals [383]:
 			xmin = 119.27
 			xmax = 119.735329664
@@ -1547,75 +1547,75 @@ item []:
 		intervals [384]:
 			xmin = 119.735329664
 			xmax = 119.99
-			text = "LATER"
+			text = "LATER / 9.333"
 		intervals [385]:
 			xmin = 119.99
 			xmax = 120.25
-			text = "CAME"
+			text = "CAME / 9.334"
 		intervals [386]:
 			xmin = 120.25
 			xmax = 120.74
-			text = "VARIETIES"
+			text = "VARIETIES / 9.335"
 		intervals [387]:
 			xmin = 120.74
 			xmax = 120.9
-			text = "WITH"
+			text = "WITH / 9.336"
 		intervals [388]:
 			xmin = 120.9
 			xmax = 121.09
-			text = "EVEN"
+			text = "EVEN / 9.337"
 		intervals [389]:
 			xmin = 121.09
 			xmax = 121.33
-			text = "MORE"
+			text = "MORE / 9.338"
 		intervals [390]:
 			xmin = 121.33
 			xmax = 121.81
-			text = "SUPERB"
+			text = "SUPERB / 9.339"
 		intervals [391]:
 			xmin = 121.81
 			xmax = 122.17
-			text = "NAMES"
+			text = "NAMES / 9.340.word"
 		intervals [392]:
 			xmin = 122.17
 			xmax = 122.42
-			text = "SUCH"
+			text = "SUCH / 9.341"
 		intervals [393]:
 			xmin = 122.42
 			xmax = 122.56
-			text = "AS"
+			text = "AS / 9.342"
 		intervals [394]:
 			xmin = 122.56
 			xmax = 122.83
-			text = "EVEN"
+			text = "EVEN / 9.343"
 		intervals [395]:
 			xmin = 122.83
 			xmax = 123.41
-			text = "ADMIRAL"
+			text = "ADMIRAL / 9.344.word"
 		intervals [396]:
 			xmin = 123.41
 			xmax = 123.53
-			text = "OF"
+			text = "OF / 9.345"
 		intervals [397]:
 			xmin = 123.53
 			xmax = 124.15
-			text = "ADMIRALS"
+			text = "ADMIRALS / 9.346.word"
 		intervals [398]:
 			xmin = 124.15
 			xmax = 124.31
-			text = "AND"
+			text = "AND / 9.347"
 		intervals [399]:
 			xmin = 124.31
 			xmax = 124.74
-			text = "GENERAL"
+			text = "GENERAL / 9.348.word"
 		intervals [400]:
 			xmin = 124.74
 			xmax = 124.81
-			text = "OF"
+			text = "OF / 9.349"
 		intervals [401]:
 			xmin = 124.81
 			xmax = 125.449238065
-			text = "GENERALS"
+			text = "GENERALS / 9.350.word"
 		intervals [402]:
 			xmin = 125.449238065
 			xmax = 125.866871688
@@ -1623,35 +1623,35 @@ item []:
 		intervals [403]:
 			xmin = 125.866871688
 			xmax = 126.17
-			text = "MOST"
+			text = "MOST / 9.351"
 		intervals [404]:
 			xmin = 126.17
 			xmax = 126.24
-			text = "OF"
+			text = "OF / 9.352"
 		intervals [405]:
 			xmin = 126.24
 			xmax = 126.4
-			text = "THESE"
+			text = "THESE / 9.353"
 		intervals [406]:
 			xmin = 126.4
 			xmax = 126.92
-			text = "VARIETIES"
+			text = "VARIETIES / 9.354"
 		intervals [407]:
 			xmin = 126.92
 			xmax = 127.06
-			text = "HAVE"
+			text = "HAVE / 9.355"
 		intervals [408]:
 			xmin = 127.06
 			xmax = 127.27
-			text = "NOW"
+			text = "NOW / 9.356"
 		intervals [409]:
 			xmin = 127.27
 			xmax = 127.56
-			text = "DIED"
+			text = "DIED / 9.357"
 		intervals [410]:
 			xmin = 127.56
 			xmax = 127.85
-			text = "OUT"
+			text = "OUT / 9.358.word"
 		intervals [411]:
 			xmin = 127.85
 			xmax = 127.927623509
@@ -1659,35 +1659,35 @@ item []:
 		intervals [412]:
 			xmin = 127.927623509
 			xmax = 128.01
-			text = "THOUGH"
+			text = "THOUGH / 9.359"
 		intervals [413]:
 			xmin = 128.01
 			xmax = 128.39
-			text = "SIMILAR"
+			text = "SIMILAR / 9.360"
 		intervals [414]:
 			xmin = 128.39
 			xmax = 128.82
-			text = "BROKEN"
+			text = "BROKEN / 9.361.word"
 		intervals [415]:
 			xmin = 128.82
 			xmax = 129.28
-			text = "TULIPS"
+			text = "TULIPS / 9.362"
 		intervals [416]:
 			xmin = 129.28
 			xmax = 129.77
-			text = "CONTINUE"
+			text = "CONTINUE / 9.363"
 		intervals [417]:
 			xmin = 129.77
 			xmax = 129.84
-			text = "IN"
+			text = "IN / 9.364"
 		intervals [418]:
 			xmin = 129.84
 			xmax = 129.94
-			text = "THE"
+			text = "THE / 9.365"
 		intervals [419]:
 			xmin = 129.94
 			xmax = 130.424909117
-			text = "TRADE"
+			text = "TRADE / 9.366.word"
 		intervals [420]:
 			xmin = 130.424909117
 			xmax = 131.033448818
@@ -1695,55 +1695,55 @@ item []:
 		intervals [421]:
 			xmin = 131.033448818
 			xmax = 131.42
-			text = "TULIPS"
+			text = "TULIPS / 9.367"
 		intervals [422]:
 			xmin = 131.42
 			xmax = 131.68001
-			text = "GROW"
+			text = "GROW / 9.368"
 		intervals [423]:
 			xmin = 131.68001
 			xmax = 131.90001
-			text = "FROM"
+			text = "FROM / 9.369"
 		intervals [424]:
 			xmin = 131.90001
 			xmax = 132.43001
-			text = "BULBS"
+			text = "BULBS / 9.370.word"
 		intervals [425]:
 			xmin = 132.43001
 			xmax = 132.57
-			text = "AND"
+			text = "AND / 9.371"
 		intervals [426]:
 			xmin = 132.57
 			xmax = 132.74
-			text = "CAN"
+			text = "CAN / 9.372"
 		intervals [427]:
 			xmin = 132.74
 			xmax = 132.87
-			text = "BE"
+			text = "BE / 9.373"
 		intervals [428]:
 			xmin = 132.87
 			xmax = 133.54001
-			text = "PROPAGATED"
+			text = "PROPAGATED / 9.374"
 		intervals [429]:
 			xmin = 133.54001
 			xmax = 133.72
-			text = "THROUGH"
+			text = "THROUGH / 9.375"
 		intervals [430]:
 			xmin = 133.72
 			xmax = 133.95
-			text = "BOTH"
+			text = "BOTH / 9.376"
 		intervals [431]:
 			xmin = 133.95
 			xmax = 134.39
-			text = "SEEDS"
+			text = "SEEDS / 9.377"
 		intervals [432]:
 			xmin = 134.39
 			xmax = 134.58
-			text = "AND"
+			text = "AND / 9.378"
 		intervals [433]:
 			xmin = 134.58
 			xmax = 135.14
-			text = "BUDS"
+			text = "BUDS / 9.379.word"
 		intervals [434]:
 			xmin = 135.14
 			xmax = 135.433746393
@@ -1751,55 +1751,55 @@ item []:
 		intervals [435]:
 			xmin = 135.433746393
 			xmax = 135.79001
-			text = "SEEDS"
+			text = "SEEDS / 9.380"
 		intervals [436]:
 			xmin = 135.79001
 			xmax = 135.96
-			text = "FROM"
+			text = "FROM / 9.381"
 		intervals [437]:
 			xmin = 135.96
 			xmax = 136.02
-			text = "A"
+			text = "A / 9.382"
 		intervals [438]:
 			xmin = 136.02
 			xmax = 136.41
-			text = "TULIP"
+			text = "TULIP / 9.383"
 		intervals [439]:
 			xmin = 136.41
 			xmax = 136.54001
-			text = "WILL"
+			text = "WILL / 9.384"
 		intervals [440]:
 			xmin = 136.54001
 			xmax = 137.1
-			text = "FORM"
+			text = "FORM / 9.385"
 		intervals [441]:
 			xmin = 137.1
 			xmax = 137.15001
-			text = "A"
+			text = "A / 9.386"
 		intervals [442]:
 			xmin = 137.15001
 			xmax = 137.68001
-			text = "FLOWERING"
+			text = "FLOWERING / 9.387"
 		intervals [443]:
 			xmin = 137.68001
 			xmax = 138.03
-			text = "BULB"
+			text = "BULB / 9.388"
 		intervals [444]:
 			xmin = 138.03
 			xmax = 138.29001
-			text = "AFTER"
+			text = "AFTER / 9.389"
 		intervals [445]:
 			xmin = 138.29001
 			xmax = 138.63
-			text = "SEVEN"
+			text = "SEVEN / 9.390.1"
 		intervals [446]:
 			xmin = 138.63
 			xmax = 139.12
-			text = "TWELVE"
+			text = "TWELVE / 9.390.3"
 		intervals [447]:
 			xmin = 139.12
 			xmax = 139.676805054
-			text = "YEARS"
+			text = "YEARS / 9.391.word"
 		intervals [448]:
 			xmin = 139.676805054
 			xmax = 140.154375207
@@ -1807,51 +1807,51 @@ item []:
 		intervals [449]:
 			xmin = 140.154375207
 			xmax = 140.25
-			text = "WHEN"
+			text = "WHEN / 9.392"
 		intervals [450]:
 			xmin = 140.25
 			xmax = 140.32
-			text = "A"
+			text = "A / 9.393"
 		intervals [451]:
 			xmin = 140.32
 			xmax = 140.64
-			text = "BULB"
+			text = "BULB / 9.394"
 		intervals [452]:
 			xmin = 140.64
 			xmax = 140.93001
-			text = "GROWS"
+			text = "GROWS / 9.395"
 		intervals [453]:
 			xmin = 140.93001
 			xmax = 141.11
-			text = "INTO"
+			text = "INTO / 9.396"
 		intervals [454]:
 			xmin = 141.11
 			xmax = 141.22
-			text = "THE"
+			text = "THE / 9.397"
 		intervals [455]:
 			xmin = 141.22
 			xmax = 141.72
-			text = "FLOWER"
+			text = "FLOWER / 9.398.word"
 		intervals [456]:
 			xmin = 141.72
 			xmax = 141.85
-			text = "THE"
+			text = "THE / 9.399"
 		intervals [457]:
 			xmin = 141.85
 			xmax = 142.27
-			text = "ORIGINAL"
+			text = "ORIGINAL / 9.400"
 		intervals [458]:
 			xmin = 142.27
 			xmax = 142.54001
-			text = "BULB"
+			text = "BULB / 9.401"
 		intervals [459]:
 			xmin = 142.54001
 			xmax = 142.63
-			text = "WILL"
+			text = "WILL / 9.402"
 		intervals [460]:
 			xmin = 142.63
 			xmax = 143.35
-			text = "DISAPPEAR"
+			text = "DISAPPEAR / 9.403.word"
 		intervals [461]:
 			xmin = 143.35
 			xmax = 143.579507899
@@ -1859,51 +1859,51 @@ item []:
 		intervals [462]:
 			xmin = 143.579507899
 			xmax = 143.66
-			text = "BUT"
+			text = "BUT / 9.404"
 		intervals [463]:
 			xmin = 143.66
 			xmax = 143.7
-			text = "A"
+			text = "A / 9.405"
 		intervals [464]:
 			xmin = 143.7
 			xmax = 144.09
-			text = "CLONE"
+			text = "CLONE / 9.406"
 		intervals [465]:
 			xmin = 144.09
 			xmax = 144.44
-			text = "BULB"
+			text = "BULB / 9.407"
 		intervals [466]:
 			xmin = 144.44
 			xmax = 144.76001
-			text = "FORMS"
+			text = "FORMS / 9.408"
 		intervals [467]:
 			xmin = 144.76001
 			xmax = 144.82
-			text = "IN"
+			text = "IN / 9.409"
 		intervals [468]:
 			xmin = 144.82
 			xmax = 145.0
-			text = "ITS"
+			text = "ITS / 9.410"
 		intervals [469]:
 			xmin = 145.0
 			xmax = 145.53
-			text = "PLACE"
+			text = "PLACE / 9.411.word"
 		intervals [470]:
 			xmin = 145.53
 			xmax = 145.76001
-			text = "AS"
+			text = "AS / 9.412"
 		intervals [471]:
 			xmin = 145.76001
 			xmax = 145.90001
-			text = "DO"
+			text = "DO / 9.413"
 		intervals [472]:
 			xmin = 145.90001
 			xmax = 146.3
-			text = "SEVERAL"
+			text = "SEVERAL / 9.414"
 		intervals [473]:
 			xmin = 146.3
 			xmax = 146.82213272
-			text = "BUDS"
+			text = "BUDS / 9.415.word"
 		intervals [474]:
 			xmin = 146.82213272
 			xmax = 147.355773862
@@ -1911,43 +1911,43 @@ item []:
 		intervals [475]:
 			xmin = 147.355773862
 			xmax = 147.76001
-			text = "PROPERLY"
+			text = "PROPERLY / 9.416"
 		intervals [476]:
 			xmin = 147.76001
 			xmax = 148.41
-			text = "CULTIVATED"
+			text = "CULTIVATED / 9.417.word"
 		intervals [477]:
 			xmin = 148.41
 			xmax = 148.62
-			text = "THESE"
+			text = "THESE / 9.418"
 		intervals [478]:
 			xmin = 148.62
 			xmax = 148.91
-			text = "BUDS"
+			text = "BUDS / 9.419"
 		intervals [479]:
 			xmin = 148.91
 			xmax = 149.0
-			text = "WILL"
+			text = "WILL / 9.420"
 		intervals [480]:
 			xmin = 149.0
 			xmax = 149.4
-			text = "BECOME"
+			text = "BECOME / 9.421"
 		intervals [481]:
 			xmin = 149.4
 			xmax = 149.72
-			text = "BULBS"
+			text = "BULBS / 9.422"
 		intervals [482]:
 			xmin = 149.72
 			xmax = 149.82
-			text = "OF"
+			text = "OF / 9.423"
 		intervals [483]:
 			xmin = 149.82
 			xmax = 150.05
-			text = "THEIR"
+			text = "THEIR / 9.424"
 		intervals [484]:
 			xmin = 150.05
 			xmax = 150.35
-			text = "OWN"
+			text = "OWN / 9.425.word"
 		intervals [485]:
 			xmin = 150.35
 			xmax = 150.952561756
@@ -1955,39 +1955,39 @@ item []:
 		intervals [486]:
 			xmin = 150.952561756
 			xmax = 151.02
-			text = "THE"
+			text = "THE / 9.426"
 		intervals [487]:
 			xmin = 151.02
 			xmax = 151.35
-			text = "TULIP"
+			text = "TULIP / 9.427.word"
 		intervals [488]:
 			xmin = 151.35
 			xmax = 151.77
-			text = "BREAKING"
+			text = "BREAKING / 9.428.word"
 		intervals [489]:
 			xmin = 151.77
 			xmax = 152.3
-			text = "VIRUS"
+			text = "VIRUS / 9.429.word"
 		intervals [490]:
 			xmin = 152.3
 			xmax = 152.47
-			text = "WHICH"
+			text = "WHICH / 9.430"
 		intervals [491]:
 			xmin = 152.47
 			xmax = 152.69
-			text = "MANY"
+			text = "MANY / 9.431"
 		intervals [492]:
 			xmin = 152.69
 			xmax = 153.14
-			text = "BOTANISTS"
+			text = "BOTANISTS / 9.432"
 		intervals [493]:
 			xmin = 153.14
 			xmax = 153.24
-			text = "HAVE"
+			text = "HAVE / 9.433"
 		intervals [494]:
 			xmin = 153.24
 			xmax = 153.8
-			text = "STUDIED"
+			text = "STUDIED / 9.434.word"
 		intervals [495]:
 			xmin = 153.8
 			xmax = 153.986602719
@@ -1995,63 +1995,63 @@ item []:
 		intervals [496]:
 			xmin = 153.986602719
 			xmax = 154.34001
-			text = "SPREADS"
+			text = "SPREADS / 9.435"
 		intervals [497]:
 			xmin = 154.34001
 			xmax = 154.64
-			text = "ONLY"
+			text = "ONLY / 9.436"
 		intervals [498]:
 			xmin = 154.64
 			xmax = 154.84001
-			text = "THROUGH"
+			text = "THROUGH / 9.437"
 		intervals [499]:
 			xmin = 154.84001
 			xmax = 155.3
-			text = "BUDS"
+			text = "BUDS / 9.438.word"
 		intervals [500]:
 			xmin = 155.3
 			xmax = 155.54001
-			text = "NOT"
+			text = "NOT / 9.439"
 		intervals [501]:
 			xmin = 155.54001
 			xmax = 156.13
-			text = "SEEDS"
+			text = "SEEDS / 9.440.word"
 		intervals [502]:
 			xmin = 156.13
 			xmax = 156.29001
-			text = "AND"
+			text = "AND / 9.441"
 		intervals [503]:
 			xmin = 156.29001
 			xmax = 156.43001
-			text = "SO"
+			text = "SO / 9.442"
 		intervals [504]:
 			xmin = 156.43001
 			xmax = 156.99
-			text = "CULTIVATING"
+			text = "CULTIVATING / 9.443"
 		intervals [505]:
 			xmin = 156.99
 			xmax = 157.05
-			text = "THE"
+			text = "THE / 9.444"
 		intervals [506]:
 			xmin = 157.05
 			xmax = 157.31001
-			text = "MOST"
+			text = "MOST / 9.445"
 		intervals [507]:
 			xmin = 157.31001
 			xmax = 157.71
-			text = "APPEALING"
+			text = "APPEALING / 9.446"
 		intervals [508]:
 			xmin = 157.71
 			xmax = 158.23001
-			text = "VARIETIES"
+			text = "VARIETIES / 9.447"
 		intervals [509]:
 			xmin = 158.23001
 			xmax = 158.53
-			text = "TAKES"
+			text = "TAKES / 9.448"
 		intervals [510]:
 			xmin = 158.53
 			xmax = 159.149156132
-			text = "YEARS"
+			text = "YEARS / 9.449.word"
 		intervals [511]:
 			xmin = 159.149156132
 			xmax = 159.772642892
@@ -2059,35 +2059,35 @@ item []:
 		intervals [512]:
 			xmin = 159.772642892
 			xmax = 160.39
-			text = "PROPAGATION"
+			text = "PROPAGATION / 9.450"
 		intervals [513]:
 			xmin = 160.39
 			xmax = 160.54001
-			text = "IS"
+			text = "IS / 9.451"
 		intervals [514]:
 			xmin = 160.54001
 			xmax = 160.90001
-			text = "GREATLY"
+			text = "GREATLY / 9.452"
 		intervals [515]:
 			xmin = 160.90001
 			xmax = 161.25
-			text = "SLOWED"
+			text = "SLOWED / 9.453"
 		intervals [516]:
 			xmin = 161.25
 			xmax = 161.47
-			text = "DOWN"
+			text = "DOWN / 9.454"
 		intervals [517]:
 			xmin = 161.47
 			xmax = 161.63
-			text = "BY"
+			text = "BY / 9.455"
 		intervals [518]:
 			xmin = 161.63
 			xmax = 161.73
-			text = "THE"
+			text = "THE / 9.456"
 		intervals [519]:
 			xmin = 161.73
 			xmax = 162.41
-			text = "VIRUS"
+			text = "VIRUS / 9.457.word"
 		intervals [520]:
 			xmin = 162.41
 			xmax = 163.049693609
@@ -2095,43 +2095,43 @@ item []:
 		intervals [521]:
 			xmin = 163.049693609
 			xmax = 163.44
-			text = "TULIPS"
+			text = "TULIPS / 9.458"
 		intervals [522]:
 			xmin = 163.44
 			xmax = 163.72
-			text = "BLOOM"
+			text = "BLOOM / 9.459"
 		intervals [523]:
 			xmin = 163.72
 			xmax = 163.82
-			text = "IN"
+			text = "IN / 9.460"
 		intervals [524]:
 			xmin = 163.82
 			xmax = 164.21
-			text = "APRIL"
+			text = "APRIL / 9.461"
 		intervals [525]:
 			xmin = 164.21
 			xmax = 164.33
-			text = "AND"
+			text = "AND / 9.462"
 		intervals [526]:
 			xmin = 164.33
 			xmax = 164.57
-			text = "MAY"
+			text = "MAY / 9.463"
 		intervals [527]:
 			xmin = 164.57
 			xmax = 164.79001
-			text = "FOR"
+			text = "FOR / 9.464"
 		intervals [528]:
 			xmin = 164.79001
 			xmax = 165.01001
-			text = "ABOUT"
+			text = "ABOUT / 9.465"
 		intervals [529]:
 			xmin = 165.01001
 			xmax = 165.07
-			text = "A"
+			text = "A / 9.466"
 		intervals [530]:
 			xmin = 165.07
 			xmax = 165.45
-			text = "WEEK"
+			text = "WEEK / 9.467.word"
 		intervals [531]:
 			xmin = 165.45
 			xmax = 165.55
@@ -2139,31 +2139,31 @@ item []:
 		intervals [532]:
 			xmin = 165.55
 			xmax = 165.67
-			text = "AND"
+			text = "AND / 9.468"
 		intervals [533]:
 			xmin = 165.67
 			xmax = 165.73001
-			text = "THE"
+			text = "THE / 9.469"
 		intervals [534]:
 			xmin = 165.73001
 			xmax = 166.27
-			text = "SECONDARY"
+			text = "SECONDARY / 9.470"
 		intervals [535]:
 			xmin = 166.27
 			xmax = 166.59
-			text = "BUDS"
+			text = "BUDS / 9.471"
 		intervals [536]:
 			xmin = 166.59
 			xmax = 166.91
-			text = "APPEAR"
+			text = "APPEAR / 9.472"
 		intervals [537]:
 			xmin = 166.91
 			xmax = 167.28
-			text = "SHORTLY"
+			text = "SHORTLY / 9.473"
 		intervals [538]:
 			xmin = 167.28
 			xmax = 168.009739512
-			text = "THEREAFTER"
+			text = "THEREAFTER / 9.474.word"
 		intervals [539]:
 			xmin = 168.009739512
 			xmax = 168.610567025
@@ -2171,47 +2171,47 @@ item []:
 		intervals [540]:
 			xmin = 168.610567025
 			xmax = 168.89
-			text = "BULBS"
+			text = "BULBS / 9.475"
 		intervals [541]:
 			xmin = 168.89
 			xmax = 169.05
-			text = "CAN"
+			text = "CAN / 9.476"
 		intervals [542]:
 			xmin = 169.05
 			xmax = 169.18001
-			text = "BE"
+			text = "BE / 9.477"
 		intervals [543]:
 			xmin = 169.18001
 			xmax = 169.62001
-			text = "UPROOTED"
+			text = "UPROOTED / 9.478"
 		intervals [544]:
 			xmin = 169.62001
 			xmax = 169.77
-			text = "AND"
+			text = "AND / 9.479"
 		intervals [545]:
 			xmin = 169.77
 			xmax = 170.06
-			text = "MOVED"
+			text = "MOVED / 9.480"
 		intervals [546]:
 			xmin = 170.06
 			xmax = 170.47
-			text = "ABOUT"
+			text = "ABOUT / 9.481"
 		intervals [547]:
 			xmin = 170.47
 			xmax = 170.7
-			text = "FROM"
+			text = "FROM / 9.482"
 		intervals [548]:
 			xmin = 170.7
 			xmax = 170.97
-			text = "JUNE"
+			text = "JUNE / 9.483"
 		intervals [549]:
 			xmin = 170.97
 			xmax = 171.09
-			text = "TO"
+			text = "TO / 9.484"
 		intervals [550]:
 			xmin = 171.09
 			xmax = 171.74
-			text = "SEPTEMBER"
+			text = "SEPTEMBER / 9.485.word"
 		intervals [551]:
 			xmin = 171.74
 			xmax = 171.989899818
@@ -2219,35 +2219,35 @@ item []:
 		intervals [552]:
 			xmin = 171.989899818
 			xmax = 172.08
-			text = "AND"
+			text = "AND / 9.486"
 		intervals [553]:
 			xmin = 172.08
 			xmax = 172.24
-			text = "THUS"
+			text = "THUS / 9.487"
 		intervals [554]:
 			xmin = 172.24
 			xmax = 172.66
-			text = "ACTUAL"
+			text = "ACTUAL / 9.488"
 		intervals [555]:
 			xmin = 172.66
 			xmax = 173.23001
-			text = "PURCHASES"
+			text = "PURCHASES / 9.489"
 		intervals [556]:
 			xmin = 173.23001
 			xmax = 173.62001
-			text = "OCCURRED"
+			text = "OCCURRED / 9.490"
 		intervals [557]:
 			xmin = 173.62001
 			xmax = 173.90001
-			text = "DURING"
+			text = "DURING / 9.491"
 		intervals [558]:
 			xmin = 173.90001
 			xmax = 174.14
-			text = "THESE"
+			text = "THESE / 9.492"
 		intervals [559]:
 			xmin = 174.14
 			xmax = 174.66
-			text = "MONTHS"
+			text = "MONTHS / 9.493.word"
 		intervals [560]:
 			xmin = 174.66
 			xmax = 175.166571828
@@ -2255,75 +2255,75 @@ item []:
 		intervals [561]:
 			xmin = 175.166571828
 			xmax = 175.31
-			text = "AS"
+			text = "AS / 9.494"
 		intervals [562]:
 			xmin = 175.31
 			xmax = 175.39
-			text = "THE"
+			text = "THE / 9.495"
 		intervals [563]:
 			xmin = 175.39
 			xmax = 175.82
-			text = "FLOWERS"
+			text = "FLOWERS / 9.496"
 		intervals [564]:
 			xmin = 175.82
 			xmax = 175.98001
-			text = "GREW"
+			text = "GREW / 9.497"
 		intervals [565]:
 			xmin = 175.98001
 			xmax = 176.08
-			text = "IN"
+			text = "IN / 9.498"
 		intervals [566]:
 			xmin = 176.08
 			xmax = 176.79001
-			text = "POPULARITY"
+			text = "POPULARITY / 9.499.word"
 		intervals [567]:
 			xmin = 176.79001
 			xmax = 177.35
-			text = "PROFESSIONAL"
+			text = "PROFESSIONAL / 9.500"
 		intervals [568]:
 			xmin = 177.35
 			xmax = 177.77
-			text = "GROWERS"
+			text = "GROWERS / 9.501"
 		intervals [569]:
 			xmin = 177.77
 			xmax = 177.99
-			text = "PAID"
+			text = "PAID / 9.502"
 		intervals [570]:
 			xmin = 177.99
 			xmax = 178.39
-			text = "HIGHER"
+			text = "HIGHER / 9.503"
 		intervals [571]:
 			xmin = 178.39
 			xmax = 178.48001
-			text = "AND"
+			text = "AND / 9.504"
 		intervals [572]:
 			xmin = 178.48001
 			xmax = 178.72
-			text = "HIGHER"
+			text = "HIGHER / 9.505"
 		intervals [573]:
 			xmin = 178.72
 			xmax = 179.18001
-			text = "PRICES"
+			text = "PRICES / 9.506"
 		intervals [574]:
 			xmin = 179.18001
 			xmax = 179.37
-			text = "FOR"
+			text = "FOR / 9.507"
 		intervals [575]:
 			xmin = 179.37
 			xmax = 179.74
-			text = "BULBS"
+			text = "BULBS / 9.508"
 		intervals [576]:
 			xmin = 179.74
 			xmax = 179.84
-			text = "WITH"
+			text = "WITH / 9.509"
 		intervals [577]:
 			xmin = 179.84
 			xmax = 179.93001
-			text = "THE"
+			text = "THE / 9.510"
 		intervals [578]:
 			xmin = 179.93001
 			xmax = 180.572416246
-			text = "VIRUS"
+			text = "VIRUS / 9.511.word"
 		intervals [579]:
 			xmin = 180.572416246
 			xmax = 181.00261608
@@ -2331,59 +2331,59 @@ item []:
 		intervals [580]:
 			xmin = 181.00261608
 			xmax = 181.13
-			text = "BY"
+			text = "BY / 9.512"
 		intervals [581]:
 			xmin = 181.13
 			xmax = 181.57
-			text = "SIXTEEN"
+			text = "SIXTEEN / 9.513"
 		intervals [582]:
 			xmin = 181.57
 			xmax = 181.79001
-			text = "THIRTY"
+			text = "THIRTY / 9.514.1"
 		intervals [583]:
 			xmin = 181.79001
 			xmax = 182.15001
-			text = "FOUR"
+			text = "FOUR / 9.514.3"
 		intervals [584]:
 			xmin = 182.15001
 			xmax = 182.36
-			text = "IN"
+			text = "IN / 9.515"
 		intervals [585]:
 			xmin = 182.36
 			xmax = 182.63
-			text = "PART"
+			text = "PART / 9.516"
 		intervals [586]:
 			xmin = 182.63
 			xmax = 182.75
-			text = "AS"
+			text = "AS / 9.517"
 		intervals [587]:
 			xmin = 182.75
 			xmax = 182.82
-			text = "A"
+			text = "A / 9.518"
 		intervals [588]:
 			xmin = 182.82
 			xmax = 183.17
-			text = "RESULT"
+			text = "RESULT / 9.519"
 		intervals [589]:
 			xmin = 183.17
 			xmax = 183.25
-			text = "OF"
+			text = "OF / 9.520"
 		intervals [590]:
 			xmin = 183.25
 			xmax = 183.73001
-			text = "DEMAND"
+			text = "DEMAND / 9.521"
 		intervals [591]:
 			xmin = 183.73001
 			xmax = 183.85
-			text = "FROM"
+			text = "FROM / 9.522"
 		intervals [592]:
 			xmin = 183.85
 			xmax = 183.93001
-			text = "THE"
+			text = "THE / 9.523"
 		intervals [593]:
 			xmin = 183.93001
 			xmax = 184.45001
-			text = "FRENCH"
+			text = "FRENCH / 9.524.word"
 		intervals [594]:
 			xmin = 184.45001
 			xmax = 184.963640471
@@ -2391,27 +2391,27 @@ item []:
 		intervals [595]:
 			xmin = 184.963640471
 			xmax = 185.61
-			text = "SPECULATORS"
+			text = "SPECULATORS / 9.525"
 		intervals [596]:
 			xmin = 185.61
 			xmax = 185.91
-			text = "BEGAN"
+			text = "BEGAN / 9.526"
 		intervals [597]:
 			xmin = 185.91
 			xmax = 186.03
-			text = "TO"
+			text = "TO / 9.527"
 		intervals [598]:
 			xmin = 186.03
 			xmax = 186.25
-			text = "ENTER"
+			text = "ENTER / 9.528"
 		intervals [599]:
 			xmin = 186.25
 			xmax = 186.35
-			text = "THE"
+			text = "THE / 9.529"
 		intervals [600]:
 			xmin = 186.35
 			xmax = 186.87936666
-			text = "MARKET"
+			text = "MARKET / 9.530.word"
 		intervals [601]:
 			xmin = 186.87936666
 			xmax = 187.305699529
@@ -2419,55 +2419,55 @@ item []:
 		intervals [602]:
 			xmin = 187.305699529
 			xmax = 187.39
-			text = "IN"
+			text = "IN / 9.531"
 		intervals [603]:
 			xmin = 187.39
 			xmax = 187.84
-			text = "SIXTEEN"
+			text = "SIXTEEN / 9.532"
 		intervals [604]:
 			xmin = 187.84
 			xmax = 188.05
-			text = "THIRTY"
+			text = "THIRTY / 9.533.1"
 		intervals [605]:
 			xmin = 188.05
 			xmax = 188.34
-			text = "SIX"
+			text = "SIX / 9.533.3"
 		intervals [606]:
 			xmin = 188.34
 			xmax = 188.44
-			text = "THE"
+			text = "THE / 9.534"
 		intervals [607]:
 			xmin = 188.44
 			xmax = 188.71
-			text = "DUTCH"
+			text = "DUTCH / 9.535"
 		intervals [608]:
 			xmin = 188.71
 			xmax = 189.15001
-			text = "CREATED"
+			text = "CREATED / 9.536"
 		intervals [609]:
 			xmin = 189.15001
 			xmax = 189.20001
-			text = "A"
+			text = "A / 9.537"
 		intervals [610]:
 			xmin = 189.20001
 			xmax = 189.48001
-			text = "TYPE"
+			text = "TYPE / 9.538"
 		intervals [611]:
 			xmin = 189.48001
 			xmax = 189.61
-			text = "OF"
+			text = "OF / 9.539"
 		intervals [612]:
 			xmin = 189.61
 			xmax = 190.01001
-			text = "FORMAL"
+			text = "FORMAL / 9.540"
 		intervals [613]:
 			xmin = 190.01001
 			xmax = 190.43001
-			text = "FUTURES"
+			text = "FUTURES / 9.541"
 		intervals [614]:
 			xmin = 190.43001
 			xmax = 191.03
-			text = "MARKETS"
+			text = "MARKETS / 9.542.word"
 		intervals [615]:
 			xmin = 191.03
 			xmax = 191.430465179
@@ -2475,71 +2475,71 @@ item []:
 		intervals [616]:
 			xmin = 191.430465179
 			xmax = 191.58
-			text = "WHICH"
+			text = "WHICH / 9.543"
 		intervals [617]:
 			xmin = 191.58
 			xmax = 192.11
-			text = "MERCHANTS"
+			text = "MERCHANTS / 9.544"
 		intervals [618]:
 			xmin = 192.11
 			xmax = 192.35
-			text = "USED"
+			text = "USED / 9.545"
 		intervals [619]:
 			xmin = 192.35
 			xmax = 192.44
-			text = "TO"
+			text = "TO / 9.546"
 		intervals [620]:
 			xmin = 192.44
 			xmax = 192.81
-			text = "SELL"
+			text = "SELL / 9.547"
 		intervals [621]:
 			xmin = 192.81
 			xmax = 192.94
-			text = "AND"
+			text = "AND / 9.548"
 		intervals [622]:
 			xmin = 192.94
 			xmax = 193.23001
-			text = "BUY"
+			text = "BUY / 9.549"
 		intervals [623]:
 			xmin = 193.23001
 			xmax = 193.83
-			text = "CONTRACTS"
+			text = "CONTRACTS / 9.550"
 		intervals [624]:
 			xmin = 193.83
 			xmax = 193.93001
-			text = "TO"
+			text = "TO / 9.551"
 		intervals [625]:
 			xmin = 193.93001
 			xmax = 194.15001
-			text = "BUY"
+			text = "BUY / 9.552"
 		intervals [626]:
 			xmin = 194.15001
 			xmax = 194.57
-			text = "BULBS"
+			text = "BULBS / 9.553"
 		intervals [627]:
 			xmin = 194.57
 			xmax = 194.64
-			text = "AT"
+			text = "AT / 9.554"
 		intervals [628]:
 			xmin = 194.64
 			xmax = 194.79001
-			text = "THE"
+			text = "THE / 9.555"
 		intervals [629]:
 			xmin = 194.79001
 			xmax = 194.91
-			text = "END"
+			text = "END / 9.556"
 		intervals [630]:
 			xmin = 194.91
 			xmax = 194.98001
-			text = "OF"
+			text = "OF / 9.557"
 		intervals [631]:
 			xmin = 194.98001
 			xmax = 195.07
-			text = "THE"
+			text = "THE / 9.558"
 		intervals [632]:
 			xmin = 195.07
 			xmax = 195.6
-			text = "SEASON"
+			text = "SEASON / 9.559.word"
 		intervals [633]:
 			xmin = 195.6
 			xmax = 196.260880067
@@ -2547,59 +2547,59 @@ item []:
 		intervals [634]:
 			xmin = 196.260880067
 			xmax = 196.66
-			text = "TRADERS"
+			text = "TRADERS / 9.560"
 		intervals [635]:
 			xmin = 196.66
 			xmax = 196.85
-			text = "MET"
+			text = "MET / 9.561"
 		intervals [636]:
 			xmin = 196.85
 			xmax = 197.02
-			text = "AT"
+			text = "AT / 9.562"
 		intervals [637]:
 			xmin = 197.02
 			xmax = 197.47
-			text = "TAVERNS"
+			text = "TAVERNS / 9.563"
 		intervals [638]:
 			xmin = 197.47
 			xmax = 197.6
-			text = "AND"
+			text = "AND / 9.564"
 		intervals [639]:
 			xmin = 197.6
 			xmax = 197.96
-			text = "BUYERS"
+			text = "BUYERS / 9.565"
 		intervals [640]:
 			xmin = 197.96
 			xmax = 198.04001
-			text = "WERE"
+			text = "WERE / 9.566"
 		intervals [641]:
 			xmin = 198.04001
 			xmax = 198.45001
-			text = "REQUIRED"
+			text = "REQUIRED / 9.567"
 		intervals [642]:
 			xmin = 198.45001
 			xmax = 198.54001
-			text = "TO"
+			text = "TO / 9.568"
 		intervals [643]:
 			xmin = 198.54001
 			xmax = 198.74
-			text = "PAY"
+			text = "PAY / 9.569"
 		intervals [644]:
 			xmin = 198.74
 			xmax = 198.79001
-			text = "A"
+			text = "A / 9.570"
 		intervals [645]:
 			xmin = 198.79001
 			xmax = 199.04001
-			text = "FEE"
+			text = "FEE / 9.571"
 		intervals [646]:
 			xmin = 199.04001
 			xmax = 199.20001
-			text = "PER"
+			text = "PER / 9.572"
 		intervals [647]:
 			xmin = 199.20001
 			xmax = 199.764690588
-			text = "TRADE"
+			text = "TRADE / 9.573.word"
 		intervals [648]:
 			xmin = 199.764690588
 			xmax = 200.275129941
@@ -2607,71 +2607,71 @@ item []:
 		intervals [649]:
 			xmin = 200.275129941
 			xmax = 200.53
-			text = "PEOPLE"
+			text = "PEOPLE / 9.574"
 		intervals [650]:
 			xmin = 200.53
 			xmax = 200.66
-			text = "WERE"
+			text = "WERE / 9.575"
 		intervals [651]:
 			xmin = 200.66
 			xmax = 201.18001
-			text = "PURCHASING"
+			text = "PURCHASING / 9.576"
 		intervals [652]:
 			xmin = 201.18001
 			xmax = 201.53
-			text = "BULBS"
+			text = "BULBS / 9.577"
 		intervals [653]:
 			xmin = 201.53
 			xmax = 201.6
-			text = "AT"
+			text = "AT / 9.578"
 		intervals [654]:
 			xmin = 201.6
 			xmax = 201.96
-			text = "HIGHER"
+			text = "HIGHER / 9.579"
 		intervals [655]:
 			xmin = 201.96
 			xmax = 202.05
-			text = "AND"
+			text = "AND / 9.580"
 		intervals [656]:
 			xmin = 202.05
 			xmax = 202.35
-			text = "HIGHER"
+			text = "HIGHER / 9.581"
 		intervals [657]:
 			xmin = 202.35
 			xmax = 202.89
-			text = "PRICES"
+			text = "PRICES / 9.582.word"
 		intervals [658]:
 			xmin = 202.89
 			xmax = 203.31001
-			text = "INTENDING"
+			text = "INTENDING / 9.583"
 		intervals [659]:
 			xmin = 203.31001
 			xmax = 203.45001
-			text = "TO"
+			text = "TO / 9.584"
 		intervals [660]:
 			xmin = 203.45001
 			xmax = 203.62001
-			text = "RE"
+			text = "RE / 9.585.1"
 		intervals [661]:
 			xmin = 203.62001
 			xmax = 203.91
-			text = "SELL"
+			text = "SELL / 9.585.3"
 		intervals [662]:
 			xmin = 203.91
 			xmax = 204.09001
-			text = "THEM"
+			text = "THEM / 9.586"
 		intervals [663]:
 			xmin = 204.09001
 			xmax = 204.29001
-			text = "FOR"
+			text = "FOR / 9.587"
 		intervals [664]:
 			xmin = 204.29001
 			xmax = 204.32
-			text = "A"
+			text = "A / 9.588"
 		intervals [665]:
 			xmin = 204.32
 			xmax = 204.914041508
-			text = "PROFIT"
+			text = "PROFIT / 9.589.word"
 		intervals [666]:
 			xmin = 204.914041508
 			xmax = 205.409013002
@@ -2679,95 +2679,95 @@ item []:
 		intervals [667]:
 			xmin = 205.409013002
 			xmax = 205.69
-			text = "HOWEVER"
+			text = "HOWEVER / 9.590.word"
 		intervals [668]:
 			xmin = 205.69
 			xmax = 205.89
-			text = "SUCH"
+			text = "SUCH / 9.591"
 		intervals [669]:
 			xmin = 205.89
 			xmax = 205.95001
-			text = "A"
+			text = "A / 9.592"
 		intervals [670]:
 			xmin = 205.95001
 			xmax = 206.31001
-			text = "SCHEME"
+			text = "SCHEME / 9.593"
 		intervals [671]:
 			xmin = 206.31001
 			xmax = 206.47
-			text = "COULD"
+			text = "COULD / 9.594"
 		intervals [672]:
 			xmin = 206.47
 			xmax = 206.72
-			text = "NOT"
+			text = "NOT / 9.595"
 		intervals [673]:
 			xmin = 206.72
 			xmax = 207.16
-			text = "LAST"
+			text = "LAST / 9.596"
 		intervals [674]:
 			xmin = 207.16
 			xmax = 207.51001
-			text = "UNLESS"
+			text = "UNLESS / 9.597"
 		intervals [675]:
 			xmin = 207.51001
 			xmax = 207.74
-			text = "SOMEONE"
+			text = "SOMEONE / 9.598"
 		intervals [676]:
 			xmin = 207.74
 			xmax = 207.91
-			text = "WAS"
+			text = "WAS / 9.599"
 		intervals [677]:
 			xmin = 207.91
 			xmax = 208.41
-			text = "ULTIMATELY"
+			text = "ULTIMATELY / 9.600"
 		intervals [678]:
 			xmin = 208.41
 			xmax = 208.70001
-			text = "WILLING"
+			text = "WILLING / 9.601"
 		intervals [679]:
 			xmin = 208.70001
 			xmax = 208.81001
-			text = "TO"
+			text = "TO / 9.602"
 		intervals [680]:
 			xmin = 208.81001
 			xmax = 209.03
-			text = "PAY"
+			text = "PAY / 9.603"
 		intervals [681]:
 			xmin = 209.03
 			xmax = 209.31001
-			text = "SUCH"
+			text = "SUCH / 9.604"
 		intervals [682]:
 			xmin = 209.31001
 			xmax = 209.48001
-			text = "HIGH"
+			text = "HIGH / 9.605"
 		intervals [683]:
 			xmin = 209.48001
 			xmax = 209.94
-			text = "PRICES"
+			text = "PRICES / 9.606"
 		intervals [684]:
 			xmin = 209.94
 			xmax = 210.06001
-			text = "AND"
+			text = "AND / 9.607"
 		intervals [685]:
 			xmin = 210.06001
 			xmax = 210.28
-			text = "TAKE"
+			text = "TAKE / 9.608"
 		intervals [686]:
 			xmin = 210.28
 			xmax = 210.73001
-			text = "POSSESSION"
+			text = "POSSESSION / 9.609"
 		intervals [687]:
 			xmin = 210.73001
 			xmax = 210.83
-			text = "OF"
+			text = "OF / 9.610"
 		intervals [688]:
 			xmin = 210.83
 			xmax = 210.92001
-			text = "THE"
+			text = "THE / 9.611"
 		intervals [689]:
 			xmin = 210.92001
 			xmax = 211.473579259
-			text = "BULBS"
+			text = "BULBS / 9.612.word"
 		intervals [690]:
 			xmin = 211.473579259
 			xmax = 212.052425173
@@ -2775,91 +2775,91 @@ item []:
 		intervals [691]:
 			xmin = 212.052425173
 			xmax = 212.14001
-			text = "IN"
+			text = "IN / 9.613"
 		intervals [692]:
 			xmin = 212.14001
 			xmax = 212.62001
-			text = "FEBRUARY"
+			text = "FEBRUARY / 9.614"
 		intervals [693]:
 			xmin = 212.62001
 			xmax = 213.0
-			text = "SIXTEEN"
+			text = "SIXTEEN / 9.615"
 		intervals [694]:
 			xmin = 213.0
 			xmax = 213.23001
-			text = "THIRTY"
+			text = "THIRTY / 9.616.1"
 		intervals [695]:
 			xmin = 213.23001
 			xmax = 213.63
-			text = "SEVEN"
+			text = "SEVEN / 9.616.3"
 		intervals [696]:
 			xmin = 213.63
 			xmax = 213.97
-			text = "TULIP"
+			text = "TULIP / 9.617"
 		intervals [697]:
 			xmin = 213.97
 			xmax = 214.37001
-			text = "TRADERS"
+			text = "TRADERS / 9.618"
 		intervals [698]:
 			xmin = 214.37001
 			xmax = 214.54001
-			text = "COULD"
+			text = "COULD / 9.619"
 		intervals [699]:
 			xmin = 214.54001
 			xmax = 214.70001
-			text = "NO"
+			text = "NO / 9.620"
 		intervals [700]:
 			xmin = 214.70001
 			xmax = 215.04001
-			text = "LONGER"
+			text = "LONGER / 9.621"
 		intervals [701]:
 			xmin = 215.04001
 			xmax = 215.34001
-			text = "FIND"
+			text = "FIND / 9.622"
 		intervals [702]:
 			xmin = 215.34001
 			xmax = 215.5
-			text = "NEW"
+			text = "NEW / 9.623"
 		intervals [703]:
 			xmin = 215.5
 			xmax = 215.98001
-			text = "BUYERS"
+			text = "BUYERS / 9.624"
 		intervals [704]:
 			xmin = 215.98001
 			xmax = 216.24
-			text = "WILLING"
+			text = "WILLING / 9.625"
 		intervals [705]:
 			xmin = 216.24
 			xmax = 216.35
-			text = "TO"
+			text = "TO / 9.626"
 		intervals [706]:
 			xmin = 216.35
 			xmax = 216.55
-			text = "PAY"
+			text = "PAY / 9.627"
 		intervals [707]:
 			xmin = 216.55
 			xmax = 217.24
-			text = "INCREASINGLY"
+			text = "INCREASINGLY / 9.628"
 		intervals [708]:
 			xmin = 217.24
 			xmax = 217.75
-			text = "INFLATED"
+			text = "INFLATED / 9.629"
 		intervals [709]:
 			xmin = 217.75
 			xmax = 218.23001
-			text = "PRICES"
+			text = "PRICES / 9.630"
 		intervals [710]:
 			xmin = 218.23001
 			xmax = 218.36
-			text = "FOR"
+			text = "FOR / 9.631"
 		intervals [711]:
 			xmin = 218.36
 			xmax = 218.55
-			text = "THEIR"
+			text = "THEIR / 9.632"
 		intervals [712]:
 			xmin = 218.55
 			xmax = 219.136515904
-			text = "BULBS"
+			text = "BULBS / 9.633.word"
 		intervals [713]:
 			xmin = 219.136515904
 			xmax = 219.733961966
@@ -2867,43 +2867,43 @@ item []:
 		intervals [714]:
 			xmin = 219.733961966
 			xmax = 219.93001
-			text = "AS"
+			text = "AS / 9.634"
 		intervals [715]:
 			xmin = 219.93001
 			xmax = 220.1
-			text = "THIS"
+			text = "THIS / 9.635"
 		intervals [716]:
 			xmin = 220.1
 			xmax = 220.8
-			text = "REALIZATION"
+			text = "REALIZATION / 9.636"
 		intervals [717]:
 			xmin = 220.8
 			xmax = 221.06
-			text = "SET"
+			text = "SET / 9.637"
 		intervals [718]:
 			xmin = 221.06
 			xmax = 221.18001
-			text = "IN"
+			text = "IN / 9.638.word"
 		intervals [719]:
 			xmin = 221.18001
 			xmax = 221.25
-			text = "THE"
+			text = "THE / 9.639"
 		intervals [720]:
 			xmin = 221.25
 			xmax = 221.66
-			text = "DEMAND"
+			text = "DEMAND / 9.640"
 		intervals [721]:
 			xmin = 221.66
 			xmax = 221.8
-			text = "FOR"
+			text = "FOR / 9.641"
 		intervals [722]:
 			xmin = 221.8
 			xmax = 222.20001
-			text = "TULIPS"
+			text = "TULIPS / 9.642"
 		intervals [723]:
 			xmin = 222.20001
 			xmax = 222.894928878
-			text = "COLLAPSED"
+			text = "COLLAPSED / 9.643.word"
 		intervals [724]:
 			xmin = 222.894928878
 			xmax = 223.160782708
@@ -2911,15 +2911,15 @@ item []:
 		intervals [725]:
 			xmin = 223.160782708
 			xmax = 223.29001
-			text = "AND"
+			text = "AND / 9.644"
 		intervals [726]:
 			xmin = 223.29001
 			xmax = 223.75
-			text = "PRICES"
+			text = "PRICES / 9.645"
 		intervals [727]:
 			xmin = 223.75
 			xmax = 224.36
-			text = "PLUMMETED"
+			text = "PLUMMETED / 9.646.word"
 		intervals [728]:
 			xmin = 224.36
 			xmax = 224.708523777
@@ -2927,19 +2927,19 @@ item []:
 		intervals [729]:
 			xmin = 224.708523777
 			xmax = 224.76001
-			text = "THE"
+			text = "THE / 9.647"
 		intervals [730]:
 			xmin = 224.76001
 			xmax = 225.40001
-			text = "SPECULATIVE"
+			text = "SPECULATIVE / 9.648"
 		intervals [731]:
 			xmin = 225.40001
 			xmax = 225.76001
-			text = "BUBBLE"
+			text = "BUBBLE / 9.649"
 		intervals [732]:
 			xmin = 225.76001
 			xmax = 226.33
-			text = "BURST"
+			text = "BURST / 9.650.word"
 		intervals [733]:
 			xmin = 226.33
 			xmax = 226.910666117
@@ -2947,83 +2947,83 @@ item []:
 		intervals [734]:
 			xmin = 226.910666117
 			xmax = 227.17
-			text = "SOME"
+			text = "SOME / 9.651"
 		intervals [735]:
 			xmin = 227.17
 			xmax = 227.25
-			text = "WERE"
+			text = "WERE / 9.652"
 		intervals [736]:
 			xmin = 227.25
 			xmax = 227.49
-			text = "LEFT"
+			text = "LEFT / 9.653"
 		intervals [737]:
 			xmin = 227.49
 			xmax = 227.8
-			text = "HOLDING"
+			text = "HOLDING / 9.654"
 		intervals [738]:
 			xmin = 227.8
 			xmax = 228.31
-			text = "CONTRACTS"
+			text = "CONTRACTS / 9.655"
 		intervals [739]:
 			xmin = 228.31
 			xmax = 228.43001
-			text = "TO"
+			text = "TO / 9.656"
 		intervals [740]:
 			xmin = 228.43001
 			xmax = 228.86
-			text = "PURCHASE"
+			text = "PURCHASE / 9.657"
 		intervals [741]:
 			xmin = 228.86
 			xmax = 229.26
-			text = "TULIPS"
+			text = "TULIPS / 9.658"
 		intervals [742]:
 			xmin = 229.26
 			xmax = 229.36
-			text = "AT"
+			text = "AT / 9.659"
 		intervals [743]:
 			xmin = 229.36
 			xmax = 229.77
-			text = "PRICES"
+			text = "PRICES / 9.660"
 		intervals [744]:
 			xmin = 229.77
 			xmax = 229.90001
-			text = "NOW"
+			text = "NOW / 9.661"
 		intervals [745]:
 			xmin = 229.90001
 			xmax = 230.26
-			text = "TEN"
+			text = "TEN / 9.662"
 		intervals [746]:
 			xmin = 230.26
 			xmax = 230.61
-			text = "TIMES"
+			text = "TIMES / 9.663"
 		intervals [747]:
 			xmin = 230.61
 			xmax = 230.95
-			text = "GREATER"
+			text = "GREATER / 9.664"
 		intervals [748]:
 			xmin = 230.95
 			xmax = 231.12
-			text = "THAN"
+			text = "THAN / 9.665"
 		intervals [749]:
 			xmin = 231.12
 			xmax = 231.38
-			text = "THOSE"
+			text = "THOSE / 9.666"
 		intervals [750]:
 			xmin = 231.38
 			xmax = 231.44
-			text = "ON"
+			text = "ON / 9.667"
 		intervals [751]:
 			xmin = 231.44
 			xmax = 231.54001
-			text = "THE"
+			text = "THE / 9.668"
 		intervals [752]:
 			xmin = 231.54001
 			xmax = 231.82
-			text = "OPEN"
+			text = "OPEN / 9.669"
 		intervals [753]:
 			xmin = 231.82
 			xmax = 232.26
-			text = "MARKET"
+			text = "MARKET / 9.670.word"
 		intervals [754]:
 			xmin = 232.26
 			xmax = 232.605916027
@@ -3031,75 +3031,75 @@ item []:
 		intervals [755]:
 			xmin = 232.605916027
 			xmax = 232.78
-			text = "WHILE"
+			text = "WHILE / 9.671"
 		intervals [756]:
 			xmin = 232.78
 			xmax = 233.11
-			text = "OTHERS"
+			text = "OTHERS / 9.672"
 		intervals [757]:
 			xmin = 233.11
 			xmax = 233.32
-			text = "FOUND"
+			text = "FOUND / 9.673"
 		intervals [758]:
 			xmin = 233.32
 			xmax = 233.73
-			text = "THEMSELVES"
+			text = "THEMSELVES / 9.674"
 		intervals [759]:
 			xmin = 233.73
 			xmax = 233.83
-			text = "IN"
+			text = "IN / 9.675"
 		intervals [760]:
 			xmin = 233.83
 			xmax = 234.29001
-			text = "POSSESSION"
+			text = "POSSESSION / 9.676"
 		intervals [761]:
 			xmin = 234.29001
 			xmax = 234.4
-			text = "OF"
+			text = "OF / 9.677"
 		intervals [762]:
 			xmin = 234.4
 			xmax = 234.77
-			text = "BULBS"
+			text = "BULBS / 9.678"
 		intervals [763]:
 			xmin = 234.77
 			xmax = 234.87
-			text = "NOW"
+			text = "NOW / 9.679"
 		intervals [764]:
 			xmin = 234.87
 			xmax = 235.13
-			text = "WORTH"
+			text = "WORTH / 9.680"
 		intervals [765]:
 			xmin = 235.13
 			xmax = 235.18001
-			text = "A"
+			text = "A / 9.681"
 		intervals [766]:
 			xmin = 235.18001
 			xmax = 235.65
-			text = "FRACTION"
+			text = "FRACTION / 9.682"
 		intervals [767]:
 			xmin = 235.65
 			xmax = 235.76001
-			text = "OF"
+			text = "OF / 9.683"
 		intervals [768]:
 			xmin = 235.76001
 			xmax = 235.85
-			text = "THE"
+			text = "THE / 9.684"
 		intervals [769]:
 			xmin = 235.85
 			xmax = 236.22
-			text = "PRICE"
+			text = "PRICE / 9.685"
 		intervals [770]:
 			xmin = 236.22
 			xmax = 236.34
-			text = "THEY"
+			text = "THEY / 9.686"
 		intervals [771]:
 			xmin = 236.34
 			xmax = 236.5
-			text = "HAD"
+			text = "HAD / 9.687"
 		intervals [772]:
 			xmin = 236.5
 			xmax = 236.96
-			text = "PAID"
+			text = "PAID / 9.688.word"
 		intervals [773]:
 			xmin = 236.96
 			xmax = 237.330791791
@@ -3107,79 +3107,79 @@ item []:
 		intervals [774]:
 			xmin = 237.330791791
 			xmax = 237.44
-			text = "THE"
+			text = "THE / 9.689"
 		intervals [775]:
 			xmin = 237.44
 			xmax = 237.71
-			text = "EVENT"
+			text = "EVENT / 9.690"
 		intervals [776]:
 			xmin = 237.71
 			xmax = 237.86
-			text = "WAS"
+			text = "WAS / 9.691"
 		intervals [777]:
 			xmin = 237.86
 			xmax = 238.53
-			text = "POPULARIZED"
+			text = "POPULARIZED / 9.692"
 		intervals [778]:
 			xmin = 238.53
 			xmax = 238.61
-			text = "IN"
+			text = "IN / 9.693"
 		intervals [779]:
 			xmin = 238.61
 			xmax = 238.92
-			text = "EIGHTEEN"
+			text = "EIGHTEEN / 9.694"
 		intervals [780]:
 			xmin = 238.92
 			xmax = 239.22
-			text = "FORTY"
+			text = "FORTY / 9.695.1"
 		intervals [781]:
 			xmin = 239.22
 			xmax = 239.46
-			text = "ONE"
+			text = "ONE / 9.695.3"
 		intervals [782]:
 			xmin = 239.46
 			xmax = 239.61
-			text = "BY"
+			text = "BY / 9.696"
 		intervals [783]:
 			xmin = 239.61
 			xmax = 239.72
-			text = "THE"
+			text = "THE / 9.697"
 		intervals [784]:
 			xmin = 239.72
 			xmax = 239.99
-			text = "BOOK"
+			text = "BOOK / 9.698"
 		intervals [785]:
 			xmin = 239.99
 			xmax = 240.69
-			text = "EXTRAORDINARY"
+			text = "EXTRAORDINARY / 9.699.word"
 		intervals [786]:
 			xmin = 240.69
 			xmax = 241.11
-			text = "POPULAR"
+			text = "POPULAR / 9.700"
 		intervals [787]:
 			xmin = 241.11
 			xmax = 241.79001
-			text = "DELUSIONS"
+			text = "DELUSIONS / 9.701"
 		intervals [788]:
 			xmin = 241.79001
 			xmax = 241.88
-			text = "AND"
+			text = "AND / 9.702"
 		intervals [789]:
 			xmin = 241.88
 			xmax = 241.95
-			text = "THE"
+			text = "THE / 9.703"
 		intervals [790]:
 			xmin = 241.95
 			xmax = 242.36
-			text = "MADNESS"
+			text = "MADNESS / 9.704"
 		intervals [791]:
 			xmin = 242.36
 			xmax = 242.47
-			text = "OF"
+			text = "OF / 9.705"
 		intervals [792]:
 			xmin = 242.47
 			xmax = 243.14
-			text = "CROWDS"
+			text = "CROWDS / 9.706.word"
 		intervals [793]:
 			xmin = 243.14
 			xmax = 243.318074358
@@ -3187,27 +3187,27 @@ item []:
 		intervals [794]:
 			xmin = 243.318074358
 			xmax = 243.42
-			text = "THAT"
+			text = "THAT / 9.707"
 		intervals [795]:
 			xmin = 243.42
 			xmax = 243.45
-			text = "A"
+			text = "A / 9.708"
 		intervals [796]:
 			xmin = 243.45
 			xmax = 243.76001
-			text = "BRITISH"
+			text = "BRITISH / 9.709"
 		intervals [797]:
 			xmin = 243.76001
 			xmax = 244.3
-			text = "JOURNALIST"
+			text = "JOURNALIST / 9.710"
 		intervals [798]:
 			xmin = 244.3
 			xmax = 244.67
-			text = "CHARLES"
+			text = "CHARLES / 9.711"
 		intervals [799]:
 			xmin = 244.67
 			xmax = 245.02
-			text = "MACKAY"
+			text = "MACKAY / 9.712"
 		intervals [800]:
 			xmin = 245.02
 			xmax = 245.102844012
@@ -3215,7 +3215,7 @@ item []:
 		intervals [801]:
 			xmin = 245.102844012
 			xmax = 245.44071703
-			text = "WROTE"
+			text = "WROTE / 9.713.word"
 		intervals [802]:
 			xmin = 245.44071703
 			xmax = 245.911519994
@@ -3223,95 +3223,95 @@ item []:
 		intervals [803]:
 			xmin = 245.911519994
 			xmax = 246.04001
-			text = "THAT"
+			text = "THAT / 9.714"
 		intervals [804]:
 			xmin = 246.04001
 			xmax = 246.43001
-			text = "CROWDS"
+			text = "CROWDS / 9.715"
 		intervals [805]:
 			xmin = 246.43001
 			xmax = 246.54001
-			text = "OF"
+			text = "OF / 9.716"
 		intervals [806]:
 			xmin = 246.54001
 			xmax = 246.9
-			text = "PEOPLE"
+			text = "PEOPLE / 9.717"
 		intervals [807]:
 			xmin = 246.9
 			xmax = 247.1
-			text = "OFTEN"
+			text = "OFTEN / 9.718"
 		intervals [808]:
 			xmin = 247.1
 			xmax = 247.44
-			text = "BEHAVE"
+			text = "BEHAVE / 9.719"
 		intervals [809]:
 			xmin = 247.44
 			xmax = 248.04001
-			text = "IRRATIONALLY"
+			text = "IRRATIONALLY / 9.720"
 		intervals [810]:
 			xmin = 248.04001
 			xmax = 248.2
-			text = "WAS"
+			text = "WAS / 9.721"
 		intervals [811]:
 			xmin = 248.2
 			xmax = 248.27
-			text = "THE"
+			text = "THE / 9.722"
 		intervals [812]:
 			xmin = 248.27
 			xmax = 248.56
-			text = "MAIN"
+			text = "MAIN / 9.723"
 		intervals [813]:
 			xmin = 248.56
 			xmax = 248.93001
-			text = "THESIS"
+			text = "THESIS / 9.724"
 		intervals [814]:
 			xmin = 248.93001
 			xmax = 249.04001
-			text = "OF"
+			text = "OF / 9.725"
 		intervals [815]:
 			xmin = 249.04001
 			xmax = 249.13
-			text = "THE"
+			text = "THE / 9.726"
 		intervals [816]:
 			xmin = 249.13
 			xmax = 249.5
-			text = "BOOK"
+			text = "BOOK / 9.727.word"
 		intervals [817]:
 			xmin = 249.5
 			xmax = 249.66
-			text = "AND"
+			text = "AND / 9.728"
 		intervals [818]:
 			xmin = 249.66
 			xmax = 250.01001
-			text = "TULIP"
+			text = "TULIP / 9.729"
 		intervals [819]:
 			xmin = 250.01001
 			xmax = 250.37
-			text = "MANIA"
+			text = "MANIA / 9.730"
 		intervals [820]:
 			xmin = 250.37
 			xmax = 250.54001
-			text = "WAS"
+			text = "WAS / 9.731"
 		intervals [821]:
 			xmin = 250.54001
 			xmax = 250.68001
-			text = "ONE"
+			text = "ONE / 9.732"
 		intervals [822]:
 			xmin = 250.68001
 			xmax = 250.75
-			text = "OF"
+			text = "OF / 9.733"
 		intervals [823]:
 			xmin = 250.75
 			xmax = 250.85
-			text = "THE"
+			text = "THE / 9.734"
 		intervals [824]:
 			xmin = 250.85
 			xmax = 251.32
-			text = "PRIMARY"
+			text = "PRIMARY / 9.735"
 		intervals [825]:
 			xmin = 251.32
 			xmax = 252.15
-			text = "EXAMPLES"
+			text = "EXAMPLES / 9.736.word"
 		intervals [826]:
 			xmin = 252.15
 			xmax = 252.54032945
@@ -3319,15 +3319,15 @@ item []:
 		intervals [827]:
 			xmin = 252.54032945
 			xmax = 252.91
-			text = "ACCORDING"
+			text = "ACCORDING / 9.737"
 		intervals [828]:
 			xmin = 252.91
 			xmax = 253.01001
-			text = "TO"
+			text = "TO / 9.738"
 		intervals [829]:
 			xmin = 253.01001
 			xmax = 253.55
-			text = "MACKAY"
+			text = "MACKAY / 9.739.word"
 		intervals [830]:
 			xmin = 253.55
 			xmax = 253.83395982
@@ -3335,59 +3335,59 @@ item []:
 		intervals [831]:
 			xmin = 253.83395982
 			xmax = 253.93001
-			text = "AT"
+			text = "AT / 9.740"
 		intervals [832]:
 			xmin = 253.93001
 			xmax = 254.18001
-			text = "ONE"
+			text = "ONE / 9.741"
 		intervals [833]:
 			xmin = 254.18001
 			xmax = 254.44
-			text = "POINT"
+			text = "POINT / 9.742"
 		intervals [834]:
 			xmin = 254.44
 			xmax = 254.75
-			text = "TWELVE"
+			text = "TWELVE / 9.743"
 		intervals [835]:
 			xmin = 254.75
 			xmax = 255.05
-			text = "ACRES"
+			text = "ACRES / 9.744"
 		intervals [836]:
 			xmin = 255.05
 			xmax = 255.16
-			text = "OF"
+			text = "OF / 9.745"
 		intervals [837]:
 			xmin = 255.16
 			xmax = 255.45
-			text = "LAND"
+			text = "LAND / 9.746"
 		intervals [838]:
 			xmin = 255.45
 			xmax = 255.6
-			text = "WERE"
+			text = "WERE / 9.747"
 		intervals [839]:
 			xmin = 255.6
 			xmax = 255.98
-			text = "OFFERED"
+			text = "OFFERED / 9.748"
 		intervals [840]:
 			xmin = 255.98
 			xmax = 256.16
-			text = "FOR"
+			text = "FOR / 9.749"
 		intervals [841]:
 			xmin = 256.16
 			xmax = 256.22
-			text = "A"
+			text = "A / 9.750"
 		intervals [842]:
 			xmin = 256.22
 			xmax = 256.69
-			text = "SEMPER"
+			text = "SEMPER / 9.751"
 		intervals [843]:
 			xmin = 256.69
 			xmax = 257.22
-			text = "AUGUSTUS"
+			text = "AUGUSTUS / 9.752"
 		intervals [844]:
 			xmin = 257.22
 			xmax = 257.68
-			text = "BULB"
+			text = "BULB / 9.753.word"
 		intervals [845]:
 			xmin = 257.68
 			xmax = 258.23
@@ -3399,59 +3399,59 @@ item []:
 		intervals [847]:
 			xmin = 258.304202161
 			xmax = 258.4
-			text = "HE"
+			text = "HE / 9.754"
 		intervals [848]:
 			xmin = 258.4
 			xmax = 258.8
-			text = "CLAIMS"
+			text = "CLAIMS / 9.755"
 		intervals [849]:
 			xmin = 258.8
 			xmax = 258.93
-			text = "THAT"
+			text = "THAT / 9.756"
 		intervals [850]:
 			xmin = 258.93
 			xmax = 259.18
-			text = "MANY"
+			text = "MANY / 9.757"
 		intervals [851]:
 			xmin = 259.18
 			xmax = 259.44
-			text = "SUCH"
+			text = "SUCH / 9.758"
 		intervals [852]:
 			xmin = 259.44
 			xmax = 260.0
-			text = "INVESTORS"
+			text = "INVESTORS / 9.759"
 		intervals [853]:
 			xmin = 260.0
 			xmax = 260.4
-			text = "RUINED"
+			text = "RUINED / 9.760"
 		intervals [854]:
 			xmin = 260.4
 			xmax = 260.56
-			text = "BY"
+			text = "BY / 9.761"
 		intervals [855]:
 			xmin = 260.56
 			xmax = 260.66998
-			text = "THE"
+			text = "THE / 9.762"
 		intervals [856]:
 			xmin = 260.66998
 			xmax = 261.0
-			text = "FALL"
+			text = "FALL / 9.763"
 		intervals [857]:
 			xmin = 261.0
 			xmax = 261.07
-			text = "IN"
+			text = "IN / 9.764"
 		intervals [858]:
 			xmin = 261.07
 			xmax = 261.53
-			text = "PRICES"
+			text = "PRICES / 9.765"
 		intervals [859]:
 			xmin = 261.53
 			xmax = 261.63
-			text = "WERE"
+			text = "WERE / 9.766"
 		intervals [860]:
 			xmin = 261.63
 			xmax = 262.25
-			text = "DESPERATE"
+			text = "DESPERATE / 9.767.word"
 		intervals [861]:
 			xmin = 262.25
 			xmax = 262.555701524
@@ -3459,31 +3459,31 @@ item []:
 		intervals [862]:
 			xmin = 262.555701524
 			xmax = 262.69998
-			text = "AND"
+			text = "AND / 9.768"
 		intervals [863]:
 			xmin = 262.69998
 			xmax = 262.91998
-			text = "DUTCH"
+			text = "DUTCH / 9.769"
 		intervals [864]:
 			xmin = 262.91998
 			xmax = 263.41998
-			text = "COMMERCE"
+			text = "COMMERCE / 9.770"
 		intervals [865]:
 			xmin = 263.41998
 			xmax = 263.72998
-			text = "SUFFERED"
+			text = "SUFFERED / 9.771"
 		intervals [866]:
 			xmin = 263.72998
 			xmax = 263.75998
-			text = "A"
+			text = "A / 9.772"
 		intervals [867]:
 			xmin = 263.75998
 			xmax = 264.25
-			text = "SEVERE"
+			text = "SEVERE / 9.773"
 		intervals [868]:
 			xmin = 264.25
 			xmax = 264.75998
-			text = "SHOCK"
+			text = "SHOCK / 9.774.word"
 		intervals [869]:
 			xmin = 264.75998
 			xmax = 265.214702111
@@ -3491,63 +3491,63 @@ item []:
 		intervals [870]:
 			xmin = 265.214702111
 			xmax = 265.32
-			text = "IN"
+			text = "IN / 9.775"
 		intervals [871]:
 			xmin = 265.32
 			xmax = 265.72998
-			text = "MACKAY'S"
+			text = "MACKAY'S / 9.776"
 		intervals [872]:
 			xmin = 265.72998
 			xmax = 266.13998
-			text = "ACCOUNT"
+			text = "ACCOUNT / 9.777.word"
 		intervals [873]:
 			xmin = 266.13998
 			xmax = 266.22998
-			text = "THE"
+			text = "THE / 9.778"
 		intervals [874]:
 			xmin = 266.22998
 			xmax = 266.63998
-			text = "PANICKED"
+			text = "PANICKED / 9.779"
 		intervals [875]:
 			xmin = 266.63998
 			xmax = 266.9
-			text = "TULIP"
+			text = "TULIP / 9.780"
 		intervals [876]:
 			xmin = 266.9
 			xmax = 267.58
-			text = "SPECULATORS"
+			text = "SPECULATORS / 9.781"
 		intervals [877]:
 			xmin = 267.58
 			xmax = 267.82
-			text = "SOUGHT"
+			text = "SOUGHT / 9.782"
 		intervals [878]:
 			xmin = 267.82
 			xmax = 268.00998
-			text = "HELP"
+			text = "HELP / 9.783"
 		intervals [879]:
 			xmin = 268.00998
 			xmax = 268.16
-			text = "FROM"
+			text = "FROM / 9.784"
 		intervals [880]:
 			xmin = 268.16
 			xmax = 268.25
-			text = "THE"
+			text = "THE / 9.785"
 		intervals [881]:
 			xmin = 268.25
 			xmax = 268.69998
-			text = "GOVERNMENT"
+			text = "GOVERNMENT / 9.786"
 		intervals [882]:
 			xmin = 268.69998
 			xmax = 268.78998
-			text = "OF"
+			text = "OF / 9.787"
 		intervals [883]:
 			xmin = 268.78998
 			xmax = 268.87
-			text = "THE"
+			text = "THE / 9.788"
 		intervals [884]:
 			xmin = 268.87
 			xmax = 269.53
-			text = "NETHERLANDS"
+			text = "NETHERLANDS / 9.789.word"
 		intervals [885]:
 			xmin = 269.53
 			xmax = 269.817486551
@@ -3555,67 +3555,67 @@ item []:
 		intervals [886]:
 			xmin = 269.817486551
 			xmax = 269.97
-			text = "WHICH"
+			text = "WHICH / 9.790"
 		intervals [887]:
 			xmin = 269.97
 			xmax = 270.52
-			text = "RESPONDED"
+			text = "RESPONDED / 9.791"
 		intervals [888]:
 			xmin = 270.52
 			xmax = 270.66
-			text = "BY"
+			text = "BY / 9.792"
 		intervals [889]:
 			xmin = 270.66
 			xmax = 271.13
-			text = "DECLARING"
+			text = "DECLARING / 9.793"
 		intervals [890]:
 			xmin = 271.13
 			xmax = 271.25998
-			text = "THAT"
+			text = "THAT / 9.794"
 		intervals [891]:
 			xmin = 271.25998
 			xmax = 271.63998
-			text = "ANYONE"
+			text = "ANYONE / 9.795"
 		intervals [892]:
 			xmin = 271.63998
 			xmax = 271.78
-			text = "WHO"
+			text = "WHO / 9.796"
 		intervals [893]:
 			xmin = 271.78
 			xmax = 271.91
-			text = "HAD"
+			text = "HAD / 9.797"
 		intervals [894]:
 			xmin = 271.91
 			xmax = 272.12
-			text = "BOUGHT"
+			text = "BOUGHT / 9.798"
 		intervals [895]:
 			xmin = 272.12
 			xmax = 272.74
-			text = "CONTRACTS"
+			text = "CONTRACTS / 9.799"
 		intervals [896]:
 			xmin = 272.74
 			xmax = 272.82
-			text = "TO"
+			text = "TO / 9.800"
 		intervals [897]:
 			xmin = 272.82
 			xmax = 273.22998
-			text = "PURCHASE"
+			text = "PURCHASE / 9.801"
 		intervals [898]:
 			xmin = 273.22998
 			xmax = 273.61
-			text = "BULBS"
+			text = "BULBS / 9.802"
 		intervals [899]:
 			xmin = 273.61
 			xmax = 273.66998
-			text = "IN"
+			text = "IN / 9.803"
 		intervals [900]:
 			xmin = 273.66998
 			xmax = 273.78
-			text = "THE"
+			text = "THE / 9.804"
 		intervals [901]:
 			xmin = 273.78
 			xmax = 274.35
-			text = "FUTURE"
+			text = "FUTURE / 9.805"
 		intervals [902]:
 			xmin = 274.35
 			xmax = 274.56184541
@@ -3623,47 +3623,47 @@ item []:
 		intervals [903]:
 			xmin = 274.56184541
 			xmax = 274.71
-			text = "COULD"
+			text = "COULD / 9.806"
 		intervals [904]:
 			xmin = 274.71
 			xmax = 274.97
-			text = "VOID"
+			text = "VOID / 9.807"
 		intervals [905]:
 			xmin = 274.97
 			xmax = 275.11
-			text = "THEIR"
+			text = "THEIR / 9.808"
 		intervals [906]:
 			xmin = 275.11
 			xmax = 275.68
-			text = "CONTRACT"
+			text = "CONTRACT / 9.809"
 		intervals [907]:
 			xmin = 275.68
 			xmax = 275.81
-			text = "BY"
+			text = "BY / 9.810"
 		intervals [908]:
 			xmin = 275.81
 			xmax = 276.22
-			text = "PAYMENT"
+			text = "PAYMENT / 9.811"
 		intervals [909]:
 			xmin = 276.22
 			xmax = 276.31
-			text = "OF"
+			text = "OF / 9.812"
 		intervals [910]:
 			xmin = 276.31
 			xmax = 276.36
-			text = "A"
+			text = "A / 9.813"
 		intervals [911]:
 			xmin = 276.36
 			xmax = 276.6
-			text = "TEN"
+			text = "TEN / 9.814"
 		intervals [912]:
 			xmin = 276.6
 			xmax = 277.02
-			text = "PERCENT"
+			text = "PERCENT / 9.815"
 		intervals [913]:
 			xmin = 277.02
 			xmax = 277.41998
-			text = "FEE"
+			text = "FEE / 9.816.word"
 		intervals [914]:
 			xmin = 277.41998
 			xmax = 277.956799917
@@ -3671,67 +3671,67 @@ item []:
 		intervals [915]:
 			xmin = 277.956799917
 			xmax = 278.37
-			text = "ATTEMPTS"
+			text = "ATTEMPTS / 9.817"
 		intervals [916]:
 			xmin = 278.37
 			xmax = 278.49
-			text = "THAT"
+			text = "THAT / 9.818"
 		intervals [917]:
 			xmin = 278.49
 			xmax = 278.61
-			text = "WERE"
+			text = "WERE / 9.819"
 		intervals [918]:
 			xmin = 278.61
 			xmax = 278.88998
-			text = "MADE"
+			text = "MADE / 9.820"
 		intervals [919]:
 			xmin = 278.88998
 			xmax = 279.0
-			text = "TO"
+			text = "TO / 9.821"
 		intervals [920]:
 			xmin = 279.0
 			xmax = 279.41
-			text = "RESOLVE"
+			text = "RESOLVE / 9.822"
 		intervals [921]:
 			xmin = 279.41
 			xmax = 279.47998
-			text = "THE"
+			text = "THE / 9.823"
 		intervals [922]:
 			xmin = 279.47998
 			xmax = 280.09
-			text = "SITUATION"
+			text = "SITUATION / 9.824"
 		intervals [923]:
 			xmin = 280.09
 			xmax = 280.15
-			text = "TO"
+			text = "TO / 9.825"
 		intervals [924]:
 			xmin = 280.15
 			xmax = 280.22998
-			text = "THE"
+			text = "THE / 9.826"
 		intervals [925]:
 			xmin = 280.22998
 			xmax = 280.93
-			text = "SATISFACTION"
+			text = "SATISFACTION / 9.827"
 		intervals [926]:
 			xmin = 280.93
 			xmax = 281.03
-			text = "OF"
+			text = "OF / 9.828"
 		intervals [927]:
 			xmin = 281.03
 			xmax = 281.25
-			text = "ALL"
+			text = "ALL / 9.829"
 		intervals [928]:
 			xmin = 281.25
 			xmax = 281.66998
-			text = "PARTIES"
+			text = "PARTIES / 9.830"
 		intervals [929]:
 			xmin = 281.66998
 			xmax = 281.8
-			text = "WERE"
+			text = "WERE / 9.831"
 		intervals [930]:
 			xmin = 281.8
 			xmax = 282.702690017
-			text = "UNSUCCESSFUL"
+			text = "UNSUCCESSFUL / 9.832.word"
 		intervals [931]:
 			xmin = 282.702690017
 			xmax = 283.262912686
@@ -3739,27 +3739,27 @@ item []:
 		intervals [932]:
 			xmin = 283.262912686
 			xmax = 283.34
-			text = "THE"
+			text = "THE / 9.833"
 		intervals [933]:
 			xmin = 283.34
 			xmax = 283.72
-			text = "MANIA"
+			text = "MANIA / 9.834"
 		intervals [934]:
 			xmin = 283.72
 			xmax = 284.13
-			text = "FINALLY"
+			text = "FINALLY / 9.835"
 		intervals [935]:
 			xmin = 284.13
 			xmax = 284.46
-			text = "ENDED"
+			text = "ENDED / 9.836.word"
 		intervals [936]:
 			xmin = 284.46
 			xmax = 284.75
-			text = "MACKAY"
+			text = "MACKAY / 9.837"
 		intervals [937]:
 			xmin = 284.75
 			xmax = 285.25
-			text = "SAYS"
+			text = "SAYS / 9.838.word"
 		intervals [938]:
 			xmin = 285.25
 			xmax = 285.586403607
@@ -3767,59 +3767,59 @@ item []:
 		intervals [939]:
 			xmin = 285.586403607
 			xmax = 285.69998
-			text = "WITH"
+			text = "WITH / 9.839"
 		intervals [940]:
 			xmin = 285.69998
 			xmax = 286.33
-			text = "INDIVIDUALS"
+			text = "INDIVIDUALS / 9.840"
 		intervals [941]:
 			xmin = 286.33
 			xmax = 286.61
-			text = "STUCK"
+			text = "STUCK / 9.841"
 		intervals [942]:
 			xmin = 286.61
 			xmax = 286.75998
-			text = "WITH"
+			text = "WITH / 9.842"
 		intervals [943]:
 			xmin = 286.75998
 			xmax = 286.86
-			text = "THE"
+			text = "THE / 9.843"
 		intervals [944]:
 			xmin = 286.86
 			xmax = 287.22
-			text = "BULBS"
+			text = "BULBS / 9.844"
 		intervals [945]:
 			xmin = 287.22
 			xmax = 287.37
-			text = "THEY"
+			text = "THEY / 9.845"
 		intervals [946]:
 			xmin = 287.37
 			xmax = 287.68
-			text = "HELD"
+			text = "HELD / 9.846"
 		intervals [947]:
 			xmin = 287.68
 			xmax = 287.75
-			text = "AT"
+			text = "AT / 9.847"
 		intervals [948]:
 			xmin = 287.75
 			xmax = 287.88998
-			text = "THE"
+			text = "THE / 9.848"
 		intervals [949]:
 			xmin = 287.88998
 			xmax = 288.02
-			text = "END"
+			text = "END / 9.849"
 		intervals [950]:
 			xmin = 288.02
 			xmax = 288.11
-			text = "OF"
+			text = "OF / 9.850"
 		intervals [951]:
 			xmin = 288.11
 			xmax = 288.19
-			text = "THE"
+			text = "THE / 9.851"
 		intervals [952]:
 			xmin = 288.19
 			xmax = 288.782916845
-			text = "CRASH"
+			text = "CRASH / 9.852.word"
 		intervals [953]:
 			xmin = 288.782916845
 			xmax = 289.165214508
@@ -3827,35 +3827,35 @@ item []:
 		intervals [954]:
 			xmin = 289.165214508
 			xmax = 289.35
-			text = "NO"
+			text = "NO / 9.853"
 		intervals [955]:
 			xmin = 289.35
 			xmax = 289.69
-			text = "COURT"
+			text = "COURT / 9.854"
 		intervals [956]:
 			xmin = 289.69
 			xmax = 289.81
-			text = "WOULD"
+			text = "WOULD / 9.855"
 		intervals [957]:
 			xmin = 289.81
 			xmax = 290.24
-			text = "ENFORCE"
+			text = "ENFORCE / 9.856"
 		intervals [958]:
 			xmin = 290.24
 			xmax = 290.61
-			text = "PAYMENT"
+			text = "PAYMENT / 9.857"
 		intervals [959]:
 			xmin = 290.61
 			xmax = 290.71
-			text = "OF"
+			text = "OF / 9.858"
 		intervals [960]:
 			xmin = 290.71
 			xmax = 290.77
-			text = "A"
+			text = "A / 9.859"
 		intervals [961]:
 			xmin = 290.77
 			xmax = 291.44
-			text = "CONTRACT"
+			text = "CONTRACT / 9.860.word"
 		intervals [962]:
 			xmin = 291.44
 			xmax = 291.760755677
@@ -3863,63 +3863,63 @@ item []:
 		intervals [963]:
 			xmin = 291.760755677
 			xmax = 292.03
-			text = "SINCE"
+			text = "SINCE / 9.861"
 		intervals [964]:
 			xmin = 292.03
 			xmax = 292.41
-			text = "JUDGES"
+			text = "JUDGES / 9.862"
 		intervals [965]:
 			xmin = 292.41
 			xmax = 292.84998
-			text = "REGARDED"
+			text = "REGARDED / 9.863"
 		intervals [966]:
 			xmin = 292.84998
 			xmax = 292.93
-			text = "THE"
+			text = "THE / 9.864"
 		intervals [967]:
 			xmin = 292.93
 			xmax = 293.31
-			text = "DEBTS"
+			text = "DEBTS / 9.865"
 		intervals [968]:
 			xmin = 293.31
 			xmax = 293.44998
-			text = "AS"
+			text = "AS / 9.866"
 		intervals [969]:
 			xmin = 293.44998
 			xmax = 294.08
-			text = "CONTRACTED"
+			text = "CONTRACTED / 9.867"
 		intervals [970]:
 			xmin = 294.08
 			xmax = 294.28998
-			text = "THROUGH"
+			text = "THROUGH / 9.868"
 		intervals [971]:
 			xmin = 294.28998
 			xmax = 294.84998
-			text = "GAMBLING"
+			text = "GAMBLING / 9.869.word"
 		intervals [972]:
 			xmin = 294.84998
 			xmax = 295.05
-			text = "AND"
+			text = "AND / 9.870"
 		intervals [973]:
 			xmin = 295.05
 			xmax = 295.3
-			text = "THUS"
+			text = "THUS / 9.871"
 		intervals [974]:
 			xmin = 295.3
 			xmax = 295.5
-			text = "NOT"
+			text = "NOT / 9.872"
 		intervals [975]:
 			xmin = 295.5
 			xmax = 296.11
-			text = "ENFORCEABLE"
+			text = "ENFORCEABLE / 9.873"
 		intervals [976]:
 			xmin = 296.11
 			xmax = 296.31
-			text = "BY"
+			text = "BY / 9.874"
 		intervals [977]:
 			xmin = 296.31
 			xmax = 296.78
-			text = "LAW"
+			text = "LAW / 9.875.word"
 		intervals [978]:
 			xmin = 296.78
 			xmax = 297.34998
@@ -3931,55 +3931,55 @@ item []:
 		intervals [980]:
 			xmin = 297.34998
 			xmax = 297.63998
-			text = "ALTHOUGH"
+			text = "ALTHOUGH / 9.876"
 		intervals [981]:
 			xmin = 297.63998
 			xmax = 298.06
-			text = "MACKAY'S"
+			text = "MACKAY'S / 9.877"
 		intervals [982]:
 			xmin = 298.06
 			xmax = 298.28998
-			text = "BOOK"
+			text = "BOOK / 9.878"
 		intervals [983]:
 			xmin = 298.28998
 			xmax = 298.41998
-			text = "IS"
+			text = "IS / 9.879"
 		intervals [984]:
 			xmin = 298.41998
 			xmax = 298.47
-			text = "A"
+			text = "A / 9.880"
 		intervals [985]:
 			xmin = 298.47
 			xmax = 298.96
-			text = "CLASSIC"
+			text = "CLASSIC / 9.881"
 		intervals [986]:
 			xmin = 298.96
 			xmax = 299.09
-			text = "THAT"
+			text = "THAT / 9.882"
 		intervals [987]:
 			xmin = 299.09
 			xmax = 299.34998
-			text = "MANY"
+			text = "MANY / 9.883"
 		intervals [988]:
 			xmin = 299.34998
 			xmax = 299.75998
-			text = "PUBLISHING"
+			text = "PUBLISHING / 9.884"
 		intervals [989]:
 			xmin = 299.75998
 			xmax = 300.12997
-			text = "HOUSES"
+			text = "HOUSES / 9.885"
 		intervals [990]:
 			xmin = 300.12997
 			xmax = 300.62
-			text = "CONTINUE"
+			text = "CONTINUE / 9.886"
 		intervals [991]:
 			xmin = 300.62
 			xmax = 301.12997
-			text = "REPRINTING"
+			text = "REPRINTING / 9.887"
 		intervals [992]:
 			xmin = 301.12997
 			xmax = 301.66998
-			text = "TODAY"
+			text = "TODAY / 9.888.word"
 		intervals [993]:
 			xmin = 301.66998
 			xmax = 301.935921085
@@ -3987,19 +3987,19 @@ item []:
 		intervals [994]:
 			xmin = 301.935921085
 			xmax = 302.05
-			text = "HIS"
+			text = "HIS / 9.889"
 		intervals [995]:
 			xmin = 302.05
 			xmax = 302.47998
-			text = "ACCOUNT"
+			text = "ACCOUNT / 9.890"
 		intervals [996]:
 			xmin = 302.47998
 			xmax = 302.62997
-			text = "IS"
+			text = "IS / 9.891"
 		intervals [997]:
 			xmin = 302.62997
 			xmax = 303.37
-			text = "CONTESTED"
+			text = "CONTESTED / 9.892.word"
 		intervals [998]:
 			xmin = 303.37
 			xmax = 303.781847798
@@ -4007,107 +4007,107 @@ item []:
 		intervals [999]:
 			xmin = 303.781847798
 			xmax = 304.03998
-			text = "MANY"
+			text = "MANY / 9.893"
 		intervals [1000]:
 			xmin = 304.03998
 			xmax = 304.4
-			text = "MODERN"
+			text = "MODERN / 9.894"
 		intervals [1001]:
 			xmin = 304.4
 			xmax = 304.88998
-			text = "SCHOLARS"
+			text = "SCHOLARS / 9.895"
 		intervals [1002]:
 			xmin = 304.88998
 			xmax = 305.22
-			text = "BELIEVE"
+			text = "BELIEVE / 9.896"
 		intervals [1003]:
 			xmin = 305.22
 			xmax = 305.3
-			text = "THE"
+			text = "THE / 9.897"
 		intervals [1004]:
 			xmin = 305.3
 			xmax = 305.63998
-			text = "MANIA"
+			text = "MANIA / 9.898"
 		intervals [1005]:
 			xmin = 305.63998
 			xmax = 305.8
-			text = "WAS"
+			text = "WAS / 9.899"
 		intervals [1006]:
 			xmin = 305.8
 			xmax = 306.00998
-			text = "NOT"
+			text = "NOT / 9.900"
 		intervals [1007]:
 			xmin = 306.00998
 			xmax = 306.15997
-			text = "AS"
+			text = "AS / 9.901"
 		intervals [1008]:
 			xmin = 306.15997
 			xmax = 306.87
-			text = "EXTRAORDINARY"
+			text = "EXTRAORDINARY / 9.902"
 		intervals [1009]:
 			xmin = 306.87
 			xmax = 307.05
-			text = "AS"
+			text = "AS / 9.903"
 		intervals [1010]:
 			xmin = 307.05
 			xmax = 307.37
-			text = "MACKAY"
+			text = "MACKAY / 9.904"
 		intervals [1011]:
 			xmin = 307.37
 			xmax = 308.00998
-			text = "DESCRIBED"
+			text = "DESCRIBED / 9.905.word"
 		intervals [1012]:
 			xmin = 308.00998
 			xmax = 308.12997
-			text = "WITH"
+			text = "WITH / 9.906"
 		intervals [1013]:
 			xmin = 308.12997
 			xmax = 308.38998
-			text = "SOME"
+			text = "SOME / 9.907"
 		intervals [1014]:
 			xmin = 308.38998
 			xmax = 308.83
-			text = "ARGUING"
+			text = "ARGUING / 9.908"
 		intervals [1015]:
 			xmin = 308.83
 			xmax = 308.91998
-			text = "THAT"
+			text = "THAT / 9.909"
 		intervals [1016]:
 			xmin = 308.91998
 			xmax = 309.02
-			text = "THE"
+			text = "THE / 9.910"
 		intervals [1017]:
 			xmin = 309.02
 			xmax = 309.34
-			text = "PRICE"
+			text = "PRICE / 9.911"
 		intervals [1018]:
 			xmin = 309.34
 			xmax = 309.75998
-			text = "CHANGES"
+			text = "CHANGES / 9.912"
 		intervals [1019]:
 			xmin = 309.75998
 			xmax = 309.90997
-			text = "MAY"
+			text = "MAY / 9.913"
 		intervals [1020]:
 			xmin = 309.90997
 			xmax = 310.12997
-			text = "NOT"
+			text = "NOT / 9.914"
 		intervals [1021]:
 			xmin = 310.12997
 			xmax = 310.28
-			text = "HAVE"
+			text = "HAVE / 9.915"
 		intervals [1022]:
 			xmin = 310.28
 			xmax = 310.91998
-			text = "CONSTITUTED"
+			text = "CONSTITUTED / 9.916"
 		intervals [1023]:
 			xmin = 310.91998
 			xmax = 311.00998
-			text = "A"
+			text = "A / 9.917"
 		intervals [1024]:
 			xmin = 311.00998
 			xmax = 311.5
-			text = "BUBBLE"
+			text = "BUBBLE / 9.918.word"
 		intervals [1025]:
 			xmin = 311.5
 			xmax = 312.110963286
@@ -4115,67 +4115,67 @@ item []:
 		intervals [1026]:
 			xmin = 312.110963286
 			xmax = 312.51
-			text = "RESEARCH"
+			text = "RESEARCH / 9.919"
 		intervals [1027]:
 			xmin = 312.51
 			xmax = 312.61
-			text = "ON"
+			text = "ON / 9.920"
 		intervals [1028]:
 			xmin = 312.61
 			xmax = 312.73
-			text = "THE"
+			text = "THE / 9.921"
 		intervals [1029]:
 			xmin = 312.73
 			xmax = 313.1
-			text = "TULIP"
+			text = "TULIP / 9.922"
 		intervals [1030]:
 			xmin = 313.1
 			xmax = 313.51
-			text = "MANIA"
+			text = "MANIA / 9.923"
 		intervals [1031]:
 			xmin = 313.51
 			xmax = 313.72
-			text = "IS"
+			text = "IS / 9.924"
 		intervals [1032]:
 			xmin = 313.72
 			xmax = 314.23
-			text = "DIFFICULT"
+			text = "DIFFICULT / 9.925"
 		intervals [1033]:
 			xmin = 314.23
 			xmax = 314.52
-			text = "BECAUSE"
+			text = "BECAUSE / 9.926"
 		intervals [1034]:
 			xmin = 314.52
 			xmax = 314.62
-			text = "OF"
+			text = "OF / 9.927"
 		intervals [1035]:
 			xmin = 314.62
 			xmax = 314.7
-			text = "THE"
+			text = "THE / 9.928"
 		intervals [1036]:
 			xmin = 314.7
 			xmax = 315.16
-			text = "LIMITED"
+			text = "LIMITED / 9.929"
 		intervals [1037]:
 			xmin = 315.16
 			xmax = 315.48
-			text = "DATA"
+			text = "DATA / 9.930"
 		intervals [1038]:
 			xmin = 315.48
 			xmax = 315.65
-			text = "FROM"
+			text = "FROM / 9.931"
 		intervals [1039]:
 			xmin = 315.65
 			xmax = 315.73
-			text = "THE"
+			text = "THE / 9.932"
 		intervals [1040]:
 			xmin = 315.73
 			xmax = 316.21
-			text = "SIXTEEN"
+			text = "SIXTEEN / 9.933"
 		intervals [1041]:
 			xmin = 316.21
 			xmax = 316.86
-			text = "THIRTIES"
+			text = "THIRTIES / 9.934.word"
 		intervals [1042]:
 			xmin = 316.86
 			xmax = 317.274327141
@@ -4183,35 +4183,35 @@ item []:
 		intervals [1043]:
 			xmin = 317.274327141
 			xmax = 317.58
-			text = "HOWEVER"
+			text = "HOWEVER / 9.935.word"
 		intervals [1044]:
 			xmin = 317.58
 			xmax = 317.9
-			text = "SOME"
+			text = "SOME / 9.936"
 		intervals [1045]:
 			xmin = 317.9
 			xmax = 318.2
-			text = "MODERN"
+			text = "MODERN / 9.937"
 		intervals [1046]:
 			xmin = 318.2
 			xmax = 318.83
-			text = "ECONOMISTS"
+			text = "ECONOMISTS / 9.938"
 		intervals [1047]:
 			xmin = 318.83
 			xmax = 318.99
-			text = "HAVE"
+			text = "HAVE / 9.939"
 		intervals [1048]:
 			xmin = 318.99
 			xmax = 319.43
-			text = "PROPOSED"
+			text = "PROPOSED / 9.940"
 		intervals [1049]:
 			xmin = 319.43
 			xmax = 319.85
-			text = "RATIONAL"
+			text = "RATIONAL / 9.941"
 		intervals [1050]:
 			xmin = 319.85
 			xmax = 320.72
-			text = "EXPLANATIONS"
+			text = "EXPLANATIONS / 9.942.word"
 		intervals [1051]:
 			xmin = 320.72
 			xmax = 320.982882239
@@ -4219,23 +4219,23 @@ item []:
 		intervals [1052]:
 			xmin = 320.982882239
 			xmax = 321.17
-			text = "RATHER"
+			text = "RATHER / 9.943"
 		intervals [1053]:
 			xmin = 321.17
 			xmax = 321.27
-			text = "THAN"
+			text = "THAN / 9.944"
 		intervals [1054]:
 			xmin = 321.27
 			xmax = 321.33
-			text = "A"
+			text = "A / 9.945"
 		intervals [1055]:
 			xmin = 321.33
 			xmax = 321.98
-			text = "SPECULATIVE"
+			text = "SPECULATIVE / 9.946"
 		intervals [1056]:
 			xmin = 321.98
 			xmax = 322.52
-			text = "MANIA"
+			text = "MANIA / 9.947.word"
 		intervals [1057]:
 			xmin = 322.52
 			xmax = 322.719793804
@@ -4243,31 +4243,31 @@ item []:
 		intervals [1058]:
 			xmin = 322.719793804
 			xmax = 322.76
-			text = "FOR"
+			text = "FOR / 9.948"
 		intervals [1059]:
 			xmin = 322.76
 			xmax = 322.88
-			text = "THE"
+			text = "THE / 9.949"
 		intervals [1060]:
 			xmin = 322.88
 			xmax = 323.2
-			text = "RISE"
+			text = "RISE / 9.950"
 		intervals [1061]:
 			xmin = 323.2
 			xmax = 323.32
-			text = "AND"
+			text = "AND / 9.951"
 		intervals [1062]:
 			xmin = 323.32
 			xmax = 323.67
-			text = "FALL"
+			text = "FALL / 9.952"
 		intervals [1063]:
 			xmin = 323.67
 			xmax = 323.73
-			text = "IN"
+			text = "IN / 9.953"
 		intervals [1064]:
 			xmin = 323.73
 			xmax = 324.45
-			text = "PRICES"
+			text = "PRICES / 9.954.word"
 		intervals [1065]:
 			xmin = 324.45
 			xmax = 324.834860954
@@ -4275,19 +4275,19 @@ item []:
 		intervals [1066]:
 			xmin = 324.834860954
 			xmax = 324.98
-			text = "FOR"
+			text = "FOR / 9.955"
 		intervals [1067]:
 			xmin = 324.98
 			xmax = 325.49
-			text = "EXAMPLE"
+			text = "EXAMPLE / 9.956.word"
 		intervals [1068]:
 			xmin = 325.49
 			xmax = 325.64
-			text = "OTHER"
+			text = "OTHER / 9.957"
 		intervals [1069]:
 			xmin = 325.64
 			xmax = 326.31
-			text = "FLOWERS"
+			text = "FLOWERS / 9.958.word"
 		intervals [1070]:
 			xmin = 326.31
 			xmax = 326.424522571
@@ -4295,19 +4295,19 @@ item []:
 		intervals [1071]:
 			xmin = 326.424522571
 			xmax = 326.59
-			text = "SUCH"
+			text = "SUCH / 9.959"
 		intervals [1072]:
 			xmin = 326.59
 			xmax = 326.68
-			text = "AS"
+			text = "AS / 9.960"
 		intervals [1073]:
 			xmin = 326.68
 			xmax = 326.79
-			text = "THE"
+			text = "THE / 9.961"
 		intervals [1074]:
 			xmin = 326.79
 			xmax = 327.39
-			text = "HYACINTH"
+			text = "HYACINTH / 9.962.word"
 		intervals [1075]:
 			xmin = 327.39
 			xmax = 327.716848816
@@ -4315,35 +4315,35 @@ item []:
 		intervals [1076]:
 			xmin = 327.716848816
 			xmax = 328.0
-			text = "ALSO"
+			text = "ALSO / 9.963"
 		intervals [1077]:
 			xmin = 328.0
 			xmax = 328.16
-			text = "HAD"
+			text = "HAD / 9.964"
 		intervals [1078]:
 			xmin = 328.16
 			xmax = 328.36
-			text = "HIGH"
+			text = "HIGH / 9.965"
 		intervals [1079]:
 			xmin = 328.36
 			xmax = 328.82
-			text = "PRICES"
+			text = "PRICES / 9.966"
 		intervals [1080]:
 			xmin = 328.82
 			xmax = 328.9
-			text = "ON"
+			text = "ON / 9.967"
 		intervals [1081]:
 			xmin = 328.9
 			xmax = 328.99
-			text = "THE"
+			text = "THE / 9.968"
 		intervals [1082]:
 			xmin = 328.99
 			xmax = 329.4
-			text = "FLOWER'S"
+			text = "FLOWER'S / 9.969"
 		intervals [1083]:
 			xmin = 329.4
 			xmax = 330.13
-			text = "INTRODUCTION"
+			text = "INTRODUCTION / 9.970.word"
 		intervals [1084]:
 			xmin = 330.13
 			xmax = 330.393093542
@@ -4351,19 +4351,19 @@ item []:
 		intervals [1085]:
 			xmin = 330.393093542
 			xmax = 330.55
-			text = "WHICH"
+			text = "WHICH / 9.971"
 		intervals [1086]:
 			xmin = 330.55
 			xmax = 330.79
-			text = "THEN"
+			text = "THEN / 9.972"
 		intervals [1087]:
 			xmin = 330.79
 			xmax = 331.08
-			text = "FELL"
+			text = "FELL / 9.973"
 		intervals [1088]:
 			xmin = 331.08
 			xmax = 331.824331199
-			text = "DRAMATICALLY"
+			text = "DRAMATICALLY / 9.974.word"
 		intervals [1089]:
 			xmin = 331.824331199
 			xmax = 332.15226907
@@ -4371,59 +4371,59 @@ item []:
 		intervals [1090]:
 			xmin = 332.15226907
 			xmax = 332.21
-			text = "THE"
+			text = "THE / 9.975"
 		intervals [1091]:
 			xmin = 332.21
 			xmax = 332.41
-			text = "HIGH"
+			text = "HIGH / 9.976"
 		intervals [1092]:
 			xmin = 332.41
 			xmax = 332.87
-			text = "PRICES"
+			text = "PRICES / 9.977"
 		intervals [1093]:
 			xmin = 332.87
 			xmax = 333.03
-			text = "MAY"
+			text = "MAY / 9.978"
 		intervals [1094]:
 			xmin = 333.03
 			xmax = 333.35
-			text = "ALSO"
+			text = "ALSO / 9.979"
 		intervals [1095]:
 			xmin = 333.35
 			xmax = 333.48
-			text = "HAVE"
+			text = "HAVE / 9.980"
 		intervals [1096]:
 			xmin = 333.48
 			xmax = 333.66
-			text = "BEEN"
+			text = "BEEN / 9.981"
 		intervals [1097]:
 			xmin = 333.66
 			xmax = 333.96
-			text = "DRIVEN"
+			text = "DRIVEN / 9.982"
 		intervals [1098]:
 			xmin = 333.96
 			xmax = 334.11
-			text = "BY"
+			text = "BY / 9.983"
 		intervals [1099]:
 			xmin = 334.11
 			xmax = 334.97
-			text = "EXPECTATIONS"
+			text = "EXPECTATIONS / 9.984"
 		intervals [1100]:
 			xmin = 334.97
 			xmax = 335.07
-			text = "OF"
+			text = "OF / 9.985"
 		intervals [1101]:
 			xmin = 335.07
 			xmax = 335.13
-			text = "A"
+			text = "A / 9.986"
 		intervals [1102]:
 			xmin = 335.13
 			xmax = 335.86
-			text = "PARLIAMENTARY"
+			text = "PARLIAMENTARY / 9.987"
 		intervals [1103]:
 			xmin = 335.86
 			xmax = 336.416124392
-			text = "DECREE"
+			text = "DECREE / 9.988"
 		intervals [1104]:
 			xmin = 336.416124392
 			xmax = 336.825093423
@@ -4431,39 +4431,39 @@ item []:
 		intervals [1105]:
 			xmin = 336.825093423
 			xmax = 336.94
-			text = "THAT"
+			text = "THAT / 9.989"
 		intervals [1106]:
 			xmin = 336.94
 			xmax = 337.49
-			text = "CONTRACTS"
+			text = "CONTRACTS / 9.990"
 		intervals [1107]:
 			xmin = 337.49
 			xmax = 337.6
-			text = "COULD"
+			text = "COULD / 9.991"
 		intervals [1108]:
 			xmin = 337.6
 			xmax = 337.75
-			text = "BE"
+			text = "BE / 9.992"
 		intervals [1109]:
 			xmin = 337.75
 			xmax = 338.18
-			text = "VOIDED"
+			text = "VOIDED / 9.993"
 		intervals [1110]:
 			xmin = 338.18
 			xmax = 338.41
-			text = "FOR"
+			text = "FOR / 9.994"
 		intervals [1111]:
 			xmin = 338.41
 			xmax = 338.44
-			text = "A"
+			text = "A / 9.995"
 		intervals [1112]:
 			xmin = 338.44
 			xmax = 338.79
-			text = "SMALL"
+			text = "SMALL / 9.996"
 		intervals [1113]:
 			xmin = 338.79
 			xmax = 339.348295973
-			text = "COST"
+			text = "COST / 9.997.word"
 		intervals [1114]:
 			xmin = 339.348295973
 			xmax = 339.718179386
@@ -4471,27 +4471,27 @@ item []:
 		intervals [1115]:
 			xmin = 339.718179386
 			xmax = 339.95
-			text = "THUS"
+			text = "THUS / 9.998"
 		intervals [1116]:
 			xmin = 339.95
 			xmax = 340.4
-			text = "LOWERING"
+			text = "LOWERING / 9.999"
 		intervals [1117]:
 			xmin = 340.4
 			xmax = 340.51
-			text = "THE"
+			text = "THE / 9.1000"
 		intervals [1118]:
 			xmin = 340.51
 			xmax = 340.83
-			text = "RISK"
+			text = "RISK / 9.1001"
 		intervals [1119]:
 			xmin = 340.83
 			xmax = 340.94
-			text = "TO"
+			text = "TO / 9.1002"
 		intervals [1120]:
 			xmin = 340.94
 			xmax = 341.66
-			text = "BUYERS"
+			text = "BUYERS / 9.1003.word"
 		intervals [1121]:
 			xmin = 341.66
 			xmax = 342.100366011
@@ -4499,51 +4499,51 @@ item []:
 		intervals [1122]:
 			xmin = 342.100366011
 			xmax = 342.44
-			text = "DESPITE"
+			text = "DESPITE / 9.1004"
 		intervals [1123]:
 			xmin = 342.44
 			xmax = 342.64
-			text = "THESE"
+			text = "THESE / 9.1005"
 		intervals [1124]:
 			xmin = 342.64
 			xmax = 343.43
-			text = "DISAGREEMENTS"
+			text = "DISAGREEMENTS / 9.1006"
 		intervals [1125]:
 			xmin = 343.43
 			xmax = 343.65
-			text = "ABOUT"
+			text = "ABOUT / 9.1007"
 		intervals [1126]:
 			xmin = 343.65
 			xmax = 343.95
-			text = "WHETHER"
+			text = "WHETHER / 9.1008"
 		intervals [1127]:
 			xmin = 343.95
 			xmax = 344.07
-			text = "THE"
+			text = "THE / 9.1009"
 		intervals [1128]:
 			xmin = 344.07
 			xmax = 344.68
-			text = "PHENOMENON"
+			text = "PHENOMENON / 9.1010"
 		intervals [1129]:
 			xmin = 344.68
 			xmax = 345.14
-			text = "TECHNICALLY"
+			text = "TECHNICALLY / 9.1011"
 		intervals [1130]:
 			xmin = 345.14
 			xmax = 345.87
-			text = "CONSTITUTED"
+			text = "CONSTITUTED / 9.1012"
 		intervals [1131]:
 			xmin = 345.87
 			xmax = 345.93
-			text = "AN"
+			text = "AN / 9.1013"
 		intervals [1132]:
 			xmin = 345.93
 			xmax = 346.37
-			text = "ECONOMIC"
+			text = "ECONOMIC / 9.1014"
 		intervals [1133]:
 			xmin = 346.37
 			xmax = 346.88
-			text = "BUBBLE"
+			text = "BUBBLE / 9.1015.word"
 		intervals [1134]:
 			xmin = 346.88
 			xmax = 347.127568448
@@ -4551,67 +4551,67 @@ item []:
 		intervals [1135]:
 			xmin = 347.127568448
 			xmax = 347.19
-			text = "THE"
+			text = "THE / 9.1016"
 		intervals [1136]:
 			xmin = 347.19
 			xmax = 347.5
-			text = "TERM"
+			text = "TERM / 9.1017"
 		intervals [1137]:
 			xmin = 347.5
 			xmax = 347.88
-			text = "TULIP"
+			text = "TULIP / 9.1018.word"
 		intervals [1138]:
 			xmin = 347.88
 			xmax = 348.37
-			text = "MANIA"
+			text = "MANIA / 9.1019.word"
 		intervals [1139]:
 			xmin = 348.37
 			xmax = 348.46
-			text = "IS"
+			text = "IS / 9.1020"
 		intervals [1140]:
 			xmin = 348.46
 			xmax = 348.78
-			text = "STILL"
+			text = "STILL / 9.1021"
 		intervals [1141]:
 			xmin = 348.78
 			xmax = 349.11
-			text = "OFTEN"
+			text = "OFTEN / 9.1022"
 		intervals [1142]:
 			xmin = 349.11
 			xmax = 349.38
-			text = "USED"
+			text = "USED / 9.1023"
 		intervals [1143]:
 			xmin = 349.38
 			xmax = 350.12
-			text = "METAPHORICALLY"
+			text = "METAPHORICALLY / 9.1024"
 		intervals [1144]:
 			xmin = 350.12
 			xmax = 350.24
-			text = "TO"
+			text = "TO / 9.1025"
 		intervals [1145]:
 			xmin = 350.24
 			xmax = 350.52
-			text = "REFER"
+			text = "REFER / 9.1026"
 		intervals [1146]:
 			xmin = 350.52
 			xmax = 350.7
-			text = "TO"
+			text = "TO / 9.1027"
 		intervals [1147]:
 			xmin = 350.7
 			xmax = 350.85
-			text = "ANY"
+			text = "ANY / 9.1028"
 		intervals [1148]:
 			xmin = 350.85
 			xmax = 351.19
-			text = "LARGE"
+			text = "LARGE / 9.1029"
 		intervals [1149]:
 			xmin = 351.19
 			xmax = 351.66998
-			text = "ECONOMIC"
+			text = "ECONOMIC / 9.1030"
 		intervals [1150]:
 			xmin = 351.66998
 			xmax = 352.16998
-			text = "BUBBLE"
+			text = "BUBBLE / 9.1031.word"
 		intervals [1151]:
 			xmin = 352.16998
 			xmax = 352.448148976
@@ -4619,31 +4619,31 @@ item []:
 		intervals [1152]:
 			xmin = 352.448148976
 			xmax = 352.56
-			text = "WHEN"
+			text = "WHEN / 9.1032"
 		intervals [1153]:
 			xmin = 352.56
 			xmax = 352.94
-			text = "ASSET"
+			text = "ASSET / 9.1033"
 		intervals [1154]:
 			xmin = 352.94
 			xmax = 353.39
-			text = "PRICES"
+			text = "PRICES / 9.1034"
 		intervals [1155]:
 			xmin = 353.39
 			xmax = 353.83002
-			text = "DEVIATE"
+			text = "DEVIATE / 9.1035"
 		intervals [1156]:
 			xmin = 353.83002
 			xmax = 354.06
-			text = "FROM"
+			text = "FROM / 9.1036"
 		intervals [1157]:
 			xmin = 354.06
 			xmax = 354.57
-			text = "INTRINSIC"
+			text = "INTRINSIC / 9.1037"
 		intervals [1158]:
 			xmin = 354.57
 			xmax = 355.29
-			text = "VALUES"
+			text = "VALUES / 9.1038.word"
 		intervals [1159]:
 			xmin = 355.29
 			xmax = 355.36
