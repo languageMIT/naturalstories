@@ -8767,7 +8767,7 @@
                 (PP (IN near/8.20)
                   (NP (NNP Roswell/8.21.1) (, ,/8.21.2) (NNP New/8.22) (NNP Mexico/8.23.1)))
        (, ,/8.23.2)
-       (PP-TMP (IN (IN on/8.24)
+       (PP-TMP (PP (IN on/8.24)
  (CC or/8.25)
                 (IN about/8.26))
               (NP (NNP July/8.27) (CD eighth/8.28.1) (, ,/8.28.2) (CD nineteen/8.29) (CD forty-seven/8.30.word))))))))))))

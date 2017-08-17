@@ -8768,8 +8768,8 @@
                   (NP (NNP Roswell) (, ,) (NNP New) (NNP Mexico)))
        (, ,)
        (PP-TMP (IN (IN on)
- (CC or)
-                (IN about))
+                   (CC or)
+                   (IN about))
               (NP (NNP July) (CD eighth) (, ,) (CD nineteen) (CD forty-seven))))))))))))
     (. .)))
 (ROOT
