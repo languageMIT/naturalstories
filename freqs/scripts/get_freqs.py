@@ -1,3 +1,4 @@
+#!/usr/bin/python2
 """ get frequency information for tokens in stories from Google Books """
 from __future__ import print_function
 import sys
