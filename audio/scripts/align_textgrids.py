@@ -61,7 +61,7 @@ def align(words, story, filename):
                         yield t_word
                         t_word = next(t_words)
                         continue
-                    print("Comparing %s and %s" % (str(s_word), t_word), file=sys.stderr)
+                    #print("Comparing %s and %s" % (str(s_word), t_word), file=sys.stderr)
                     found = False
                     for part, word in zip(parts_enumerator(), s_word.parts):
                         if normalize(word) == normalize(t_word):
