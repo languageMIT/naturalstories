@@ -32,3 +32,16 @@ The token code consists of three fields:
 3. An additional field whose value is `whole` for the entire token including punctuation, `word` for the token stripped of punctuation to the left and right, and then 1 through n for each sub-token in `whole` as segmented by NLTK's TreebankWordTokenizer.
 
 The various annotations (frequencies, parses, RTs, etc.) should reference these codes so that we can track tokens uniformly.
+
+If you use the corpus please cite:
+```
+@inproceedings{futrell2018natural,
+author={Richard Futrell and Edward Gibson and Harry J. Tily and Idan Blank and Anastasia Vishnevetsky and Steven T. Piantadosi and Evelina Fedorenko},
+title={The Natural Stories Corpus},
+year={2018},
+booktitle={Proceedings of LREC 2018, Eleventh International Conference on Language Resources and Evaluation},
+pages={76--82},
+address={Miyazaki, Japan}}
+```
+
+Deep syntactic annotations following a categorial grammar are also available [here](https://github.com/modelblocks/modelblocks-release) (see [paper](http://lrec-conf.org/workshops/lrec2018/W9/pdf/9_W9.pdf)).
