@@ -7,7 +7,7 @@ words = read_tsv("all_stories.tok")
 
 b = bind_rows(b1, b2)
 
-offset = 1001
+offset = 230
 
 d = b %>%
     mutate(zone=if_else(item == 3 & zone > offset, zone - 3, zone - 2)) %>%
