@@ -2,8 +2,6 @@
 
 -all_stories.tok contains the 10 stories, with one word per row. Item is the story number, zone is the region where the word falls within the story. Note that some wordforms in all_stories.tok differ from those in words.tsv, reflecting typos in the SPR experiment as run.
 
--analysis_of_batches.R reads in these files, does some light processing to eliminate bad subjects, and outputs the following:
--processed_RTs.csv
--processed_wordinfo.csv
--practice_RTplot.pdf
-
+-process_RTs.R reads in these files, does some light processing to eliminate bad subjects, and outputs the following:
+-processed_RTs.tsv
+-processed_wordinfo.tsv
