@@ -1,8 +1,6 @@
 # Natural Stories Corpus
 
-**Update 2020-11-11**: The repository has been updated with corrected alignments between SPR RTs and tokens in Story 3. In the previously-released files, the words after position 230 in Story 3 were mis-aligned with SPR RTs by one position. In the new files and alignment scripts, these errors have been corrected. For more details, see the `README` file in the `naturalstories_RT` directory.
-
-With the help of Luca Campanelli and Cory Shain, we found that participants saw a blank token instead of a word at position 231 in Story 3. This caused a mis-alignment between the tokens and the RTs, such that 
+**Update 2020-11-11**: The repository has been updated with corrected alignments between SPR RTs and tokens in Story 3. In the previously-released files, the words after position 230 in Story 3 were mis-aligned with SPR RTs by one position. In the new files and alignment scripts, these errors have been corrected. For more details, see the `README` file in the `naturalstories_RT` directory. Thanks to Luca Campanelli and Cory Shain for helping us find and correct this issue.
 
 This is a corpus of naturalistic stories meant to contain varied, low-frequency syntactic constructions.
 There are a variety of annotations and psycholinguistic measures available for the stories.
