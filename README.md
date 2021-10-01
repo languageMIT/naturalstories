@@ -37,13 +37,14 @@ The various annotations (frequencies, parses, RTs, etc.) should reference these 
 
 If you use the corpus please cite:
 ```
-@inproceedings{futrell2018natural,
+@article{futrell2021natural,
 author={Richard Futrell and Edward Gibson and Harry J. Tily and Idan Blank and Anastasia Vishnevetsky and Steven T. Piantadosi and Evelina Fedorenko},
-title={The Natural Stories Corpus},
-year={2018},
-booktitle={Proceedings of LREC 2018, Eleventh International Conference on Language Resources and Evaluation},
-pages={76--82},
-address={Miyazaki, Japan}}
+year={2021},
+title={The Natural Stories corpus: A reading-time corpus of English texts containing rare syntactic constructions},
+journal={Language Resources and Evaluation},
+volume={55},
+number={1},
+pages={63--77}}
 ```
 
 Deep syntactic annotations following a categorial grammar are also available [here](https://github.com/modelblocks/modelblocks-release) (see [paper](http://lrec-conf.org/workshops/lrec2018/W9/pdf/9_W9.pdf)).
