@@ -1,3 +1,5 @@
+**Update 2021-10-01**: The RT for the erroneous blank token described below has been removed from the data.
+
 **Update 2020-11-11**: In the previously-released SPR data, there was a misalignment between tokens and RTs in Story 3 starting at position 230. With the help of Luca Campanelli, we found that there was a blank token displayed in the SPR experiment after position 230, causing the RTs of subsequent tokens to be off by one. In the new alignment script `process_RTs.R` and in the new data file `processed_RTs.tsv`, we correct this mis-alignment by removing the RT for the blank token. 
 
 -This folder contains reading time data collected for 10 naturalistic stories. Participants typically read 5 stories each. The data is contained in batch1_pro.csv and batch2_pro.csv
