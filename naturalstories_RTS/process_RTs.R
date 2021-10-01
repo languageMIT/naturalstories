@@ -10,6 +10,7 @@ b = bind_rows(b1, b2)
 offset = 230
 
 d = b %>%
+    filter(!(item == 3 & zone == offset + 1)) %>%
     mutate(zone=if_else(item == 3 & zone > offset, zone - 3, zone - 2)) %>%
     inner_join(words) %>%
     filter(RT > 100, RT < 3000, correct > 4) %>%
