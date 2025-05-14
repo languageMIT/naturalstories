@@ -1,5 +1,7 @@
 # Natural Stories Corpus
 
+🚨 **Update 2025-05-12** 🚨 We have discovered that the SPR data in the original release was misaligned by one position. The current repo corrects the misalignment. The other data is unaffected. If you have been using the dataset, we recommend re-running your analyses on the realigned data.
+
 **Update 2020-11-11**: The repository has been updated with corrected alignments between SPR RTs and tokens in Story 3. In the previously-released files, the words after position 230 in Story 3 were mis-aligned with SPR RTs by one position. In the new files and alignment scripts, these errors have been corrected. For more details, see the `README` file in the `naturalstories_RT` directory. Thanks to Luca Campanelli and Cory Shain for helping us find and correct this issue.
 
 **Update 2021-10-01**: Related to the update above, we removed erroneous RT datapoints corresponding to a blank token shown to SPR participants at position 231 in Story 3.
